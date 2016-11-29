@@ -1,0 +1,3112 @@
+[
+  {
+    "Anchor": {
+      "_tag": ["a"],
+      "_attributes": {
+        "description": "This is the regular <code>&lt;a&gt;</code> element. Use it to link to other pages or websites.",
+        "possibleTargets": [
+          {
+            "label": "Default",
+            "value": ""
+          },
+          {
+            "label": "Blank",
+            "value": "_blank"
+          },
+          {
+            "label": "Parent",
+            "value": "_parent"
+          },
+          {
+            "label": "Top",
+            "value": "_top"
+          }
+        ],
+        "prettyName": "Link"
+      },
+      "class": "Anchor",
+      "cssClasses": {
+        "parent": "",
+        "system": {}
+      },
+      "flags": {
+        "canBeCopied": false,
+        "canBeDeleted": false,
+        "canBeDuplicated": false,
+        "canBeEdited": true,
+        "canBeMoved": false,
+        "canBePackaged": false
+      },
+      "label": "",
+      "overrides": {},
+      "properties": {
+        "contextual-background": "",
+        "contextual-color": "",
+        "target": "",
+        "text-transformation": "",
+        "url": "#"
+      }
+    },
+    "Article": {
+      "_tag": ["article"],
+      "_attributes": {
+        "description": "This is the HTML5 <code>&lt;article&gt;</code> element. Use it to wrap articles or other content items to give semantic meaning to your design."
+      },
+      "_html": "<article></article>",
+      "class": "Article",
+      "cssClasses": {
+        "parent": "",
+        "system": ""
+      },
+      "flags": {
+        "canBeCopied": true,
+        "canBeDeleted": true,
+        "canBeDuplicated": true,
+        "canBeEdited": false,
+        "canBeMoved": true,
+        "canBePackaged": true
+      },
+      "label": "",
+      "overrides": {},
+      "properties": {}
+    },
+    "Aside": {
+      "_tag": ["aside"],
+      "_attributes": {
+        "description": "This is the HTML5 <code>&lt;aside&gt;</code> element. Use it when building sidebars or when presenting related content."
+      },
+      "_html": "<aside></aside>",
+      "class": "Aside",
+      "cssClasses": {
+        "parent": "",
+        "system": ""
+      },
+      "flags": {
+        "canBeCopied": true,
+        "canBeDeleted": true,
+        "canBeDuplicated": true,
+        "canBeEdited": false,
+        "canBeMoved": true,
+        "canBePackaged": true
+      },
+      "label": "",
+      "overrides": {},
+      "properties": {}
+    },
+    "Blockquote": {
+      "_tag": ["blockquote"],
+      "_attributes": {
+        "description": "This is the HTML <code>&lt;blockquote&gt;</code> element, extended with Bootstrap markup for showing attribution.",
+        "possibleTypes": [
+          {
+            "label": "Regular",
+            "value": ""
+          },
+          {
+            "label": "Reverse",
+            "value": "blockquote-reverse"
+          }
+        ]
+      },
+      "_html": "<blockquote>\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>\n            <footer>Someone famous</footer>\n        </blockquote>",
+      "class": "Blockquote",
+      "cssClasses": {
+        "parent": "",
+        "system": ""
+      },
+      "flags": {
+        "canBeCopied": true,
+        "canBeDeleted": true,
+        "canBeDuplicated": true,
+        "canBeEdited": false,
+        "canBeMoved": true,
+        "canBePackaged": true
+      },
+      "label": "",
+      "overrides": {},
+      "properties": {
+        "showFooter": true,
+        "type": ""
+      }
+    },
+    "Bold": {
+      "_tag": ["b", "strong"],
+      "_attributes": {
+        "description": "This is the standard <code>&lt;strong&gt;</code> element. You can optionally switch it to use a <code>&lt;b&gt;</code> tag instead.",
+        "possibleTypes": [
+          {
+            "label": "Strong",
+            "value": "strong"
+          },
+          {
+            "label": "B",
+            "value": "b"
+          }
+        ]
+      },
+      "_html": "<strong>Bold</strong>",
+      "class": "Bold",
+      "cssClasses": {
+        "parent": "",
+        "system": {}
+      },
+      "flags": {
+        "canBeCopied": true,
+        "canBeDeleted": true,
+        "canBeDuplicated": true,
+        "canBeEdited": true,
+        "canBeMoved": true,
+        "canBePackaged": true
+      },
+      "label": "",
+      "overrides": {},
+      "properties": {
+        "contextual-background": "",
+        "contextual-color": "",
+        "tag": "strong",
+        "text-transformation": ""
+      }
+    },
+    "Button": {
+      "_tag": ["button", "submit", "reset"],
+      "_attributes": {
+        "buttonSizes": [
+          {
+            "label": "Large",
+            "value": "btn-lg"
+          },
+          {
+            "label": "Default",
+            "value": ""
+          },
+          {
+            "label": "Small",
+            "value": "btn-sm"
+          },
+          {
+            "label": "Extra small",
+            "value": "btn-xs"
+          }
+        ],
+        "buttonStyles": [
+          {
+            "label": "Default",
+            "value": "btn-default"
+          },
+          {
+            "label": "Primary",
+            "value": "btn-primary"
+          },
+          {
+            "label": "Success",
+            "value": "btn-success"
+          },
+          {
+            "label": "Info",
+            "value": "btn-info"
+          },
+          {
+            "label": "Warning",
+            "value": "btn-warning"
+          },
+          {
+            "label": "Danger",
+            "value": "btn-danger"
+          },
+          {
+            "label": "Link",
+            "value": "btn-link"
+          }
+        ],
+        "buttonTypes": [
+          {
+            "label": "Button",
+            "value": "button"
+          },
+          {
+            "label": "Submit",
+            "value": "submit"
+          },
+          {
+            "label": "Reset",
+            "value": "reset"
+          }
+        ],
+        "description": "This is the multi-functional Bootstrap Button component. You have a choice of possible themes, button types and sizes. Search for the related Dropdown and Split Button components if you need your button to trigger dropdown menus."
+      },
+      "_html": "<button class=\"btn btn-default\" type=\"button\">Button</button>",
+      "class": "Button",
+      "cssClasses": {
+        "parent": "",
+        "system": "btn btn-default"
+      },
+      "flags": {
+        "canBeCopied": true,
+        "canBeDeleted": true,
+        "canBeDuplicated": true,
+        "canBeEdited": true,
+        "canBeMoved": true,
+        "canBePackaged": true
+      },
+      "label": "",
+      "overrides": {},
+      "properties": {
+        "active": false,
+        "block": false,
+        "buttonType": "button",
+        "disabled": false,
+        "href": "#",
+        "size": "",
+        "style": "btn-default",
+        "target": "",
+        "type": "Button"
+      }
+    },
+    "Caption": {
+      "_tag": ["caption"],
+        "_attributes": {
+            "description": "This is the standard <code>&lt;p&gt;</code> HTML element. Use it for writing body text. It is enhanced by Bootstrap's rich styling classes, available in the Options panel."
+        },
+        "class": "Caption",
+        "cssClasses": {
+            "parent": "",
+            "system": {}
+        },
+        "flags": {
+            "canBeCopied": false,
+            "canBeDeleted": false,
+            "canBeDuplicated": false,
+            "canBeEdited": true,
+            "canBeMoved": false,
+            "canBePackaged": false
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {
+            "contextual-background": "",
+            "contextual-color": "",
+            "text-alignment": "",
+            "text-lead": false,
+            "text-nowrap": false,
+            "text-transformation": ""
+        }
+    },
+    "Div": {
+      "_tag": ["div"],
+      "_attributes": {
+        "description": "This is the standard <code>&lt;div&gt;</code> HTML element."
+      },
+      "class": "Div",
+      "cssClasses": {
+        "parent": "",
+        "system": ""
+      },
+      "flags": {
+        "canBeCopied": true,
+        "canBeDeleted": true,
+        "canBeDuplicated": true,
+        "canBeEdited": false,
+        "canBeMoved": true,
+        "canBePackaged": true
+      },
+      "label": "",
+      "overrides": {
+        "/": {
+          "class": "caption"
+        }
+      },
+      "properties": {}
+    },
+    "FieldLabel": {
+      "_tag": ["label"],
+      "_attributes": {
+        "description": "This is the standard <code>&lt;label&gt;</code> HTML element for displaying labels in forms. For better accessibility, make sure that the \"for\" attribute points to the id of the related field.",
+        "prettyName": "Field Label"
+      },
+      "_html": "<label>Label</label>",
+      "class": "FieldLabel",
+      "cssClasses": {
+        "parent": "",
+        "system": ""
+      },
+      "flags": {
+        "canBeCopied": true,
+        "canBeDeleted": true,
+        "canBeDuplicated": true,
+        "canBeEdited": true,
+        "canBeMoved": true,
+        "canBePackaged": true
+      },
+      "label": "",
+      "overrides": {},
+      "properties": {
+        "for": ""
+      }
+    },
+    "Fieldset": {
+      "_tag": ["fieldset"],
+      "_attributes": {
+        "description": "This is the standard <code>&lt;fieldset&gt;</code> HTML element. Use it to group form fields together."
+      },
+      "_html": "<fieldset>\n            <legend>Field Group</legend>\n        </fieldset>",
+      "class": "Fieldset",
+      "cssClasses": {
+        "parent": "",
+        "system": ""
+      },
+      "flags": {
+        "canBeCopied": true,
+        "canBeDeleted": true,
+        "canBeDuplicated": true,
+        "canBeEdited": false,
+        "canBeMoved": true,
+        "canBePackaged": true
+      },
+      "label": "",
+      "overrides": {},
+      "properties": {
+        "disabled": false,
+        "name": ""
+      }
+    },
+    "Figcaption": {
+      "_tag": ["figcaption"],
+      "_attributes": {
+        "description": "This is the <code>&lt;figcaption&gt;</code> HTML5 element. Use it inside <code>&lt;figure&gt;</code> to give images a caption."
+      },
+      "class": "Figcaption",
+      "cssClasses": {
+        "parent": "",
+        "system": ""
+      },
+      "flags": {
+        "canBeCopied": true,
+        "canBeDeleted": true,
+        "canBeDuplicated": true,
+        "canBeEdited": true,
+        "canBeMoved": true,
+        "canBePackaged": true
+      },
+      "label": "",
+      "overrides": {},
+      "properties": {}
+    },
+    "Figure": {
+      "_tag": ["figure"],
+      "_attributes": {
+        "description": "This is the <code>&lt;figure&gt;</code> HTML5 element. Use it when embedding illustrations into articles. It groups images and <code>&lt;figcaption&gt;</code> elements together.",
+        "suggestedComponents": [
+          "Image",
+          "Figcaption"
+        ]
+      },
+      "_html": "<figure>\n            <figcaption>Caption</figcaption>\n        </figure>",
+      "class": "Figure",
+      "cssClasses": {
+        "parent": "",
+        "system": ""
+      },
+      "flags": {
+        "canBeCopied": true,
+        "canBeDeleted": true,
+        "canBeDuplicated": true,
+        "canBeEdited": false,
+        "canBeMoved": true,
+        "canBePackaged": true
+      },
+      "label": "",
+      "overrides": {},
+      "properties": {}
+    },
+    "Footer": {
+      "_tag": ["footer"],
+      "_attributes": {
+        "description": "This is the <code>&lt;footer&gt;</code> HTML5 element. Use it as the main element of your footers to give them semantic meaning."
+      },
+      "_html": "<footer></footer>",
+      "class": "Footer",
+      "cssClasses": {
+        "parent": "",
+        "system": ""
+      },
+      "flags": {
+        "canBeCopied": true,
+        "canBeDeleted": true,
+        "canBeDuplicated": true,
+        "canBeEdited": false,
+        "canBeMoved": true,
+        "canBePackaged": true
+      },
+      "label": "",
+      "overrides": {},
+      "properties": {}
+    },
+    "Form": {
+      "_tag": ["form"],
+      "_attributes": {
+        "description": "This is Bootstrap's form component. It is like the regular HTML <code>&lt;form&gt;</code>, but extended with styling and layout classes. Usually forms in Bootstrap contain only Form Group children.",
+        "possibleEnctypes": [
+          {
+            "label": "Default",
+            "value": ""
+          },
+          {
+            "label": "URL Encoded",
+            "value": "application/x-www-form-urlencoded"
+          },
+          {
+            "label": "Multipart",
+            "value": "multipart/form-data"
+          },
+          {
+            "label": "Plain",
+            "value": "text/plain"
+          }
+        ],
+        "possibleMethods": [
+          {
+            "label": "Default",
+            "value": ""
+          },
+          {
+            "label": "Get",
+            "value": "get"
+          },
+          {
+            "label": "Post",
+            "value": "post"
+          }
+        ],
+        "possibleTargets": [
+          {
+            "label": "Default",
+            "value": ""
+          },
+          {
+            "label": "Self",
+            "value": "_self"
+          },
+          {
+            "label": "Blank",
+            "value": "_blank"
+          },
+          {
+            "label": "Parent",
+            "value": "_parent"
+          },
+          {
+            "label": "Top",
+            "value": "_top"
+          }
+        ],
+        "possibleTypes": [
+          {
+            "label": "Default",
+            "value": ""
+          },
+          {
+            "label": "Inline",
+            "value": "form-inline"
+          },
+          {
+            "label": "Horizontal",
+            "value": "form-horizontal"
+          }
+        ],
+        "suggestedComponents": [
+          "FormGroup"
+        ]
+      },
+      "_html": "<form></form>",
+      "class": "Form",
+      "cssClasses": {
+        "parent": "",
+        "system": ""
+      },
+      "flags": {
+        "canBeCopied": true,
+        "canBeDeleted": true,
+        "canBeDuplicated": true,
+        "canBeEdited": false,
+        "canBeMoved": true,
+        "canBePackaged": true
+      },
+      "label": "",
+      "overrides": {},
+      "properties": {
+        "action": "",
+        "enctype": "",
+        "method": "",
+        "target": "",
+        "type": ""
+      }
+    },
+    "Header": {
+      "_tag": ["header"],
+      "_attributes": {
+        "description": "This is the <code>&lt;header&gt;</code> HTML5 element. It represents a group of introductory or navigational aids. It may contain some heading elements but also other elements like a logo, a search form and so on."
+      },
+      "_html": "<header></header>",
+      "class": "Header",
+      "cssClasses": {
+        "parent": "",
+        "system": ""
+      },
+      "flags": {
+        "canBeCopied": true,
+        "canBeDeleted": true,
+        "canBeDuplicated": true,
+        "canBeEdited": false,
+        "canBeMoved": true,
+        "canBePackaged": true
+      },
+      "label": "",
+      "overrides": {},
+      "properties": {}
+    },
+    "Heading": {
+      "_tag": ["h1", "h2", "h3", "h4", "h5", "h6"],
+      "_attributes": {
+        "description": "This is the HTML heading component. You can choose which HTML tag is used - from <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>.",
+        "possibleTypes": [
+          {
+            "label": "H1",
+            "value": "h1"
+          },
+          {
+            "label": "H2",
+            "value": "h2"
+          },
+          {
+            "label": "H3",
+            "value": "h3"
+          },
+          {
+            "label": "H4",
+            "value": "h4"
+          },
+          {
+            "label": "H5",
+            "value": "h5"
+          },
+          {
+            "label": "H6",
+            "value": "h6"
+          }
+        ]
+      },
+      "_html": "<h1>Heading</h1>",
+      "class": "Heading",
+      "cssClasses": {
+        "parent": "",
+        "system": {}
+      },
+      "flags": {
+        "canBeCopied": true,
+        "canBeDeleted": true,
+        "canBeDuplicated": true,
+        "canBeEdited": true,
+        "canBeMoved": true,
+        "canBePackaged": true
+      },
+      "label": "",
+      "overrides": {},
+      "properties": {
+        "contextual-background": "",
+        "contextual-color": "",
+        "text-alignment": "",
+        "text-nowrap": false,
+        "text-transformation": "",
+        "type": "h1"
+      }
+    },
+    "Hgroup": {
+      "_tag": ["hgroup"],
+      "_attributes": {
+        "description": "This is the <code>&lt;hgroup&gt;</code> HTML5 element. It is used to group together heading elements.",
+        "suggestedComponents": [
+          "Heading"
+        ]
+      },
+      "_html": "<hgroup></hgroup>",
+      "class": "Hgroup",
+      "cssClasses": {
+        "parent": "",
+        "system": ""
+      },
+      "flags": {
+        "canBeCopied": true,
+        "canBeDeleted": true,
+        "canBeDuplicated": true,
+        "canBeEdited": false,
+        "canBeMoved": true,
+        "canBePackaged": true
+      },
+      "label": "",
+      "overrides": {},
+      "properties": {}
+    },
+    "Hr": {
+      "_tag": ["hr"],
+        "_attributes": {
+            "description": "This is the <code>&lt;hr&gt;</code> HTML element. It is displayed as a horizontal rule. If you wish to combine it with a heading, look for the Page Header component."
+        },
+        "_html": "<hr>",
+        "class": "Hr",
+        "cssClasses": {
+            "parent": "",
+            "system": ""
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": false,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {}
+    },
+    "Icon": {
+      "_tag": ["i"],
+      "_attributes": {
+        "description": "This is Bootstrap's icon component. You can choose from a number of available icon fonts. You can modify the icon's size and color by changing its CSS font-size and color properties."
+      },
+      "_html": "<i class=\"glyphicon glyphicon-star\"></i>",
+      "class": "Icon",
+      "cssClasses": {
+        "parent": "",
+        "system": {
+          "icon": "glyphicon glyphicon-star"
+        }
+      },
+      "flags": {
+        "canBeCopied": true,
+        "canBeDeleted": true,
+        "canBeDuplicated": true,
+        "canBeEdited": false,
+        "canBeMoved": true,
+        "canBePackaged": true
+      },
+      "label": "",
+      "overrides": {},
+      "properties": {
+        "icon": "glyphicon glyphicon-star"
+      }
+    },
+    "Image": {
+      "_tag": ["image"],
+      "_attributes": {
+        "description": "This is the <code>&lt;image&gt;</code> HTML element. You can control its size, source, style and responsiveness from the Options panel.",
+        "possibleStyles": [
+          {
+            "label": "Default",
+            "value": ""
+          },
+          {
+            "label": "Rounded",
+            "value": "img-rounded"
+          },
+          {
+            "label": "Circle",
+            "value": "img-circle"
+          },
+          {
+            "label": "Thumbnail",
+            "value": "img-thumbnail"
+          }
+        ]
+      },
+      "_html": "<img>",
+      "class": "Image",
+      "cssClasses": {
+        "parent": "",
+        "system": ""
+      },
+      "flags": {
+        "canBeCopied": true,
+        "canBeDeleted": true,
+        "canBeDuplicated": true,
+        "canBeEdited": false,
+        "canBeMoved": true,
+        "canBePackaged": true
+      },
+      "label": "",
+      "overrides": {},
+      "properties": {
+        "alt": "",
+        "height": "",
+        "responsive": false,
+        "src": "",
+        "style": "",
+        "width": ""
+      }
+    },
+    "InputCheckbox": {
+      "_tag": ["input[@type='checkbox']"],
+        "_attributes": {
+            "description": "This is the <code>&lt;input type=&quot;checkbox&quot; /&gt;</code> HTML element. If you wish to use it in Bootstrap forms, look for the Checkbox With Label component.",
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "On",
+                    "value": "on"
+                },
+                {
+                    "label": "Off",
+                    "value": "off"
+                }
+            ],
+            "possibleInputModeValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Verbatim",
+                    "value": "verbatim"
+                },
+                {
+                    "label": "Latin",
+                    "value": "latin"
+                },
+                {
+                    "label": "Latin name",
+                    "value": "latin-name"
+                },
+                {
+                    "label": "Latin prose",
+                    "value": "latin-prose"
+                },
+                {
+                    "label": "Full width latin",
+                    "value": "full-width-latin"
+                },
+                {
+                    "label": "Kana",
+                    "value": "kana"
+                },
+                {
+                    "label": "Katakana",
+                    "value": "katakana"
+                },
+                {
+                    "label": "Numeric",
+                    "value": "numeric"
+                },
+                {
+                    "label": "Tel",
+                    "value": "tel"
+                },
+                {
+                    "label": "Email",
+                    "value": "email"
+                },
+                {
+                    "label": "Url",
+                    "value": "url"
+                }
+            ],
+            "possibleSizes": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Large",
+                    "value": "lg"
+                },
+                {
+                    "label": "Small",
+                    "value": "sm"
+                }
+            ],
+            "prettyName": "Checkbox"
+        },
+        "_html": "<input type=\"checkbox\">",
+        "class": "InputCheckbox",
+        "cssClasses": {
+            "parent": "",
+            "system": ""
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": false,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {
+            "checked": false,
+            "disabled": false,
+            "name": "",
+            "required": false,
+            "value": ""
+        }
+    },
+    "InputColor": {
+      "_tag": ["input[@type='color']"],
+        "_attributes": {
+            "description": "This is the <code>&lt;input type=&quot;color&quot; /&gt;</code> HTML5 element. In modern browsers it displays a color picker for selecting color values.",
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "On",
+                    "value": "on"
+                },
+                {
+                    "label": "Off",
+                    "value": "off"
+                }
+            ],
+            "possibleInputModeValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Verbatim",
+                    "value": "verbatim"
+                },
+                {
+                    "label": "Latin",
+                    "value": "latin"
+                },
+                {
+                    "label": "Latin name",
+                    "value": "latin-name"
+                },
+                {
+                    "label": "Latin prose",
+                    "value": "latin-prose"
+                },
+                {
+                    "label": "Full width latin",
+                    "value": "full-width-latin"
+                },
+                {
+                    "label": "Kana",
+                    "value": "kana"
+                },
+                {
+                    "label": "Katakana",
+                    "value": "katakana"
+                },
+                {
+                    "label": "Numeric",
+                    "value": "numeric"
+                },
+                {
+                    "label": "Tel",
+                    "value": "tel"
+                },
+                {
+                    "label": "Email",
+                    "value": "email"
+                },
+                {
+                    "label": "Url",
+                    "value": "url"
+                }
+            ],
+            "possibleSizes": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Large",
+                    "value": "lg"
+                },
+                {
+                    "label": "Small",
+                    "value": "sm"
+                }
+            ],
+            "prettyName": "Color Input"
+        },
+        "_html": "<input type=\"color\">",
+        "class": "InputColor",
+        "cssClasses": {
+            "parent": "",
+            "system": ""
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": false,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {
+            "disabled": false,
+            "name": "",
+            "required": false,
+            "value": ""
+        }
+    },
+    "InputDateAndTime": {
+      "_tag": ["input[@type='date']"],
+        "_attributes": {
+            "description": "This component combines a number of date and time related HTML5 input elements into one. Choose the type you need from the Options panel.",
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "On",
+                    "value": "on"
+                },
+                {
+                    "label": "Off",
+                    "value": "off"
+                }
+            ],
+            "possibleInputModeValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Verbatim",
+                    "value": "verbatim"
+                },
+                {
+                    "label": "Latin",
+                    "value": "latin"
+                },
+                {
+                    "label": "Latin name",
+                    "value": "latin-name"
+                },
+                {
+                    "label": "Latin prose",
+                    "value": "latin-prose"
+                },
+                {
+                    "label": "Full width latin",
+                    "value": "full-width-latin"
+                },
+                {
+                    "label": "Kana",
+                    "value": "kana"
+                },
+                {
+                    "label": "Katakana",
+                    "value": "katakana"
+                },
+                {
+                    "label": "Numeric",
+                    "value": "numeric"
+                },
+                {
+                    "label": "Tel",
+                    "value": "tel"
+                },
+                {
+                    "label": "Email",
+                    "value": "email"
+                },
+                {
+                    "label": "Url",
+                    "value": "url"
+                }
+            ],
+            "possibleSizes": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Large",
+                    "value": "lg"
+                },
+                {
+                    "label": "Small",
+                    "value": "sm"
+                }
+            ],
+            "possibleTypes": [
+                {
+                    "label": "Date",
+                    "value": "date"
+                },
+                {
+                    "label": "Time",
+                    "value": "time"
+                },
+                {
+                    "label": "Datetime Local",
+                    "value": "datetime-local"
+                },
+                {
+                    "label": "Month",
+                    "value": "month"
+                },
+                {
+                    "label": "Week",
+                    "value": "week"
+                }
+            ],
+            "prettyName": "Date And Time Input"
+        },
+        "_html": "<input type=\"date\">",
+        "class": "InputDateAndTime",
+        "cssClasses": {
+            "parent": "",
+            "system": ""
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": false,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {
+            "disabled": false,
+            "max": "",
+            "min": "",
+            "name": "",
+            "readonly": false,
+            "required": false,
+            "size": "",
+            "step": "",
+            "type": "date",
+            "value": ""
+        }
+    },
+    "InputEmail": {
+      "_tag": ["input[@type='email']"],
+        "_attributes": {
+            "description": "This is the <code>&lt;input type=&quot;email&quot; /&gt;</code> HTML5 element. Use it in forms to ask users for their email addresses.",
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "On",
+                    "value": "on"
+                },
+                {
+                    "label": "Off",
+                    "value": "off"
+                }
+            ],
+            "possibleInputModeValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Verbatim",
+                    "value": "verbatim"
+                },
+                {
+                    "label": "Latin",
+                    "value": "latin"
+                },
+                {
+                    "label": "Latin name",
+                    "value": "latin-name"
+                },
+                {
+                    "label": "Latin prose",
+                    "value": "latin-prose"
+                },
+                {
+                    "label": "Full width latin",
+                    "value": "full-width-latin"
+                },
+                {
+                    "label": "Kana",
+                    "value": "kana"
+                },
+                {
+                    "label": "Katakana",
+                    "value": "katakana"
+                },
+                {
+                    "label": "Numeric",
+                    "value": "numeric"
+                },
+                {
+                    "label": "Tel",
+                    "value": "tel"
+                },
+                {
+                    "label": "Email",
+                    "value": "email"
+                },
+                {
+                    "label": "Url",
+                    "value": "url"
+                }
+            ],
+            "possibleSizes": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Large",
+                    "value": "lg"
+                },
+                {
+                    "label": "Small",
+                    "value": "sm"
+                }
+            ],
+            "prettyName": "Email Input"
+        },
+        "_html": "<input type=\"email\">",
+        "class": "InputEmail",
+        "cssClasses": {
+            "parent": "",
+            "system": ""
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": false,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {
+            "autocomplete": "",
+            "autofocus": false,
+            "disabled": false,
+            "inputmode": "",
+            "maxlength": "",
+            "minlength": "",
+            "multiple": false,
+            "name": "",
+            "pattern": "",
+            "placeholder": "",
+            "readonly": false,
+            "required": false,
+            "size": "",
+            "value": ""
+        }
+    },
+    "InputFile": {
+      "_tag": ["input[@type='file']"],
+        "_attributes": {
+            "description": "This is the <code>&lt;input type=&quot;file&quot; /&gt;</code> HTML element. Use it to add file upload functionality to your forms. Remember to set the form's Encoding to Multipart.",
+            "possibleAcceptValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "audio/*",
+                    "value": "audio/*"
+                },
+                {
+                    "label": "video/*",
+                    "value": "video/*"
+                },
+                {
+                    "label": "image/*",
+                    "value": "image/*"
+                },
+                {
+                    "label": "Custom..",
+                    "value": "__custom"
+                }
+            ],
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "On",
+                    "value": "on"
+                },
+                {
+                    "label": "Off",
+                    "value": "off"
+                }
+            ],
+            "possibleInputModeValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Verbatim",
+                    "value": "verbatim"
+                },
+                {
+                    "label": "Latin",
+                    "value": "latin"
+                },
+                {
+                    "label": "Latin name",
+                    "value": "latin-name"
+                },
+                {
+                    "label": "Latin prose",
+                    "value": "latin-prose"
+                },
+                {
+                    "label": "Full width latin",
+                    "value": "full-width-latin"
+                },
+                {
+                    "label": "Kana",
+                    "value": "kana"
+                },
+                {
+                    "label": "Katakana",
+                    "value": "katakana"
+                },
+                {
+                    "label": "Numeric",
+                    "value": "numeric"
+                },
+                {
+                    "label": "Tel",
+                    "value": "tel"
+                },
+                {
+                    "label": "Email",
+                    "value": "email"
+                },
+                {
+                    "label": "Url",
+                    "value": "url"
+                }
+            ],
+            "possibleSizes": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Large",
+                    "value": "lg"
+                },
+                {
+                    "label": "Small",
+                    "value": "sm"
+                }
+            ],
+            "prettyName": "File Input"
+        },
+        "_html": "<input type=\"file\">",
+        "class": "InputFile",
+        "cssClasses": {
+            "parent": "",
+            "system": ""
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": false,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {
+            "accept": "",
+            "disabled": false,
+            "multiple": false,
+            "name": "",
+            "required": false,
+            "value": ""
+        }
+    },
+    "InputHidden": {
+      "_tag": ["input[@type='hidden']"],
+        "_attributes": {
+            "description": "This is the <code>&lt;input type=&quot;hidden&quot; /&gt;</code> HTML element. Use it to pass data to your form handling backend script.",
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "On",
+                    "value": "on"
+                },
+                {
+                    "label": "Off",
+                    "value": "off"
+                }
+            ],
+            "possibleInputModeValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Verbatim",
+                    "value": "verbatim"
+                },
+                {
+                    "label": "Latin",
+                    "value": "latin"
+                },
+                {
+                    "label": "Latin name",
+                    "value": "latin-name"
+                },
+                {
+                    "label": "Latin prose",
+                    "value": "latin-prose"
+                },
+                {
+                    "label": "Full width latin",
+                    "value": "full-width-latin"
+                },
+                {
+                    "label": "Kana",
+                    "value": "kana"
+                },
+                {
+                    "label": "Katakana",
+                    "value": "katakana"
+                },
+                {
+                    "label": "Numeric",
+                    "value": "numeric"
+                },
+                {
+                    "label": "Tel",
+                    "value": "tel"
+                },
+                {
+                    "label": "Email",
+                    "value": "email"
+                },
+                {
+                    "label": "Url",
+                    "value": "url"
+                }
+            ],
+            "possibleSizes": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Large",
+                    "value": "lg"
+                },
+                {
+                    "label": "Small",
+                    "value": "sm"
+                }
+            ],
+            "prettyName": "Hidden Input"
+        },
+        "_html": "<input type=\"hidden\">",
+        "class": "InputHidden",
+        "cssClasses": {
+            "parent": "",
+            "system": ""
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": false,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {
+            "name": "",
+            "value": ""
+        }
+    },
+    "InputNumber": {
+      "_tag": ["input[@type='number']"],
+        "_attributes": {
+            "description": "This is the <code>&lt;input type=&quot;number&quot; /&gt;</code> HTML5 element. Use it to when you wish to limit the entered text only to numbers.",
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "On",
+                    "value": "on"
+                },
+                {
+                    "label": "Off",
+                    "value": "off"
+                }
+            ],
+            "possibleInputModeValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Verbatim",
+                    "value": "verbatim"
+                },
+                {
+                    "label": "Latin",
+                    "value": "latin"
+                },
+                {
+                    "label": "Latin name",
+                    "value": "latin-name"
+                },
+                {
+                    "label": "Latin prose",
+                    "value": "latin-prose"
+                },
+                {
+                    "label": "Full width latin",
+                    "value": "full-width-latin"
+                },
+                {
+                    "label": "Kana",
+                    "value": "kana"
+                },
+                {
+                    "label": "Katakana",
+                    "value": "katakana"
+                },
+                {
+                    "label": "Numeric",
+                    "value": "numeric"
+                },
+                {
+                    "label": "Tel",
+                    "value": "tel"
+                },
+                {
+                    "label": "Email",
+                    "value": "email"
+                },
+                {
+                    "label": "Url",
+                    "value": "url"
+                }
+            ],
+            "possibleSizes": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Large",
+                    "value": "lg"
+                },
+                {
+                    "label": "Small",
+                    "value": "sm"
+                }
+            ],
+            "prettyName": "Number Input"
+        },
+        "_html": "<input type=\"number\">",
+        "class": "InputNumber",
+        "cssClasses": {
+            "parent": "",
+            "system": ""
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": false,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {
+            "disabled": false,
+            "max": "",
+            "min": "",
+            "name": "",
+            "placeholder": "",
+            "readonly": false,
+            "required": false,
+            "size": "",
+            "step": "",
+            "value": ""
+        }
+    },
+    "InputPassword": {
+      "_tag": ["input[@type='password']"],
+        "_attributes": {
+            "description": "This is the <code>&lt;input type=&quot;password&quot; /&gt;</code> HTML element. Use it when you need to collect passwords and other sensitive data.",
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "On",
+                    "value": "on"
+                },
+                {
+                    "label": "Off",
+                    "value": "off"
+                }
+            ],
+            "possibleInputModeValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Verbatim",
+                    "value": "verbatim"
+                },
+                {
+                    "label": "Latin",
+                    "value": "latin"
+                },
+                {
+                    "label": "Latin name",
+                    "value": "latin-name"
+                },
+                {
+                    "label": "Latin prose",
+                    "value": "latin-prose"
+                },
+                {
+                    "label": "Full width latin",
+                    "value": "full-width-latin"
+                },
+                {
+                    "label": "Kana",
+                    "value": "kana"
+                },
+                {
+                    "label": "Katakana",
+                    "value": "katakana"
+                },
+                {
+                    "label": "Numeric",
+                    "value": "numeric"
+                },
+                {
+                    "label": "Tel",
+                    "value": "tel"
+                },
+                {
+                    "label": "Email",
+                    "value": "email"
+                },
+                {
+                    "label": "Url",
+                    "value": "url"
+                }
+            ],
+            "possibleSizes": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Large",
+                    "value": "lg"
+                },
+                {
+                    "label": "Small",
+                    "value": "sm"
+                }
+            ],
+            "prettyName": "Password Input"
+        },
+        "_html": "<input type=\"password\">",
+        "class": "InputPassword",
+        "cssClasses": {
+            "parent": "",
+            "system": ""
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": false,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {
+            "autocomplete": "",
+            "autofocus": false,
+            "disabled": false,
+            "inputmode": "",
+            "maxlength": "",
+            "minlength": "",
+            "name": "",
+            "pattern": "",
+            "placeholder": "",
+            "readonly": false,
+            "required": false,
+            "size": "",
+            "value": ""
+        }
+    },
+    "InputRadio": {
+      "_tag": ["input[@type='radio']"],
+        "_attributes": {
+            "description": "This is the <code>&lt;input type=&quot;radio&quot; /&gt;</code> HTML element. Place several components of this type with the same \"name\" attribute but different values to get a radio group. If you wish to show a label next to it, look for the Radio With Label component.",
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "On",
+                    "value": "on"
+                },
+                {
+                    "label": "Off",
+                    "value": "off"
+                }
+            ],
+            "possibleInputModeValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Verbatim",
+                    "value": "verbatim"
+                },
+                {
+                    "label": "Latin",
+                    "value": "latin"
+                },
+                {
+                    "label": "Latin name",
+                    "value": "latin-name"
+                },
+                {
+                    "label": "Latin prose",
+                    "value": "latin-prose"
+                },
+                {
+                    "label": "Full width latin",
+                    "value": "full-width-latin"
+                },
+                {
+                    "label": "Kana",
+                    "value": "kana"
+                },
+                {
+                    "label": "Katakana",
+                    "value": "katakana"
+                },
+                {
+                    "label": "Numeric",
+                    "value": "numeric"
+                },
+                {
+                    "label": "Tel",
+                    "value": "tel"
+                },
+                {
+                    "label": "Email",
+                    "value": "email"
+                },
+                {
+                    "label": "Url",
+                    "value": "url"
+                }
+            ],
+            "possibleSizes": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Large",
+                    "value": "lg"
+                },
+                {
+                    "label": "Small",
+                    "value": "sm"
+                }
+            ],
+            "prettyName": "Radio"
+        },
+        "_html": "<input type=\"radio\">",
+        "class": "InputRadio",
+        "cssClasses": {
+            "parent": "",
+            "system": ""
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": false,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {
+            "checked": false,
+            "disabled": false,
+            "name": "",
+            "required": false,
+            "value": ""
+        }
+    },
+    "InputRange": {
+      "_tag": ["input[@type='range']"],
+        "_attributes": {
+            "description": "This is the <code>&lt;input type=&quot;range&quot; /&gt;</code> HTML5 element. In modern browsers it is visualized as a slider with minimum and maximum values.",
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "On",
+                    "value": "on"
+                },
+                {
+                    "label": "Off",
+                    "value": "off"
+                }
+            ],
+            "possibleInputModeValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Verbatim",
+                    "value": "verbatim"
+                },
+                {
+                    "label": "Latin",
+                    "value": "latin"
+                },
+                {
+                    "label": "Latin name",
+                    "value": "latin-name"
+                },
+                {
+                    "label": "Latin prose",
+                    "value": "latin-prose"
+                },
+                {
+                    "label": "Full width latin",
+                    "value": "full-width-latin"
+                },
+                {
+                    "label": "Kana",
+                    "value": "kana"
+                },
+                {
+                    "label": "Katakana",
+                    "value": "katakana"
+                },
+                {
+                    "label": "Numeric",
+                    "value": "numeric"
+                },
+                {
+                    "label": "Tel",
+                    "value": "tel"
+                },
+                {
+                    "label": "Email",
+                    "value": "email"
+                },
+                {
+                    "label": "Url",
+                    "value": "url"
+                }
+            ],
+            "possibleSizes": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Large",
+                    "value": "lg"
+                },
+                {
+                    "label": "Small",
+                    "value": "sm"
+                }
+            ],
+            "prettyName": "Range Input"
+        },
+        "_html": "<input type=\"range\">",
+        "class": "InputRange",
+        "cssClasses": {
+            "parent": "",
+            "system": ""
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": false,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {
+            "disabled": false,
+            "max": "",
+            "min": "",
+            "name": "",
+            "required": false,
+            "step": "",
+            "value": ""
+        }
+    },
+    "InputSearch": {
+        "_attributes": {
+          "_tag": ["input[@type='search']"],
+            "description": "This is the <code>&lt;input type=&quot;search&quot; /&gt;</code> HTML5 element. It may be displayed differently depending on the browser and OS used.",
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "On",
+                    "value": "on"
+                },
+                {
+                    "label": "Off",
+                    "value": "off"
+                }
+            ],
+            "possibleInputModeValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Verbatim",
+                    "value": "verbatim"
+                },
+                {
+                    "label": "Latin",
+                    "value": "latin"
+                },
+                {
+                    "label": "Latin name",
+                    "value": "latin-name"
+                },
+                {
+                    "label": "Latin prose",
+                    "value": "latin-prose"
+                },
+                {
+                    "label": "Full width latin",
+                    "value": "full-width-latin"
+                },
+                {
+                    "label": "Kana",
+                    "value": "kana"
+                },
+                {
+                    "label": "Katakana",
+                    "value": "katakana"
+                },
+                {
+                    "label": "Numeric",
+                    "value": "numeric"
+                },
+                {
+                    "label": "Tel",
+                    "value": "tel"
+                },
+                {
+                    "label": "Email",
+                    "value": "email"
+                },
+                {
+                    "label": "Url",
+                    "value": "url"
+                }
+            ],
+            "possibleSizes": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Large",
+                    "value": "lg"
+                },
+                {
+                    "label": "Small",
+                    "value": "sm"
+                }
+            ],
+            "prettyName": "Search Input"
+        },
+        "_html": "<input type=\"search\">",
+        "class": "InputSearch",
+        "cssClasses": {
+            "parent": "",
+            "system": ""
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": false,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {
+            "autocomplete": "",
+            "autofocus": false,
+            "disabled": false,
+            "inputmode": "",
+            "maxlength": "",
+            "minlength": "",
+            "name": "",
+            "pattern": "",
+            "placeholder": "",
+            "readonly": false,
+            "required": false,
+            "size": "",
+            "value": ""
+        }
+    },
+    "InputTel": {
+        "_attributes": {
+          "_tag": ["input[@type='tel']"],
+            "description": "This is the <code>&lt;input type=&quot;tel&quot; /&gt;</code> HTML5 element. It is used for entering phone numbers. Mobile devices show specialized keyboard that makes text entry easier.",
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "On",
+                    "value": "on"
+                },
+                {
+                    "label": "Off",
+                    "value": "off"
+                }
+            ],
+            "possibleInputModeValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Verbatim",
+                    "value": "verbatim"
+                },
+                {
+                    "label": "Latin",
+                    "value": "latin"
+                },
+                {
+                    "label": "Latin name",
+                    "value": "latin-name"
+                },
+                {
+                    "label": "Latin prose",
+                    "value": "latin-prose"
+                },
+                {
+                    "label": "Full width latin",
+                    "value": "full-width-latin"
+                },
+                {
+                    "label": "Kana",
+                    "value": "kana"
+                },
+                {
+                    "label": "Katakana",
+                    "value": "katakana"
+                },
+                {
+                    "label": "Numeric",
+                    "value": "numeric"
+                },
+                {
+                    "label": "Tel",
+                    "value": "tel"
+                },
+                {
+                    "label": "Email",
+                    "value": "email"
+                },
+                {
+                    "label": "Url",
+                    "value": "url"
+                }
+            ],
+            "possibleSizes": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Large",
+                    "value": "lg"
+                },
+                {
+                    "label": "Small",
+                    "value": "sm"
+                }
+            ],
+            "prettyName": "Telephone Input"
+        },
+        "_html": "<input type=\"tel\">",
+        "class": "InputTel",
+        "cssClasses": {
+            "parent": "",
+            "system": ""
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": false,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {
+            "autocomplete": "",
+            "autofocus": false,
+            "disabled": false,
+            "inputmode": "",
+            "maxlength": "",
+            "minlength": "",
+            "name": "",
+            "pattern": "",
+            "placeholder": "",
+            "readonly": false,
+            "required": false,
+            "size": "",
+            "value": ""
+        }
+    },
+    "InputText": {
+        "_attributes": {
+          "_tag": ["input[@type='text']"],
+            "description": "This is the standard <code>&lt;input type=&quot;text&quot; /&gt;</code> HTML element. Use it to collect textual data from users without a specific format.",
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "On",
+                    "value": "on"
+                },
+                {
+                    "label": "Off",
+                    "value": "off"
+                }
+            ],
+            "possibleInputModeValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Verbatim",
+                    "value": "verbatim"
+                },
+                {
+                    "label": "Latin",
+                    "value": "latin"
+                },
+                {
+                    "label": "Latin name",
+                    "value": "latin-name"
+                },
+                {
+                    "label": "Latin prose",
+                    "value": "latin-prose"
+                },
+                {
+                    "label": "Full width latin",
+                    "value": "full-width-latin"
+                },
+                {
+                    "label": "Kana",
+                    "value": "kana"
+                },
+                {
+                    "label": "Katakana",
+                    "value": "katakana"
+                },
+                {
+                    "label": "Numeric",
+                    "value": "numeric"
+                },
+                {
+                    "label": "Tel",
+                    "value": "tel"
+                },
+                {
+                    "label": "Email",
+                    "value": "email"
+                },
+                {
+                    "label": "Url",
+                    "value": "url"
+                }
+            ],
+            "possibleSizes": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Large",
+                    "value": "lg"
+                },
+                {
+                    "label": "Small",
+                    "value": "sm"
+                }
+            ],
+            "prettyName": "Text Input"
+        },
+        "_html": "<input type=\"text\">",
+        "class": "InputText",
+        "cssClasses": {
+            "parent": "",
+            "system": ""
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": false,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {
+            "autocomplete": "",
+            "autofocus": false,
+            "disabled": false,
+            "inputmode": "",
+            "maxlength": "",
+            "minlength": "",
+            "name": "",
+            "pattern": "",
+            "placeholder": "",
+            "readonly": false,
+            "required": false,
+            "size": "",
+            "value": ""
+        }
+    },
+    "InputTextarea": {
+      "_tag": ["input[@type='textarea']"],
+        "_attributes": {
+            "description": "This is the standard <code>&lt;textarea&gt;</code> HTML element. Use it to collect multi-line textual data.",
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "On",
+                    "value": "on"
+                },
+                {
+                    "label": "Off",
+                    "value": "off"
+                }
+            ],
+            "possibleInputModeValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Verbatim",
+                    "value": "verbatim"
+                },
+                {
+                    "label": "Latin",
+                    "value": "latin"
+                },
+                {
+                    "label": "Latin name",
+                    "value": "latin-name"
+                },
+                {
+                    "label": "Latin prose",
+                    "value": "latin-prose"
+                },
+                {
+                    "label": "Full width latin",
+                    "value": "full-width-latin"
+                },
+                {
+                    "label": "Kana",
+                    "value": "kana"
+                },
+                {
+                    "label": "Katakana",
+                    "value": "katakana"
+                },
+                {
+                    "label": "Numeric",
+                    "value": "numeric"
+                },
+                {
+                    "label": "Tel",
+                    "value": "tel"
+                },
+                {
+                    "label": "Email",
+                    "value": "email"
+                },
+                {
+                    "label": "Url",
+                    "value": "url"
+                }
+            ],
+            "possibleSizes": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Large",
+                    "value": "lg"
+                },
+                {
+                    "label": "Small",
+                    "value": "sm"
+                }
+            ],
+            "possibleSpellcheckValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "True",
+                    "value": "true"
+                },
+                {
+                    "label": "False",
+                    "value": "false"
+                }
+            ],
+            "prettyName": "Textarea"
+        },
+        "_html": "<textarea></textarea>",
+        "class": "InputTextarea",
+        "cssClasses": {
+            "parent": "",
+            "system": ""
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": false,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {
+            "autocomplete": "",
+            "autofocus": false,
+            "cols": "",
+            "disabled": false,
+            "inputmode": "",
+            "maxlength": "",
+            "minlength": "",
+            "name": "",
+            "placeholder": "",
+            "readonly": false,
+            "required": false,
+            "rows": "",
+            "size": "",
+            "spellcheck": "",
+            "textValue": "",
+            "wrap": false
+        }
+    },
+    "InputURL": {
+      "_tag": ["input[@type='url']"],
+        "_attributes": {
+            "description": "This is the <code>&lt;input type=&quot;url&quot; /&gt;</code> HTML5 element. It is used for entering and validating URL addresses.",
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "On",
+                    "value": "on"
+                },
+                {
+                    "label": "Off",
+                    "value": "off"
+                }
+            ],
+            "possibleInputModeValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Verbatim",
+                    "value": "verbatim"
+                },
+                {
+                    "label": "Latin",
+                    "value": "latin"
+                },
+                {
+                    "label": "Latin name",
+                    "value": "latin-name"
+                },
+                {
+                    "label": "Latin prose",
+                    "value": "latin-prose"
+                },
+                {
+                    "label": "Full width latin",
+                    "value": "full-width-latin"
+                },
+                {
+                    "label": "Kana",
+                    "value": "kana"
+                },
+                {
+                    "label": "Katakana",
+                    "value": "katakana"
+                },
+                {
+                    "label": "Numeric",
+                    "value": "numeric"
+                },
+                {
+                    "label": "Tel",
+                    "value": "tel"
+                },
+                {
+                    "label": "Email",
+                    "value": "email"
+                },
+                {
+                    "label": "Url",
+                    "value": "url"
+                }
+            ],
+            "possibleSizes": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Large",
+                    "value": "lg"
+                },
+                {
+                    "label": "Small",
+                    "value": "sm"
+                }
+            ],
+            "prettyName": "URL Input"
+        },
+        "_html": "<input type=\"url\">",
+        "class": "InputURL",
+        "cssClasses": {
+            "parent": "",
+            "system": ""
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": false,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {
+            "autocomplete": "",
+            "autofocus": false,
+            "disabled": false,
+            "inputmode": "",
+            "maxlength": "",
+            "minlength": "",
+            "name": "",
+            "pattern": "",
+            "placeholder": "",
+            "readonly": false,
+            "required": false,
+            "size": "",
+            "value": ""
+        }
+    },
+    "Italic": {
+      "_tag": ["em", "i"],
+        "_attributes": {
+            "description": "This is the standard <code>&lt;em&gt;</code> element. You can optionally switch it to use a <code>&lt;i&gt;</code> tag instead.",
+            "possibleTypes": [
+                {
+                    "label": "Em",
+                    "value": "em"
+                },
+                {
+                    "label": "I",
+                    "value": "i"
+                }
+            ]
+        },
+        "_html": "<em>Italic</em>",
+        "class": "Italic",
+        "cssClasses": {
+            "parent": "",
+            "system": {}
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": true,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {
+            "contextual-background": "",
+            "contextual-color": "",
+            "tag": "em",
+            "text-transformation": ""
+        }
+    },
+    "Legend": {
+      "_tag": ["legend"],
+        "_attributes": {
+            "description": "This is the standard <code>&lt;legend&gt;</code> HTML element. It is used as a caption for the content of fieldsets."
+        },
+        "class": "Legend",
+        "cssClasses": {
+            "parent": "",
+            "system": ""
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": true,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {}
+    },
+    "List": {
+            "_tag": ["ul", "ol"],
+        "_attributes": {
+            "description": "This is the standard HTML list element. From the options, you can switch it to use either <code>&lt;ol&gt;</code> or <code>&lt;ul&gt;</code> elements.",
+            "possibleStyles": [
+                {
+                    "label": "Unordered (UL)",
+                    "value": "ul"
+                },
+                {
+                    "label": "Ordered (OL)",
+                    "value": "ol"
+                },
+                {
+                    "label": "Unstyled (UL)",
+                    "value": "unstyled"
+                },
+                {
+                    "label": "Inline (UL)",
+                    "value": "inline"
+                }
+            ],
+            "possibleTypes": [
+                {
+                    "label": "Numbers (1,2,3..)",
+                    "value": ""
+                },
+                {
+                    "label": "Letters (a,b,c..)",
+                    "value": "a"
+                },
+                {
+                    "label": "Letters (A,B,C..)",
+                    "value": "A"
+                },
+                {
+                    "label": "Roman (i,ii,iii..)",
+                    "value": "i"
+                },
+                {
+                    "label": "Roman (I,II,III..)",
+                    "value": "I"
+                }
+            ],
+            "suggestedComponents": [
+                "ListItem"
+            ]
+        },
+        "_html": "<ul>\n            <li>Item 1</li>\n            <li>Item 2</li>\n            <li>Item 3</li>\n            <li>Item 4</li>\n        </ul>",
+        "class": "List",
+        "cssClasses": {
+            "parent": "",
+            "system": ""
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": false,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {
+            "reversed": false,
+            "start": "",
+            "style": "ul",
+            "type": ""
+        }
+    },
+    "ListItem": {
+      "_tag": ["li"],
+        "_attributes": {
+            "prettyName": "List Item"
+        },
+        "class": "ListItem",
+        "cssClasses": {
+            "parent": "",
+            "system": ""
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": true,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {}
+    },
+    "Paragraph": {
+      "_tag": ["p"],
+        "_attributes": {
+            "description": "This is the standard <code>&lt;p&gt;</code> HTML element. Use it for writing body text. It is enhanced by Bootstrap's rich styling classes, available in the Options panel."
+        },
+        "_html": "<p>Paragraph</p>",
+        "class": "Paragraph",
+        "cssClasses": {
+            "parent": "",
+            "system": {}
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": true,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {
+            "contextual-background": "",
+            "contextual-color": "",
+            "text-alignment": "",
+            "text-lead": false,
+            "text-nowrap": false,
+            "text-transformation": ""
+        }
+    },
+    "ResponsiveEmbed": {
+        "_tag": ["iframe"],
+        "_attributes": {
+            "description": "This is a Bootstrap component for embedding external content. It maintains its aspect ratio regardless of screen size, which makes it a good fit for responsive video embedding.",
+            "possibleRatios": [
+                {
+                    "label": "16 by 9",
+                    "value": "16by9"
+                },
+                {
+                    "label": "4 by 3",
+                    "value": "4by3"
+                }
+            ],
+            "prettyName": "Responsive Embed"
+        },
+        "_html": "<div class=\"embed-responsive embed-responsive-16by9\">\n            <iframe class=\"embed-responsive-item\"></iframe>\n        </div>",
+        "class": "ResponsiveEmbed",
+        "cssClasses": {
+            "parent": "",
+            "system": "embed-responsive embed-responsive-16by9"
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": false,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {
+            "allowfullscreen": false,
+            "aspect-ratio": "16by9",
+            "src": ""
+        }
+    },
+    "Section": {
+      "_tag": ["section"],
+    "_attributes": {
+        "description": "This is the <code>&lt;section&gt;</code> HTML5 element. It represents a generic section of content inside your document."
+    },
+    "_html": "<section></section>",
+    "class": "Section",
+    "cssClasses": {
+        "parent": "",
+        "system": ""
+    },
+    "flags": {
+        "canBeCopied": true,
+        "canBeDeleted": true,
+        "canBeDuplicated": true,
+        "canBeEdited": false,
+        "canBeMoved": true,
+        "canBePackaged": true
+    },
+    "label": "",
+    "overrides": {},
+    "properties": {}
+},
+    "Select": {
+      "_tag": ["section"],
+        "_attributes": {
+            "description": "This is the <code>&lt;select&gt;</code> HTML element. It is a standard control, visualized as a dropdown list in browsers. You can control the items and groups from the Options panel.",
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "On",
+                    "value": "on"
+                },
+                {
+                    "label": "Off",
+                    "value": "off"
+                }
+            ],
+            "possibleInputModeValues": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Verbatim",
+                    "value": "verbatim"
+                },
+                {
+                    "label": "Latin",
+                    "value": "latin"
+                },
+                {
+                    "label": "Latin name",
+                    "value": "latin-name"
+                },
+                {
+                    "label": "Latin prose",
+                    "value": "latin-prose"
+                },
+                {
+                    "label": "Full width latin",
+                    "value": "full-width-latin"
+                },
+                {
+                    "label": "Kana",
+                    "value": "kana"
+                },
+                {
+                    "label": "Katakana",
+                    "value": "katakana"
+                },
+                {
+                    "label": "Numeric",
+                    "value": "numeric"
+                },
+                {
+                    "label": "Tel",
+                    "value": "tel"
+                },
+                {
+                    "label": "Email",
+                    "value": "email"
+                },
+                {
+                    "label": "Url",
+                    "value": "url"
+                }
+            ],
+            "possibleSizes": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Large",
+                    "value": "lg"
+                },
+                {
+                    "label": "Small",
+                    "value": "sm"
+                }
+            ]
+        },
+        "_html": "<select>\n            <optgroup label=\"This is a group\">\n                <option value=\"12\" selected=\"\">This is item 1</option>\n                <option value=\"13\">This is item 2</option>\n                <option value=\"14\">This is item 3</option>\n            </optgroup>\n        </select>",
+        "class": "Select",
+        "cssClasses": {
+            "parent": "",
+            "system": ""
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": false,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "items": [
+            {
+                "label": "This is a group",
+                "type": "OptionGroup"
+            },
+            {
+                "label": "This is item 1",
+                "selected": true,
+                "type": "OptionItem",
+                "value": "12"
+            },
+            {
+                "label": "This is item 2",
+                "type": "OptionItem",
+                "value": "13"
+            },
+            {
+                "label": "This is item 3",
+                "type": "OptionItem",
+                "value": "14"
+            }
+        ],
+        "label": "",
+        "overrides": {},
+        "properties": {
+            "autofocus": false,
+            "disabled": false,
+            "multiple": false,
+            "name": "",
+            "readonly": false,
+            "required": false,
+            "size": "",
+            "value": ""
+        }
+    },
+    "Small": {
+      "_tag": ["small"],
+        "_attributes": {
+            "description": "This is the <code>&lt;small&gt;</code> HTML element. It is generally used to represent side-comments and small print. It is displayed with a smaller font-size and lighter color than main content."
+        },
+        "_html": "<small>Text</small>",
+        "class": "Small",
+        "cssClasses": {
+            "parent": "",
+            "system": {}
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": true,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {
+            "contextual-background": "",
+            "contextual-color": "",
+            "text-transformation": ""
+        }
+    },
+    "Span": {
+      "_tag": ["span"],
+        "_attributes": {
+            "description": "This is the standard <code>&lt;span&gt;</code> HTML element."
+        },
+        "class": "Span",
+        "cssClasses": {
+            "parent": "",
+            "system": {}
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": true,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {
+            "contextual-background": "",
+            "contextual-color": "",
+            "text-transformation": ""
+        }
+    },
+    "Table": {
+      "_tag": ["table"],
+        "_attributes": {
+            "description": "This is the standard <code>&lt;table&gt;</code> HTML element. It is enhanced with Bootstrap styling classes, available from the Options panel."
+        },
+        "_html": "<div class=\"table-responsive\">\n            <table class=\"table\">\n                <thead>\n                    <tr>\n                        <th>Column 1</th>\n                        <th>Column 2</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <td>Cell 1</td>\n                        <td>Cell 2</td>\n                    </tr>\n                    <tr>\n                        <td>Cell 3</td>\n                        <td>Cell 4</td>\n                    </tr>\n                </tbody>\n            </table>\n        </div>",
+        "class": "Table",
+        "cssClasses": {
+            "parent": "",
+            "system": "table-responsive"
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": false,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {
+            "bordered": false,
+            "condensed": false,
+            "hover": false,
+            "responsive": false,
+            "showCaption": false,
+            "showTableFooter": false,
+            "showTableHeader": true,
+            "striped": false
+        }
+    },
+    "TableBody": {
+      "_tag": ["tbody"],
+        "_attributes": {
+            "prettyName": "Table Body"
+        },
+        "class": "TableBody",
+        "cssClasses": {
+            "parent": "",
+            "system": ""
+        },
+        "flags": {
+            "canBeCopied": false,
+            "canBeDeleted": false,
+            "canBeDuplicated": false,
+            "canBeEdited": false,
+            "canBeMoved": false,
+            "canBePackaged": false
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {}
+    },
+    "TableCell": {
+      "_tag": ["td"],
+        "_attributes": {
+            "description": "This is the standard <code>&lt;td&gt;</code> HTML element. Drop it inside table rows to create columns.",
+            "possibleStyles": [
+                {
+                    "label": "Default",
+                    "value": ""
+                },
+                {
+                    "label": "Active",
+                    "value": "active"
+                },
+                {
+                    "label": "Success",
+                    "value": "success"
+                },
+                {
+                    "label": "Info",
+                    "value": "info"
+                },
+                {
+                    "label": "Warning",
+                    "value": "warning"
+                },
+                {
+                    "label": "Danger",
+                    "value": "danger"
+                }
+            ],
+            "prettyName": "Table Cell"
+        },
+        "class": "TableCell",
+        "cssClasses": {
+            "parent": "",
+            "system": ""
+        },
+        "flags": {
+            "canBeCopied": true,
+            "canBeDeleted": true,
+            "canBeDuplicated": true,
+            "canBeEdited": true,
+            "canBeMoved": true,
+            "canBePackaged": true
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {
+            "colspan": "",
+            "rowspan": "",
+            "style": ""
+        }
+    },
+    "TableFooter": {
+      "_tag": ["tfoot"],
+        "_attributes": {
+            "prettyName": "Table Footer"
+        },
+        "class": "TableFooter",
+        "cssClasses": {
+            "parent": "",
+            "system": ""
+        },
+        "flags": {
+            "canBeCopied": false,
+            "canBeDeleted": false,
+            "canBeDuplicated": false,
+            "canBeEdited": false,
+            "canBeMoved": false,
+            "canBePackaged": false
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {}
+    },
+    "TableHeader": {
+      "_tag": ["thead"],
+        "_attributes": {
+            "prettyName": "Table Header"
+        },
+        "class": "TableHeader",
+        "cssClasses": {
+            "parent": "",
+            "system": ""
+        },
+        "flags": {
+            "canBeCopied": false,
+            "canBeDeleted": false,
+            "canBeDuplicated": false,
+            "canBeEdited": false,
+            "canBeMoved": false,
+            "canBePackaged": false
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {}
+    },
+    "TableRow": {
+      "_tag": ["tr"],
+        "_attributes": {
+            "description": "This is the standard <code>&lt;tr&gt;</code> HTML element. Drop it inside tables to create rows.",
+            "prettyName": "Table Row"
+        },
+        "class": "TableRow",
+        "cssClasses": {
+            "parent": "",
+            "system": ""
+        },
+        "flags": {
+            "canBeCopied": false,
+            "canBeDeleted": false,
+            "canBeDuplicated": false,
+            "canBeEdited": false,
+            "canBeMoved": false,
+            "canBePackaged": false
+        },
+        "label": "",
+        "overrides": {},
+        "properties": {
+            "style": ""
+        }
+    }
+  },
+  {
+    "InlineCharacter": {
+      "_attributes": {},
+      "bold": false,
+      "char": "H",
+      "class": "InlineCharacter",
+      "italic": false,
+      "link": false,
+      "strike": false,
+      "underline": false
+    }
+  }
+]

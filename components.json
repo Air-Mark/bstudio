@@ -1,0 +1,2649 @@
+{
+  "Heading": {
+    "possibleTypes": [
+      {
+        "label": "H1",
+        "value": "h1"
+      },
+      {
+        "label": "H2",
+        "value": "h2"
+      },
+      {
+        "label": "H3",
+        "value": "h3"
+      },
+      {
+        "label": "H4",
+        "value": "h4"
+      },
+      {
+        "label": "H5",
+        "value": "h5"
+      },
+      {
+        "label": "H6",
+        "value": "h6"
+      }
+    ],
+    "description": "This is the HTML heading component. You can choose which HTML tag is used - from <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>."
+  },
+  "Paragraph": {
+    "description": "This is the standard <code>&lt;p&gt;</code> HTML element. Use it for writing body text. It is enhanced by Bootstrap's rich styling classes, available in the Options panel."
+  },
+  "Alert": {
+    "possibleStyles": [
+      {
+        "label": "Success",
+        "value": "alert-success"
+      },
+      {
+        "label": "Info",
+        "value": "alert-info"
+      },
+      {
+        "label": "Warning",
+        "value": "alert-warning"
+      },
+      {
+        "label": "Danger",
+        "value": "alert-danger"
+      }
+    ],
+    "description": "Use this component to show a message to users of your web app. Usually it is displayed near the top of your page. It can have an optional dismiss button and you can choose one of several color themes."
+  },
+  "Blockquote": {
+    "possibleTypes": [
+      {
+        "label": "Regular",
+        "value": ""
+      },
+      {
+        "label": "Reverse",
+        "value": "blockquote-reverse"
+      }
+    ],
+    "description": "This is the HTML <code>&lt;blockquote&gt;</code> element, extended with Bootstrap markup for showing attribution."
+  },
+  "Small": {
+    "description": "This is the <code>&lt;small&gt;</code> HTML element. It is generally used to represent side-comments and small print. It is displayed with a smaller font-size and lighter color than main content."
+  },
+  "Bold": {
+    "possibleTypes": [
+      {
+        "label": "Strong",
+        "value": "strong"
+      },
+      {
+        "label": "B",
+        "value": "b"
+      }
+    ],
+    "description": "This is the standard <code>&lt;strong&gt;</code> element. You can optionally switch it to use a <code>&lt;b&gt;</code> tag instead."
+  },
+  "Italic": {
+    "possibleTypes": [
+      {
+        "label": "Em",
+        "value": "em"
+      },
+      {
+        "label": "I",
+        "value": "i"
+      }
+    ],
+    "description": "This is the standard <code>&lt;em&gt;</code> element. You can optionally switch it to use a <code>&lt;i&gt;</code> tag instead."
+  },
+  "Span": {
+    "description": "This is the standard <code>&lt;span&gt;</code> HTML element."
+  },
+  "Image": {
+    "possibleStyles": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Rounded",
+        "value": "img-rounded"
+      },
+      {
+        "label": "Circle",
+        "value": "img-circle"
+      },
+      {
+        "label": "Thumbnail",
+        "value": "img-thumbnail"
+      }
+    ],
+    "description": "This is the <code>&lt;image&gt;</code> HTML element. You can control its size, source, style and responsiveness from the Options panel."
+  },
+  "Icon": {
+    "description": "This is Bootstrap's icon component. You can choose from a number of available icon fonts. You can modify the icon's size and color by changing its CSS font-size and color properties."
+  },
+  "Carousel": {
+    "description": "This is Bootstrap's versatile Carousel component. It can display and animate text and photos. You have to enable the slides' captions in order to place non-image elements inside them."
+  },
+  "Figure": {
+    "suggestedComponents": [
+      "Image",
+      "Figcaption"
+    ],
+    "description": "This is the <code>&lt;figure&gt;</code> HTML5 element. Use it when embedding illustrations into articles. It groups images and <code>&lt;figcaption&gt;</code> elements together."
+  },
+  "Figcaption": {
+    "description": "This is the <code>&lt;figcaption&gt;</code> HTML5 element. Use it inside <code>&lt;figure&gt;</code> to give images a caption."
+  },
+  "Button": {
+    "buttonSizes": [
+      {
+        "label": "Large",
+        "value": "btn-lg"
+      },
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Small",
+        "value": "btn-sm"
+      },
+      {
+        "label": "Extra small",
+        "value": "btn-xs"
+      }
+    ],
+    "buttonStyles": [
+      {
+        "label": "Default",
+        "value": "btn-default"
+      },
+      {
+        "label": "Primary",
+        "value": "btn-primary"
+      },
+      {
+        "label": "Success",
+        "value": "btn-success"
+      },
+      {
+        "label": "Info",
+        "value": "btn-info"
+      },
+      {
+        "label": "Warning",
+        "value": "btn-warning"
+      },
+      {
+        "label": "Danger",
+        "value": "btn-danger"
+      },
+      {
+        "label": "Link",
+        "value": "btn-link"
+      }
+    ],
+    "buttonTypes": [
+      {
+        "label": "Button",
+        "value": "button"
+      },
+      {
+        "label": "Submit",
+        "value": "submit"
+      },
+      {
+        "label": "Reset",
+        "value": "reset"
+      }
+    ],
+    "description": "This is the multi-functional Bootstrap Button component. You have a choice of possible themes, button types and sizes. Search for the related Dropdown and Split Button components if you need your button to trigger dropdown menus."
+  },
+  "SplitButton": {
+    "prettyName": "Split Button",
+    "description": "This is the Bootstrap Split Button component. It consists of two buttons, the second of which triggers a dropdown menu. Look for the Dropdown component if you need only a single button."
+  },
+  "ButtonGroup": {
+    "possibleTypes": [
+      {
+        "label": "Horizontal",
+        "value": "btn-group"
+      },
+      {
+        "label": "Vertical",
+        "value": "btn-group-vertical"
+      }
+    ],
+    "possibleSizes": [
+      {
+        "label": "Large",
+        "value": "btn-group-lg"
+      },
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Small",
+        "value": "btn-group-sm"
+      },
+      {
+        "label": "Extra Small",
+        "value": "btn-group-xs"
+      }
+    ],
+    "prettyName": "Button Group",
+    "suggestedComponents": [
+      "Button"
+    ],
+    "description": "A Button Group is a Bootstrap component for grouping together buttons. If you need more than one group, check out the Button Toolbar component."
+  },
+  "ButtonToolbar": {
+    "prettyName": "Button Toolbar",
+    "suggestedComponents": [
+      "Button",
+      "ButtonGroup"
+    ],
+    "description": "A Button Toolbar is a Bootstrap component for grouping together button groups. Use this to organize the main actions of your web app."
+  },
+  "Dropdown": {
+    "description": "This is Bootstrap's Dropdown component. With it you can display a dropdown menu triggered by a button. You can add, remove and rearrange dropdown items, and change the design of the button."
+  },
+  "Anchor": {
+    "possibleTargets": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Blank",
+        "value": "_blank"
+      },
+      {
+        "label": "Parent",
+        "value": "_parent"
+      },
+      {
+        "label": "Top",
+        "value": "_top"
+      }
+    ],
+    "prettyName": "Link",
+    "description": "This is the regular <code>&lt;a&gt;</code> element. Use it to link to other pages or websites."
+  },
+  "Row": {
+    "suggestedComponents": [
+      "Column",
+      "Clearfix"
+    ],
+    "description": "This is the Bootstrap Row component. This is a fundamental building block of the responsive grid. Place Rows inside Containers, and drop Columns inside them to build a responsive page."
+  },
+  "Column": {
+    "description": "This is the Bootstrap Column component. This is the fundamental building block of the responsive grid. Place columns inside Rows and control their width with the col-* responsive classes. There are lots of responsive options available in the Column's Option panel."
+  },
+  "Clearfix": {
+    "description": "This is Bootstrap's Clearfix component. Place it inside a Row to break columns into separate lines. Use the \"Responsive Visibility\" classes in the Options panel to control when Clearfix is active."
+  },
+  "Container": {
+    "suggestedComponents": [
+      "Row"
+    ],
+    "description": "Containers are Bootstrap components which limit the width of the page. Usually you would place a single Container as an element that wraps around all of your content. You can switch between fluid and fixed width containers from the Option panel."
+  },
+  "Panel": {
+    "possibleStyles": [
+      {
+        "label": "Default",
+        "value": "panel-default"
+      },
+      {
+        "label": "Primary",
+        "value": "panel-primary"
+      },
+      {
+        "label": "Success",
+        "value": "panel-success"
+      },
+      {
+        "label": "Info",
+        "value": "panel-info"
+      },
+      {
+        "label": "Warning",
+        "value": "panel-warning"
+      },
+      {
+        "label": "Danger",
+        "value": "panel-danger"
+      }
+    ],
+    "suggestedComponents": [
+      "Table",
+      "ListGroup"
+    ],
+    "description": "This is Bootstrap's Panel component. It displays your content inside a customizable container with a heading, body and footer. The body and footer can be hidden from the options."
+  },
+  "Tabs": {
+    "description": "This is Bootstrap's Tabs component. Each tab has an associated Tab Pane which is displayed when the tab is active."
+  },
+  "Accordion": {
+    "description": "This is a Bootstrap component for displaying content in vertical groups. Only one group is expanded at a time. This is a great way to organize FAQ pages and other layouts where vertical content is at a premium."
+  },
+  "Collapse": {
+    "description": "This is a Bootstrap component which consists of a Button and a Div. The Div is shown/hidden when the button is pressed."
+  },
+  "ListGroup": {
+    "possibleTypes": [
+      {
+        "label": "Unordered List",
+        "value": "ul"
+      },
+      {
+        "label": "Div With Links",
+        "value": "div-with-links"
+      },
+      {
+        "label": "Div With Buttons",
+        "value": "div-with-buttons"
+      }
+    ],
+    "prettyName": "List Group",
+    "suggestedComponents": [
+      "ListGroupItem"
+    ],
+    "description": "This is Bootstrap's versatile List Group component. It is a good way to display groups of elements. It supports a number of color styles."
+  },
+  "Media": {
+    "description": "This is Bootstrap's Media component. It is used for building rich types of content like comments and tweets, which combine images and text."
+  },
+  "Jumbotron": {
+    "description": "This is Bootstrap's Jumbotron component. It is used to showcase key content on your page. Looks great with an image background, bold, contrasting text, and an action button."
+  },
+  "Thumbnail": {
+    "description": "This is Bootstrap's Thumbnail component. It is used to show grids of images, videos, text and more, with minimal required markup."
+  },
+  "Well": {
+    "possibleSizes": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Small",
+        "value": "well-sm"
+      },
+      {
+        "label": "Large",
+        "value": "well-lg"
+      }
+    ],
+    "description": "This is simple Bootstrap component for giving content an inset effect."
+  },
+  "List": {
+    "possibleStyles": [
+      {
+        "label": "Unordered (UL)",
+        "value": "ul"
+      },
+      {
+        "label": "Ordered (OL)",
+        "value": "ol"
+      },
+      {
+        "label": "Unstyled (UL)",
+        "value": "unstyled"
+      },
+      {
+        "label": "Inline (UL)",
+        "value": "inline"
+      }
+    ],
+    "possibleTypes": [
+      {
+        "label": "Numbers (1,2,3..)",
+        "value": ""
+      },
+      {
+        "label": "Letters (a,b,c..)",
+        "value": "a"
+      },
+      {
+        "label": "Letters (A,B,C..)",
+        "value": "A"
+      },
+      {
+        "label": "Roman (i,ii,iii..)",
+        "value": "i"
+      },
+      {
+        "label": "Roman (I,II,III..)",
+        "value": "I"
+      }
+    ],
+    "suggestedComponents": [
+      "ListItem"
+    ],
+    "description": "This is the standard HTML list element. From the options, you can switch it to use either <code>&lt;ol&gt;</code> or <code>&lt;ul&gt;</code> elements."
+  },
+  "Div": {
+    "description": "This is the standard <code>&lt;div&gt;</code> HTML element."
+  },
+  "NavBar": {
+    "possibleStyles": [
+      {
+        "label": "Default",
+        "value": "navbar-default"
+      },
+      {
+        "label": "Inverted colors",
+        "value": "navbar-inverse"
+      }
+    ],
+    "possiblePositions": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Fixed to top",
+        "value": "navbar-fixed-top"
+      },
+      {
+        "label": "Fixed to bottom",
+        "value": "navbar-fixed-bottom"
+      },
+      {
+        "label": "Static top",
+        "value": "navbar-static-top"
+      }
+    ],
+    "prettyName": "Navbar",
+    "suggestedComponents": [
+      "Nav",
+      "NavItem",
+      "Dropdown",
+      "Paragraph",
+      "Anchor",
+      "Button"
+    ],
+    "description": "The Nav Bar is a fully featured Bootstrap component for building website navigation menus. It is fully responsive and supports a large number of options. Can be fixed to the top/bottom of the page or fluid."
+  },
+  "Nav": {
+    "possibleTypes": [
+      {
+        "label": "Tabs",
+        "value": "nav-tabs"
+      },
+      {
+        "label": "Pills",
+        "value": "nav-pills"
+      }
+    ],
+    "suggestedComponents": [
+      "NavItem",
+      "Dropdown"
+    ],
+    "description": "This is Bootstrap's flexible Nav component. It can be used for building navigations, tabs and more. If you need a full website header, look for the Nav Bar component. If you need tabs, look for the Tabs component."
+  },
+  "PageHeader": {
+    "prettyName": "Page Header",
+    "description": "This is a Bootstrap component which displays a heading element with generous spacing for dividing your page into sections."
+  },
+  "Header": {
+    "description": "This is the <code>&lt;header&gt;</code> HTML5 element. It represents a group of introductory or navigational aids. It may contain some heading elements but also other elements like a logo, a search form and so on."
+  },
+  "Footer": {
+    "description": "This is the <code>&lt;footer&gt;</code> HTML5 element. Use it as the main element of your footers to give them semantic meaning."
+  },
+  "Hgroup": {
+    "suggestedComponents": [
+      "Heading"
+    ],
+    "description": "This is the <code>&lt;hgroup&gt;</code> HTML5 element. It is used to group together heading elements."
+  },
+  "Section": {
+    "description": "This is the <code>&lt;section&gt;</code> HTML5 element. It represents a generic section of content inside your document."
+  },
+  "Article": {
+    "description": "This is the HTML5 <code>&lt;article&gt;</code> element. Use it to wrap articles or other content items to give semantic meaning to your design."
+  },
+  "Aside": {
+    "description": "This is the HTML5 <code>&lt;aside&gt;</code> element. Use it when building sidebars or when presenting related content."
+  },
+  "Pagination": {
+    "possibleSizes": [
+      {
+        "label": "Small",
+        "value": "pagination-sm"
+      },
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Large",
+        "value": "pagination-lg"
+      }
+    ],
+    "description": "This is a Bootstrap component which displays a list of page numbers for pagination purposes."
+  },
+  "Pager": {
+    "description": "This is a Bootstrap component which displays Previous and Next buttons for pagination."
+  },
+  "Table": {
+    "description": "This is the standard <code>&lt;table&gt;</code> HTML element. It is enhanced with Bootstrap styling classes, available from the Options panel."
+  },
+  "TableRow": {
+    "prettyName": "Table Row",
+    "description": "This is the standard <code>&lt;tr&gt;</code> HTML element. Drop it inside tables to create rows."
+  },
+  "TableCell": {
+    "possibleStyles": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Active",
+        "value": "active"
+      },
+      {
+        "label": "Success",
+        "value": "success"
+      },
+      {
+        "label": "Info",
+        "value": "info"
+      },
+      {
+        "label": "Warning",
+        "value": "warning"
+      },
+      {
+        "label": "Danger",
+        "value": "danger"
+      }
+    ],
+    "prettyName": "Table Cell",
+    "description": "This is the standard <code>&lt;td&gt;</code> HTML element. Drop it inside table rows to create columns."
+  },
+  "Form": {
+    "possibleTypes": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Inline",
+        "value": "form-inline"
+      },
+      {
+        "label": "Horizontal",
+        "value": "form-horizontal"
+      }
+    ],
+    "possibleMethods": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Get",
+        "value": "get"
+      },
+      {
+        "label": "Post",
+        "value": "post"
+      }
+    ],
+    "possibleTargets": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Self",
+        "value": "_self"
+      },
+      {
+        "label": "Blank",
+        "value": "_blank"
+      },
+      {
+        "label": "Parent",
+        "value": "_parent"
+      },
+      {
+        "label": "Top",
+        "value": "_top"
+      }
+    ],
+    "possibleEnctypes": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "URL Encoded",
+        "value": "application/x-www-form-urlencoded"
+      },
+      {
+        "label": "Multipart",
+        "value": "multipart/form-data"
+      },
+      {
+        "label": "Plain",
+        "value": "text/plain"
+      }
+    ],
+    "suggestedComponents": [
+      "FormGroup"
+    ],
+    "description": "This is Bootstrap's form component. It is like the regular HTML <code>&lt;form&gt;</code>, but extended with styling and layout classes. Usually forms in Bootstrap contain only Form Group children."
+  },
+  "FormGroup": {
+    "possibleValidationStates": [
+      {
+        "label": "None",
+        "value": ""
+      },
+      {
+        "label": "Success",
+        "value": "success"
+      },
+      {
+        "label": "Warning",
+        "value": "warning"
+      },
+      {
+        "label": "Error",
+        "value": "error"
+      }
+    ],
+    "prettyName": "Form Group",
+    "description": "Form Group is a Bootstrap component which is added to forms. Use it to give elements proper spacing. Each Form Group should contain a single label and a form field."
+  },
+  "FormControlFeedback": {
+    "prettyName": "Form Control Feedback",
+    "description": "This is a Bootstrap component which is added to Form Groups and displays an icon next to inputs. Use it to show warning or success icons, or to mark fields that are required."
+  },
+  "FieldLabel": {
+    "prettyName": "Field Label",
+    "description": "This is the standard <code>&lt;label&gt;</code> HTML element for displaying labels in forms. For better accessibility, make sure that the \"for\" attribute points to the id of the related field."
+  },
+  "InputText": {
+    "prettyName": "Text Input",
+    "description": "This is the standard <code>&lt;input type=&quot;text&quot; /&gt;</code> HTML element. Use it to collect textual data from users without a specific format.",
+    "possibleSizes": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Large",
+        "value": "lg"
+      },
+      {
+        "label": "Small",
+        "value": "sm"
+      }
+    ],
+    "possibleAutocompleteValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "On",
+        "value": "on"
+      },
+      {
+        "label": "Off",
+        "value": "off"
+      }
+    ],
+    "possibleInputModeValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Verbatim",
+        "value": "verbatim"
+      },
+      {
+        "label": "Latin",
+        "value": "latin"
+      },
+      {
+        "label": "Latin name",
+        "value": "latin-name"
+      },
+      {
+        "label": "Latin prose",
+        "value": "latin-prose"
+      },
+      {
+        "label": "Full width latin",
+        "value": "full-width-latin"
+      },
+      {
+        "label": "Kana",
+        "value": "kana"
+      },
+      {
+        "label": "Katakana",
+        "value": "katakana"
+      },
+      {
+        "label": "Numeric",
+        "value": "numeric"
+      },
+      {
+        "label": "Tel",
+        "value": "tel"
+      },
+      {
+        "label": "Email",
+        "value": "email"
+      },
+      {
+        "label": "Url",
+        "value": "url"
+      }
+    ]
+  },
+  "InputEmail": {
+    "prettyName": "Email Input",
+    "description": "This is the <code>&lt;input type=&quot;email&quot; /&gt;</code> HTML5 element. Use it in forms to ask users for their email addresses.",
+    "possibleSizes": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Large",
+        "value": "lg"
+      },
+      {
+        "label": "Small",
+        "value": "sm"
+      }
+    ],
+    "possibleAutocompleteValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "On",
+        "value": "on"
+      },
+      {
+        "label": "Off",
+        "value": "off"
+      }
+    ],
+    "possibleInputModeValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Verbatim",
+        "value": "verbatim"
+      },
+      {
+        "label": "Latin",
+        "value": "latin"
+      },
+      {
+        "label": "Latin name",
+        "value": "latin-name"
+      },
+      {
+        "label": "Latin prose",
+        "value": "latin-prose"
+      },
+      {
+        "label": "Full width latin",
+        "value": "full-width-latin"
+      },
+      {
+        "label": "Kana",
+        "value": "kana"
+      },
+      {
+        "label": "Katakana",
+        "value": "katakana"
+      },
+      {
+        "label": "Numeric",
+        "value": "numeric"
+      },
+      {
+        "label": "Tel",
+        "value": "tel"
+      },
+      {
+        "label": "Email",
+        "value": "email"
+      },
+      {
+        "label": "Url",
+        "value": "url"
+      }
+    ]
+  },
+  "InputColor": {
+    "prettyName": "Color Input",
+    "description": "This is the <code>&lt;input type=&quot;color&quot; /&gt;</code> HTML5 element. In modern browsers it displays a color picker for selecting color values.",
+    "possibleSizes": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Large",
+        "value": "lg"
+      },
+      {
+        "label": "Small",
+        "value": "sm"
+      }
+    ],
+    "possibleAutocompleteValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "On",
+        "value": "on"
+      },
+      {
+        "label": "Off",
+        "value": "off"
+      }
+    ],
+    "possibleInputModeValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Verbatim",
+        "value": "verbatim"
+      },
+      {
+        "label": "Latin",
+        "value": "latin"
+      },
+      {
+        "label": "Latin name",
+        "value": "latin-name"
+      },
+      {
+        "label": "Latin prose",
+        "value": "latin-prose"
+      },
+      {
+        "label": "Full width latin",
+        "value": "full-width-latin"
+      },
+      {
+        "label": "Kana",
+        "value": "kana"
+      },
+      {
+        "label": "Katakana",
+        "value": "katakana"
+      },
+      {
+        "label": "Numeric",
+        "value": "numeric"
+      },
+      {
+        "label": "Tel",
+        "value": "tel"
+      },
+      {
+        "label": "Email",
+        "value": "email"
+      },
+      {
+        "label": "Url",
+        "value": "url"
+      }
+    ]
+  },
+  "Select": {
+    "description": "This is the <code>&lt;select&gt;</code> HTML element. It is a standard control, visualized as a dropdown list in browsers. You can control the items and groups from the Options panel.",
+    "possibleSizes": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Large",
+        "value": "lg"
+      },
+      {
+        "label": "Small",
+        "value": "sm"
+      }
+    ],
+    "possibleAutocompleteValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "On",
+        "value": "on"
+      },
+      {
+        "label": "Off",
+        "value": "off"
+      }
+    ],
+    "possibleInputModeValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Verbatim",
+        "value": "verbatim"
+      },
+      {
+        "label": "Latin",
+        "value": "latin"
+      },
+      {
+        "label": "Latin name",
+        "value": "latin-name"
+      },
+      {
+        "label": "Latin prose",
+        "value": "latin-prose"
+      },
+      {
+        "label": "Full width latin",
+        "value": "full-width-latin"
+      },
+      {
+        "label": "Kana",
+        "value": "kana"
+      },
+      {
+        "label": "Katakana",
+        "value": "katakana"
+      },
+      {
+        "label": "Numeric",
+        "value": "numeric"
+      },
+      {
+        "label": "Tel",
+        "value": "tel"
+      },
+      {
+        "label": "Email",
+        "value": "email"
+      },
+      {
+        "label": "Url",
+        "value": "url"
+      }
+    ]
+  },
+  "InputTel": {
+    "prettyName": "Telephone Input",
+    "description": "This is the <code>&lt;input type=&quot;tel&quot; /&gt;</code> HTML5 element. It is used for entering phone numbers. Mobile devices show specialized keyboard that makes text entry easier.",
+    "possibleSizes": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Large",
+        "value": "lg"
+      },
+      {
+        "label": "Small",
+        "value": "sm"
+      }
+    ],
+    "possibleAutocompleteValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "On",
+        "value": "on"
+      },
+      {
+        "label": "Off",
+        "value": "off"
+      }
+    ],
+    "possibleInputModeValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Verbatim",
+        "value": "verbatim"
+      },
+      {
+        "label": "Latin",
+        "value": "latin"
+      },
+      {
+        "label": "Latin name",
+        "value": "latin-name"
+      },
+      {
+        "label": "Latin prose",
+        "value": "latin-prose"
+      },
+      {
+        "label": "Full width latin",
+        "value": "full-width-latin"
+      },
+      {
+        "label": "Kana",
+        "value": "kana"
+      },
+      {
+        "label": "Katakana",
+        "value": "katakana"
+      },
+      {
+        "label": "Numeric",
+        "value": "numeric"
+      },
+      {
+        "label": "Tel",
+        "value": "tel"
+      },
+      {
+        "label": "Email",
+        "value": "email"
+      },
+      {
+        "label": "Url",
+        "value": "url"
+      }
+    ]
+  },
+  "InputDateAndTime": {
+    "possibleTypes": [
+      {
+        "label": "Date",
+        "value": "date"
+      },
+      {
+        "label": "Time",
+        "value": "time"
+      },
+      {
+        "label": "Datetime Local",
+        "value": "datetime-local"
+      },
+      {
+        "label": "Month",
+        "value": "month"
+      },
+      {
+        "label": "Week",
+        "value": "week"
+      }
+    ],
+    "prettyName": "Date And Time Input",
+    "description": "This component combines a number of date and time related HTML5 input elements into one. Choose the type you need from the Options panel.",
+    "possibleSizes": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Large",
+        "value": "lg"
+      },
+      {
+        "label": "Small",
+        "value": "sm"
+      }
+    ],
+    "possibleAutocompleteValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "On",
+        "value": "on"
+      },
+      {
+        "label": "Off",
+        "value": "off"
+      }
+    ],
+    "possibleInputModeValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Verbatim",
+        "value": "verbatim"
+      },
+      {
+        "label": "Latin",
+        "value": "latin"
+      },
+      {
+        "label": "Latin name",
+        "value": "latin-name"
+      },
+      {
+        "label": "Latin prose",
+        "value": "latin-prose"
+      },
+      {
+        "label": "Full width latin",
+        "value": "full-width-latin"
+      },
+      {
+        "label": "Kana",
+        "value": "kana"
+      },
+      {
+        "label": "Katakana",
+        "value": "katakana"
+      },
+      {
+        "label": "Numeric",
+        "value": "numeric"
+      },
+      {
+        "label": "Tel",
+        "value": "tel"
+      },
+      {
+        "label": "Email",
+        "value": "email"
+      },
+      {
+        "label": "Url",
+        "value": "url"
+      }
+    ]
+  },
+  "InputNumber": {
+    "prettyName": "Number Input",
+    "description": "This is the <code>&lt;input type=&quot;number&quot; /&gt;</code> HTML5 element. Use it to when you wish to limit the entered text only to numbers.",
+    "possibleSizes": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Large",
+        "value": "lg"
+      },
+      {
+        "label": "Small",
+        "value": "sm"
+      }
+    ],
+    "possibleAutocompleteValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "On",
+        "value": "on"
+      },
+      {
+        "label": "Off",
+        "value": "off"
+      }
+    ],
+    "possibleInputModeValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Verbatim",
+        "value": "verbatim"
+      },
+      {
+        "label": "Latin",
+        "value": "latin"
+      },
+      {
+        "label": "Latin name",
+        "value": "latin-name"
+      },
+      {
+        "label": "Latin prose",
+        "value": "latin-prose"
+      },
+      {
+        "label": "Full width latin",
+        "value": "full-width-latin"
+      },
+      {
+        "label": "Kana",
+        "value": "kana"
+      },
+      {
+        "label": "Katakana",
+        "value": "katakana"
+      },
+      {
+        "label": "Numeric",
+        "value": "numeric"
+      },
+      {
+        "label": "Tel",
+        "value": "tel"
+      },
+      {
+        "label": "Email",
+        "value": "email"
+      },
+      {
+        "label": "Url",
+        "value": "url"
+      }
+    ]
+  },
+  "InputRange": {
+    "prettyName": "Range Input",
+    "description": "This is the <code>&lt;input type=&quot;range&quot; /&gt;</code> HTML5 element. In modern browsers it is visualized as a slider with minimum and maximum values.",
+    "possibleSizes": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Large",
+        "value": "lg"
+      },
+      {
+        "label": "Small",
+        "value": "sm"
+      }
+    ],
+    "possibleAutocompleteValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "On",
+        "value": "on"
+      },
+      {
+        "label": "Off",
+        "value": "off"
+      }
+    ],
+    "possibleInputModeValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Verbatim",
+        "value": "verbatim"
+      },
+      {
+        "label": "Latin",
+        "value": "latin"
+      },
+      {
+        "label": "Latin name",
+        "value": "latin-name"
+      },
+      {
+        "label": "Latin prose",
+        "value": "latin-prose"
+      },
+      {
+        "label": "Full width latin",
+        "value": "full-width-latin"
+      },
+      {
+        "label": "Kana",
+        "value": "kana"
+      },
+      {
+        "label": "Katakana",
+        "value": "katakana"
+      },
+      {
+        "label": "Numeric",
+        "value": "numeric"
+      },
+      {
+        "label": "Tel",
+        "value": "tel"
+      },
+      {
+        "label": "Email",
+        "value": "email"
+      },
+      {
+        "label": "Url",
+        "value": "url"
+      }
+    ]
+  },
+  "InputHidden": {
+    "prettyName": "Hidden Input",
+    "description": "This is the <code>&lt;input type=&quot;hidden&quot; /&gt;</code> HTML element. Use it to pass data to your form handling backend script.",
+    "possibleSizes": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Large",
+        "value": "lg"
+      },
+      {
+        "label": "Small",
+        "value": "sm"
+      }
+    ],
+    "possibleAutocompleteValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "On",
+        "value": "on"
+      },
+      {
+        "label": "Off",
+        "value": "off"
+      }
+    ],
+    "possibleInputModeValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Verbatim",
+        "value": "verbatim"
+      },
+      {
+        "label": "Latin",
+        "value": "latin"
+      },
+      {
+        "label": "Latin name",
+        "value": "latin-name"
+      },
+      {
+        "label": "Latin prose",
+        "value": "latin-prose"
+      },
+      {
+        "label": "Full width latin",
+        "value": "full-width-latin"
+      },
+      {
+        "label": "Kana",
+        "value": "kana"
+      },
+      {
+        "label": "Katakana",
+        "value": "katakana"
+      },
+      {
+        "label": "Numeric",
+        "value": "numeric"
+      },
+      {
+        "label": "Tel",
+        "value": "tel"
+      },
+      {
+        "label": "Email",
+        "value": "email"
+      },
+      {
+        "label": "Url",
+        "value": "url"
+      }
+    ]
+  },
+  "InputURL": {
+    "prettyName": "URL Input",
+    "description": "This is the <code>&lt;input type=&quot;url&quot; /&gt;</code> HTML5 element. It is used for entering and validating URL addresses.",
+    "possibleSizes": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Large",
+        "value": "lg"
+      },
+      {
+        "label": "Small",
+        "value": "sm"
+      }
+    ],
+    "possibleAutocompleteValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "On",
+        "value": "on"
+      },
+      {
+        "label": "Off",
+        "value": "off"
+      }
+    ],
+    "possibleInputModeValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Verbatim",
+        "value": "verbatim"
+      },
+      {
+        "label": "Latin",
+        "value": "latin"
+      },
+      {
+        "label": "Latin name",
+        "value": "latin-name"
+      },
+      {
+        "label": "Latin prose",
+        "value": "latin-prose"
+      },
+      {
+        "label": "Full width latin",
+        "value": "full-width-latin"
+      },
+      {
+        "label": "Kana",
+        "value": "kana"
+      },
+      {
+        "label": "Katakana",
+        "value": "katakana"
+      },
+      {
+        "label": "Numeric",
+        "value": "numeric"
+      },
+      {
+        "label": "Tel",
+        "value": "tel"
+      },
+      {
+        "label": "Email",
+        "value": "email"
+      },
+      {
+        "label": "Url",
+        "value": "url"
+      }
+    ]
+  },
+  "InputSearch": {
+    "prettyName": "Search Input",
+    "description": "This is the <code>&lt;input type=&quot;search&quot; /&gt;</code> HTML5 element. It may be displayed differently depending on the browser and OS used.",
+    "possibleSizes": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Large",
+        "value": "lg"
+      },
+      {
+        "label": "Small",
+        "value": "sm"
+      }
+    ],
+    "possibleAutocompleteValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "On",
+        "value": "on"
+      },
+      {
+        "label": "Off",
+        "value": "off"
+      }
+    ],
+    "possibleInputModeValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Verbatim",
+        "value": "verbatim"
+      },
+      {
+        "label": "Latin",
+        "value": "latin"
+      },
+      {
+        "label": "Latin name",
+        "value": "latin-name"
+      },
+      {
+        "label": "Latin prose",
+        "value": "latin-prose"
+      },
+      {
+        "label": "Full width latin",
+        "value": "full-width-latin"
+      },
+      {
+        "label": "Kana",
+        "value": "kana"
+      },
+      {
+        "label": "Katakana",
+        "value": "katakana"
+      },
+      {
+        "label": "Numeric",
+        "value": "numeric"
+      },
+      {
+        "label": "Tel",
+        "value": "tel"
+      },
+      {
+        "label": "Email",
+        "value": "email"
+      },
+      {
+        "label": "Url",
+        "value": "url"
+      }
+    ]
+  },
+  "InputPassword": {
+    "prettyName": "Password Input",
+    "description": "This is the <code>&lt;input type=&quot;password&quot; /&gt;</code> HTML element. Use it when you need to collect passwords and other sensitive data.",
+    "possibleSizes": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Large",
+        "value": "lg"
+      },
+      {
+        "label": "Small",
+        "value": "sm"
+      }
+    ],
+    "possibleAutocompleteValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "On",
+        "value": "on"
+      },
+      {
+        "label": "Off",
+        "value": "off"
+      }
+    ],
+    "possibleInputModeValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Verbatim",
+        "value": "verbatim"
+      },
+      {
+        "label": "Latin",
+        "value": "latin"
+      },
+      {
+        "label": "Latin name",
+        "value": "latin-name"
+      },
+      {
+        "label": "Latin prose",
+        "value": "latin-prose"
+      },
+      {
+        "label": "Full width latin",
+        "value": "full-width-latin"
+      },
+      {
+        "label": "Kana",
+        "value": "kana"
+      },
+      {
+        "label": "Katakana",
+        "value": "katakana"
+      },
+      {
+        "label": "Numeric",
+        "value": "numeric"
+      },
+      {
+        "label": "Tel",
+        "value": "tel"
+      },
+      {
+        "label": "Email",
+        "value": "email"
+      },
+      {
+        "label": "Url",
+        "value": "url"
+      }
+    ]
+  },
+  "InputFile": {
+    "possibleAcceptValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "audio/*",
+        "value": "audio/*"
+      },
+      {
+        "label": "video/*",
+        "value": "video/*"
+      },
+      {
+        "label": "image/*",
+        "value": "image/*"
+      },
+      {
+        "label": "Custom..",
+        "value": "__custom"
+      }
+    ],
+    "prettyName": "File Input",
+    "description": "This is the <code>&lt;input type=&quot;file&quot; /&gt;</code> HTML element. Use it to add file upload functionality to your forms. Remember to set the form's Encoding to Multipart.",
+    "possibleSizes": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Large",
+        "value": "lg"
+      },
+      {
+        "label": "Small",
+        "value": "sm"
+      }
+    ],
+    "possibleAutocompleteValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "On",
+        "value": "on"
+      },
+      {
+        "label": "Off",
+        "value": "off"
+      }
+    ],
+    "possibleInputModeValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Verbatim",
+        "value": "verbatim"
+      },
+      {
+        "label": "Latin",
+        "value": "latin"
+      },
+      {
+        "label": "Latin name",
+        "value": "latin-name"
+      },
+      {
+        "label": "Latin prose",
+        "value": "latin-prose"
+      },
+      {
+        "label": "Full width latin",
+        "value": "full-width-latin"
+      },
+      {
+        "label": "Kana",
+        "value": "kana"
+      },
+      {
+        "label": "Katakana",
+        "value": "katakana"
+      },
+      {
+        "label": "Numeric",
+        "value": "numeric"
+      },
+      {
+        "label": "Tel",
+        "value": "tel"
+      },
+      {
+        "label": "Email",
+        "value": "email"
+      },
+      {
+        "label": "Url",
+        "value": "url"
+      }
+    ]
+  },
+  "InputCheckbox": {
+    "prettyName": "Checkbox",
+    "description": "This is the <code>&lt;input type=&quot;checkbox&quot; /&gt;</code> HTML element. If you wish to use it in Bootstrap forms, look for the Checkbox With Label component.",
+    "possibleSizes": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Large",
+        "value": "lg"
+      },
+      {
+        "label": "Small",
+        "value": "sm"
+      }
+    ],
+    "possibleAutocompleteValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "On",
+        "value": "on"
+      },
+      {
+        "label": "Off",
+        "value": "off"
+      }
+    ],
+    "possibleInputModeValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Verbatim",
+        "value": "verbatim"
+      },
+      {
+        "label": "Latin",
+        "value": "latin"
+      },
+      {
+        "label": "Latin name",
+        "value": "latin-name"
+      },
+      {
+        "label": "Latin prose",
+        "value": "latin-prose"
+      },
+      {
+        "label": "Full width latin",
+        "value": "full-width-latin"
+      },
+      {
+        "label": "Kana",
+        "value": "kana"
+      },
+      {
+        "label": "Katakana",
+        "value": "katakana"
+      },
+      {
+        "label": "Numeric",
+        "value": "numeric"
+      },
+      {
+        "label": "Tel",
+        "value": "tel"
+      },
+      {
+        "label": "Email",
+        "value": "email"
+      },
+      {
+        "label": "Url",
+        "value": "url"
+      }
+    ]
+  },
+  "CheckboxHolder": {
+    "prettyName": "Checkbox With Label",
+    "description": "This is a Bootstrap component composed of a Checkbox and a Label. You can enable/disable it or choose for it to be displayed inline. The Checkbox and Label are also available as individual components in the library."
+  },
+  "InputRadio": {
+    "prettyName": "Radio",
+    "description": "This is the <code>&lt;input type=&quot;radio&quot; /&gt;</code> HTML element. Place several components of this type with the same \"name\" attribute but different values to get a radio group. If you wish to show a label next to it, look for the Radio With Label component.",
+    "possibleSizes": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Large",
+        "value": "lg"
+      },
+      {
+        "label": "Small",
+        "value": "sm"
+      }
+    ],
+    "possibleAutocompleteValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "On",
+        "value": "on"
+      },
+      {
+        "label": "Off",
+        "value": "off"
+      }
+    ],
+    "possibleInputModeValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Verbatim",
+        "value": "verbatim"
+      },
+      {
+        "label": "Latin",
+        "value": "latin"
+      },
+      {
+        "label": "Latin name",
+        "value": "latin-name"
+      },
+      {
+        "label": "Latin prose",
+        "value": "latin-prose"
+      },
+      {
+        "label": "Full width latin",
+        "value": "full-width-latin"
+      },
+      {
+        "label": "Kana",
+        "value": "kana"
+      },
+      {
+        "label": "Katakana",
+        "value": "katakana"
+      },
+      {
+        "label": "Numeric",
+        "value": "numeric"
+      },
+      {
+        "label": "Tel",
+        "value": "tel"
+      },
+      {
+        "label": "Email",
+        "value": "email"
+      },
+      {
+        "label": "Url",
+        "value": "url"
+      }
+    ]
+  },
+  "RadioHolder": {
+    "prettyName": "Radio With Label",
+    "description": "This is a Bootstrap component composed of a Radio input and a Label. You can enable/disable it or choose for it to be displayed inline. The Radio and Label are also available as individual components in the library."
+  },
+  "StaticControl": {
+    "prettyName": "Static Control",
+    "description": "This is a Bootstrap component for showing static text inside forms, in place of form inputs."
+  },
+  "InputTextarea": {
+    "possibleSpellcheckValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "True",
+        "value": "true"
+      },
+      {
+        "label": "False",
+        "value": "false"
+      }
+    ],
+    "prettyName": "Textarea",
+    "description": "This is the standard <code>&lt;textarea&gt;</code> HTML element. Use it to collect multi-line textual data.",
+    "possibleSizes": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Large",
+        "value": "lg"
+      },
+      {
+        "label": "Small",
+        "value": "sm"
+      }
+    ],
+    "possibleAutocompleteValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "On",
+        "value": "on"
+      },
+      {
+        "label": "Off",
+        "value": "off"
+      }
+    ],
+    "possibleInputModeValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Verbatim",
+        "value": "verbatim"
+      },
+      {
+        "label": "Latin",
+        "value": "latin"
+      },
+      {
+        "label": "Latin name",
+        "value": "latin-name"
+      },
+      {
+        "label": "Latin prose",
+        "value": "latin-prose"
+      },
+      {
+        "label": "Full width latin",
+        "value": "full-width-latin"
+      },
+      {
+        "label": "Kana",
+        "value": "kana"
+      },
+      {
+        "label": "Katakana",
+        "value": "katakana"
+      },
+      {
+        "label": "Numeric",
+        "value": "numeric"
+      },
+      {
+        "label": "Tel",
+        "value": "tel"
+      },
+      {
+        "label": "Email",
+        "value": "email"
+      },
+      {
+        "label": "Url",
+        "value": "url"
+      }
+    ]
+  },
+  "HelpTextBlock": {
+    "prettyName": "Help Text Block",
+    "description": "This is a Bootstrap component for showing help text beneath forms inputs. Place it in a Form Group after the input field."
+  },
+  "InputGroup": {
+    "possibleSizes": [
+      {
+        "label": "Small",
+        "value": "input-group-sm"
+      },
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Large",
+        "value": "input-group-lg"
+      }
+    ],
+    "prettyName": "Input Group",
+    "description": "This is the Bootstrap Input Group component. Use it to combine a field with a label or button on the same line. You can toggle the left and right addons from the Options panel."
+  },
+  "Fieldset": {
+    "description": "This is the standard <code>&lt;fieldset&gt;</code> HTML element. Use it to group form fields together."
+  },
+  "Block": {
+    "description": "This is a special system component, which is used to isolate UI design blocks."
+  },
+  "Map": {
+    "possibleModes": [
+      {
+        "label": "Place",
+        "value": "place"
+      },
+      {
+        "label": "Directions",
+        "value": "directions"
+      },
+      {
+        "label": "Search",
+        "value": "search"
+      },
+      {
+        "label": "View",
+        "value": "view"
+      },
+      {
+        "label": "Streetview",
+        "value": "streetview"
+      }
+    ],
+    "possibleTypes": [
+      {
+        "label": "Roadmap",
+        "value": "roadmap"
+      },
+      {
+        "label": "Satellite",
+        "value": "satellite"
+      }
+    ],
+    "description": "This is component for displaying Google Maps. You can choose one of the supported map types, change the address and the zoom level. Requires a free Google Maps API key."
+  },
+  "Video": {
+    "possibleTypes": [
+      {
+        "label": "YouTube",
+        "value": "youtube"
+      },
+      {
+        "label": "Vimeo",
+        "value": "vimeo"
+      },
+      {
+        "label": "HTML5",
+        "value": "html5"
+      }
+    ],
+    "possiblePreloadValues": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "None",
+        "value": "none"
+      },
+      {
+        "label": "Metadata",
+        "value": "metadata"
+      },
+      {
+        "label": "Auto",
+        "value": "auto"
+      }
+    ],
+    "supportedMimeTypes": [
+      {
+        "label": "video/webm",
+        "value": "video/webm"
+      },
+      {
+        "label": "video/mp4",
+        "value": "video/mp4"
+      },
+      {
+        "label": "video/ogg",
+        "value": "video/ogg"
+      },
+      {
+        "label": "audio/mp4",
+        "value": "audio/mp4"
+      },
+      {
+        "label": "audio/mpeg",
+        "value": "audio/mpeg"
+      },
+      {
+        "label": "audio/wav",
+        "value": "audio/wav"
+      },
+      {
+        "label": "audio/ogg",
+        "value": "audio/ogg"
+      }
+    ],
+    "possibleTrackTypes": [
+      {
+        "label": "Subtitles",
+        "value": "subtitles"
+      },
+      {
+        "label": "Captions",
+        "value": "captions"
+      },
+      {
+        "label": "Descriptions",
+        "value": "descriptions"
+      },
+      {
+        "label": "Chapters",
+        "value": "chapters"
+      },
+      {
+        "label": "Metadata",
+        "value": "metadata"
+      }
+    ],
+    "description": "This is a component for displaying videos. It can show YouTube or Vimeo media, but also self-hosted videos by using the <code>&lt;video&gt;</code> HTML5 element."
+  },
+  "CustomCode": {
+    "prettyName": "Custom Code",
+    "description": "Custom Code is a powerful component which lets you write and edit unrestricted HTML. You can use it to quickly add HTML snippets to your designs and to do things not normally possible in the application. Custom Code is filtered inside the program, but your code is included exactly as is when previewing and exporting."
+  },
+  "Modal": {
+    "modalSizes": [
+      {
+        "label": "Large",
+        "value": "modal-lg"
+      },
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Small",
+        "value": "modal-sm"
+      }
+    ],
+    "description": "This is Bootstrap's powerful Modal component for building dialog windows. Place it in your design, select it from the Overview panel, and click the Show button to visualize it."
+  },
+  "Badge": {
+    "description": "This is Bootstrap's Badge component. Use it to display numbers or small textual labels in other elements."
+  },
+  "Label": {
+    "possibleStyles": [
+      {
+        "label": "Default",
+        "value": "label-default"
+      },
+      {
+        "label": "Primary",
+        "value": "label-primary"
+      },
+      {
+        "label": "Success",
+        "value": "label-success"
+      },
+      {
+        "label": "Info",
+        "value": "label-info"
+      },
+      {
+        "label": "Warning",
+        "value": "label-warning"
+      },
+      {
+        "label": "Danger",
+        "value": "label-danger"
+      }
+    ],
+    "description": "This is Bootstrap's Label component. Use it to display textual labels as badges next to elements. You have a number of color themes to choose from."
+  },
+  "Caret": {
+    "description": "The Caret is a Bootstrap component which displays a small downward pointing triangle. Can be used in dropdowns and other components."
+  },
+  "Close": {
+    "description": "This is Bootstrap's Close component. When dropped inside an element, it is displayed as small cross."
+  },
+  "Breadcrumbs": {
+    "suggestedComponents": [
+      "BreadcrumbsItem"
+    ],
+    "description": "This is the Bootstrap Breadcrumbs component. Use it to organize a drill-down navigation with nested categories of links."
+  },
+  "Hr": {
+    "description": "This is the <code>&lt;hr&gt;</code> HTML element. It is displayed as a horizontal rule. If you wish to combine it with a heading, look for the Page Header component."
+  },
+  "ResponsiveEmbed": {
+    "possibleRatios": [
+      {
+        "label": "16 by 9",
+        "value": "16by9"
+      },
+      {
+        "label": "4 by 3",
+        "value": "4by3"
+      }
+    ],
+    "prettyName": "Responsive Embed",
+    "description": "This is a Bootstrap component for embedding external content. It maintains its aspect ratio regardless of screen size, which makes it a good fit for responsive video embedding."
+  },
+  "ProgressBar": {
+    "possibleStyles": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Success",
+        "value": "progress-bar-success"
+      },
+      {
+        "label": "Info",
+        "value": "progress-bar-info"
+      },
+      {
+        "label": "Warning",
+        "value": "progress-bar-warning"
+      },
+      {
+        "label": "Danger",
+        "value": "progress-bar-danger"
+      }
+    ],
+    "prettyName": "Progress Bar",
+    "description": "This is the Bootstrap's Progress Bar control. You can control the percentage, change the styling and more from the Options panel."
+  },
+  "AccordionItem": {
+    "possibleStyles": [
+      {
+        "label": "Default",
+        "value": "panel-default"
+      },
+      {
+        "label": "Primary",
+        "value": "panel-primary"
+      },
+      {
+        "label": "Success",
+        "value": "panel-success"
+      },
+      {
+        "label": "Info",
+        "value": "panel-info"
+      },
+      {
+        "label": "Warning",
+        "value": "panel-warning"
+      },
+      {
+        "label": "Danger",
+        "value": "panel-danger"
+      }
+    ],
+    "prettyName": "Item",
+    "suggestedComponents": [
+      "Table",
+      "ListGroup"
+    ]
+  },
+  "AccordionItemBody": {
+    "prettyName": "Item Body",
+    "description": "This is the standard <code>&lt;div&gt;</code> HTML element."
+  },
+  "AccordionItemButton": {
+    "prettyName": "Button",
+    "possibleTargets": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Blank",
+        "value": "_blank"
+      },
+      {
+        "label": "Parent",
+        "value": "_parent"
+      },
+      {
+        "label": "Top",
+        "value": "_top"
+      }
+    ],
+    "description": "This is the regular <code>&lt;a&gt;</code> element. Use it to link to other pages or websites."
+  },
+  "AccordionItemContent": {
+    "prettyName": "Item Content",
+    "description": "This is the standard <code>&lt;div&gt;</code> HTML element."
+  },
+  "AccordionItemHeading": {
+    "prettyName": "Item Heading",
+    "description": "This is the standard <code>&lt;div&gt;</code> HTML element."
+  },
+  "BlockquoteFooter": {
+    "prettyName": "Blockquote Footer"
+  },
+  "CarouselControlNext": {
+    "prettyName": "Next"
+  },
+  "CarouselControlPrevious": {
+    "prettyName": "Previous"
+  },
+  "CarouselControls": {
+    "prettyName": "Controls"
+  },
+  "CarouselIndicators": {
+    "prettyName": "Indicators"
+  },
+  "CarouselSlide": {
+    "prettyName": "Slide"
+  },
+  "CarouselSlides": {
+    "prettyName": "Slides"
+  },
+  "CollapseButton": {
+    "prettyName": "Button",
+    "buttonSizes": [
+      {
+        "label": "Large",
+        "value": "btn-lg"
+      },
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Small",
+        "value": "btn-sm"
+      },
+      {
+        "label": "Extra small",
+        "value": "btn-xs"
+      }
+    ],
+    "buttonStyles": [
+      {
+        "label": "Default",
+        "value": "btn-default"
+      },
+      {
+        "label": "Primary",
+        "value": "btn-primary"
+      },
+      {
+        "label": "Success",
+        "value": "btn-success"
+      },
+      {
+        "label": "Info",
+        "value": "btn-info"
+      },
+      {
+        "label": "Warning",
+        "value": "btn-warning"
+      },
+      {
+        "label": "Danger",
+        "value": "btn-danger"
+      },
+      {
+        "label": "Link",
+        "value": "btn-link"
+      }
+    ],
+    "buttonTypes": [
+      {
+        "label": "Button",
+        "value": "button"
+      },
+      {
+        "label": "Submit",
+        "value": "submit"
+      },
+      {
+        "label": "Reset",
+        "value": "reset"
+      }
+    ],
+    "description": "This is the multi-functional Bootstrap Button component. You have a choice of possible themes, button types and sizes. Search for the related Dropdown and Split Button components if you need your button to trigger dropdown menus."
+  },
+  "CollapseContent": {
+    "prettyName": "Content",
+    "description": "This is the standard <code>&lt;div&gt;</code> HTML element."
+  },
+  "DropdownMenu": {
+    "prettyName": "Menu"
+  },
+  "DropdownMenuItem": {
+    "prettyName": "Menu Item"
+  },
+  "InlineCharacter": {},
+  "InlineWrapper": {},
+  "InputGroupAddonLeft": {
+    "prettyName": "Left Addon",
+    "suggestedComponents": [
+      "Span",
+      "Button",
+      "SplitButton",
+      "Dropdown"
+    ],
+    "description": "This is the standard <code>&lt;div&gt;</code> HTML element."
+  },
+  "InputGroupAddonRight": {
+    "prettyName": "Right Addon",
+    "suggestedComponents": [
+      "Span",
+      "Button",
+      "SplitButton",
+      "Dropdown"
+    ],
+    "description": "This is the standard <code>&lt;div&gt;</code> HTML element."
+  },
+  "Legend": {
+    "description": "This is the standard <code>&lt;legend&gt;</code> HTML element. It is used as a caption for the content of fieldsets."
+  },
+  "ListGroupItem": {
+    "possibleStyles": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Success",
+        "value": "list-group-item-success"
+      },
+      {
+        "label": "Info",
+        "value": "list-group-item-info"
+      },
+      {
+        "label": "Warning",
+        "value": "list-group-item-warning"
+      },
+      {
+        "label": "Danger",
+        "value": "list-group-item-danger"
+      }
+    ],
+    "prettyName": "List Group Item"
+  },
+  "ListItem": {
+    "prettyName": "List Item"
+  },
+  "MediaBody": {
+    "prettyName": "Media Body"
+  },
+  "MediaLeft": {
+    "possiblePositions": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Top",
+        "value": "media-top"
+      },
+      {
+        "label": "Middle",
+        "value": "media-middle"
+      },
+      {
+        "label": "Bottom",
+        "value": "media-bottom"
+      }
+    ],
+    "prettyName": "Media Left"
+  },
+  "ModalBody": {
+    "prettyName": "Modal Body",
+    "description": "This is the standard <code>&lt;div&gt;</code> HTML element."
+  },
+  "ModalFooter": {
+    "prettyName": "Modal Footer",
+    "description": "This is the standard <code>&lt;div&gt;</code> HTML element."
+  },
+  "ModalHeader": {
+    "prettyName": "Modal Header",
+    "description": "This is the standard <code>&lt;div&gt;</code> HTML element."
+  },
+  "NavBarBrand": {
+    "prettyName": "Navbar Brand",
+    "possibleTargets": [
+      {
+        "label": "Default",
+        "value": ""
+      },
+      {
+        "label": "Blank",
+        "value": "_blank"
+      },
+      {
+        "label": "Parent",
+        "value": "_parent"
+      },
+      {
+        "label": "Top",
+        "value": "_top"
+      }
+    ],
+    "description": "This is the regular <code>&lt;a&gt;</code> element. Use it to link to other pages or websites."
+  },
+  "NavBarToggle": {
+    "prettyName": "Navbar Toggle"
+  },
+  "NavItem": {
+    "prettyName": "Nav Item",
+    "description": "The Nav Item is a Bootstrap component which is placed inside Nav. Can be set as disabled or active. Use it to create entries in menus."
+  },
+  "PagerItemLeft": {
+    "prettyName": "Pager Item Left"
+  },
+  "PagerItemRight": {
+    "prettyName": "Pager Item Right"
+  },
+  "PaginationItem": {
+    "possibleTypes": [
+      {
+        "label": "Default",
+        "value": "default"
+      },
+      {
+        "label": "Previous",
+        "value": "previous"
+      },
+      {
+        "label": "Next",
+        "value": "next"
+      }
+    ],
+    "prettyName": "Pagination Item"
+  },
+  "PanelBody": {
+    "prettyName": "Panel Body",
+    "description": "This is the standard <code>&lt;div&gt;</code> HTML element."
+  },
+  "PanelHeading": {
+    "prettyName": "Panel Heading",
+    "description": "This is the standard <code>&lt;div&gt;</code> HTML element."
+  },
+  "Tab": {},
+  "TabContent": {
+    "prettyName": "Tab Content"
+  },
+  "TabItems": {
+    "suggestedComponents": [
+      "Tab",
+      "Dropdown"
+    ],
+    "prettyName": "Tab Items"
+  },
+  "TabPane": {
+    "prettyName": "Tab Pane"
+  },
+  "TableBody": {
+    "prettyName": "Table Body"
+  },
+  "TableHeader": {
+    "prettyName": "Table Header"
+  },
+  "TableFooter":{"prettyName":"Table Footer"},
+  "Caption":{"description":"This is the standard <code>&lt;p&gt;</code> HTML element. Use it for writing body text. It is enhanced by Bootstrap's rich styling classes, available in the Options panel."},
+  "BreadcrumbsItem":{"prettyName":"Breadcrumbs Item"}
+}

@@ -1,0 +1,5611 @@
+{
+    "Accordion": {
+        "_attributes": {
+            "description": "This is a Bootstrap component for displaying content in vertical groups. Only one group is expanded at a time. This is a great way to organize FAQ pages and other layouts where vertical content is at a premium."
+        }, 
+        "_html": "<div class=\"panel-group\" role=\"tablist\" aria-multiselectable=\"true\" id=\"accordion-1\">\n            <div class=\"panel panel-default\">\n                <div class=\"panel-heading\" role=\"tab\">\n                    <h4 class=\"panel-title\"><a role=\"button\" data-toggle=\"collapse\" data-parent=\"#accordion-1\" aria-expanded=\"true\" href=\"#accordion-1 .item-1\">Accordion Item</a></h4></div>\n                <div class=\"panel-collapse collapse in item-1\" role=\"tabpanel\">\n                    <div class=\"panel-body\"><span>Item body.</span></div>\n                </div>\n            </div>\n            <div class=\"panel panel-default\">\n                <div class=\"panel-heading\" role=\"tab\">\n                    <h4 class=\"panel-title\"><a role=\"button\" data-toggle=\"collapse\" data-parent=\"#accordion-1\" aria-expanded=\"false\" href=\"#accordion-1 .item-2\">Accordion Item</a></h4></div>\n                <div class=\"panel-collapse collapse item-2\" role=\"tabpanel\">\n                    <div class=\"panel-body\"><span>Item body.</span></div>\n                </div>\n            </div>\n            <div class=\"panel panel-default\">\n                <div class=\"panel-heading\" role=\"tab\">\n                    <h4 class=\"panel-title\"><a role=\"button\" data-toggle=\"collapse\" data-parent=\"#accordion-1\" aria-expanded=\"false\" href=\"#accordion-1 .item-3\">Accordion Item</a></h4></div>\n                <div class=\"panel-collapse collapse item-3\" role=\"tabpanel\">\n                    <div class=\"panel-body\"><span>Item body.</span></div>\n                </div>\n            </div>\n        </div>", 
+        "class": "Accordion", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "panel-group"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {
+            "/": {
+                "id": "accordion-1"
+            }
+        }, 
+        "properties": {
+            "activeItem": 0
+        }
+    }, 
+    "AccordionItem": {
+        "_attributes": {
+            "possibleStyles": [
+                {
+                    "label": "Default", 
+                    "value": "panel-default"
+                }, 
+                {
+                    "label": "Primary", 
+                    "value": "panel-primary"
+                }, 
+                {
+                    "label": "Success", 
+                    "value": "panel-success"
+                }, 
+                {
+                    "label": "Info", 
+                    "value": "panel-info"
+                }, 
+                {
+                    "label": "Warning", 
+                    "value": "panel-warning"
+                }, 
+                {
+                    "label": "Danger", 
+                    "value": "panel-danger"
+                }
+            ], 
+            "prettyName": "Item", 
+            "suggestedComponents": [
+                "Table", 
+                "ListGroup"
+            ]
+        }, 
+        "class": "AccordionItem", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "panel panel-default"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "style": "panel-default"
+        }
+    }, 
+    "AccordionItemBody": {
+        "_attributes": {
+            "description": "This is the standard <code>&lt;div&gt;</code> HTML element.", 
+            "prettyName": "Item Body"
+        }, 
+        "class": "AccordionItemBody", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "panel-body"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "AccordionItemButton": {
+        "_attributes": {
+            "description": "This is the regular <code>&lt;a&gt;</code> element. Use it to link to other pages or websites.", 
+            "possibleTargets": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Blank", 
+                    "value": "_blank"
+                }, 
+                {
+                    "label": "Parent", 
+                    "value": "_parent"
+                }, 
+                {
+                    "label": "Top", 
+                    "value": "_top"
+                }
+            ], 
+            "prettyName": "Button"
+        }, 
+        "class": "AccordionItemButton", 
+        "cssClasses": {
+            "parent": "", 
+            "system": {}
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": true, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "contextual-background": "", 
+            "contextual-color": "", 
+            "target": "", 
+            "text-transformation": "", 
+            "url": "#accordion-1 .item-1"
+        }
+    }, 
+    "AccordionItemContent": {
+        "_attributes": {
+            "description": "This is the standard <code>&lt;div&gt;</code> HTML element.", 
+            "prettyName": "Item Content"
+        }, 
+        "class": "AccordionItemContent", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "panel-collapse collapse in item-1"
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "AccordionItemHeading": {
+        "_attributes": {
+            "description": "This is the standard <code>&lt;div&gt;</code> HTML element.", 
+            "prettyName": "Item Heading"
+        }, 
+        "class": "AccordionItemHeading", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "panel-heading"
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "Alert": {
+        "_attributes": {
+            "description": "Use this component to show a message to users of your web app. Usually it is displayed near the top of your page. It can have an optional dismiss button and you can choose one of several color themes.", 
+            "possibleStyles": [
+                {
+                    "label": "Success", 
+                    "value": "alert-success"
+                }, 
+                {
+                    "label": "Info", 
+                    "value": "alert-info"
+                }, 
+                {
+                    "label": "Warning", 
+                    "value": "alert-warning"
+                }, 
+                {
+                    "label": "Danger", 
+                    "value": "alert-danger"
+                }
+            ]
+        }, 
+        "_html": "<div class=\"alert alert-success\" role=\"alert\"><span><strong>Alert</strong> text.</span></div>", 
+        "class": "Alert", 
+        "cssClasses": {
+            "parent": "", 
+            "system": {
+                "main": "alert alert-success"
+            }
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "dismissable": false, 
+            "style": "alert-success", 
+            "text-alignment": "", 
+            "text-nowrap": false, 
+            "text-transformation": ""
+        }
+    }, 
+    "Anchor": {
+        "_attributes": {
+            "description": "This is the regular <code>&lt;a&gt;</code> element. Use it to link to other pages or websites.", 
+            "possibleTargets": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Blank", 
+                    "value": "_blank"
+                }, 
+                {
+                    "label": "Parent", 
+                    "value": "_parent"
+                }, 
+                {
+                    "label": "Top", 
+                    "value": "_top"
+                }
+            ], 
+            "prettyName": "Link"
+        }, 
+        "class": "Anchor", 
+        "cssClasses": {
+            "parent": "", 
+            "system": {}
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": true, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "contextual-background": "", 
+            "contextual-color": "", 
+            "target": "", 
+            "text-transformation": "", 
+            "url": "#"
+        }
+    }, 
+    "Article": {
+        "_attributes": {
+            "description": "This is the HTML5 <code>&lt;article&gt;</code> element. Use it to wrap articles or other content items to give semantic meaning to your design."
+        }, 
+        "_html": "<article></article>", 
+        "class": "Article", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "Aside": {
+        "_attributes": {
+            "description": "This is the HTML5 <code>&lt;aside&gt;</code> element. Use it when building sidebars or when presenting related content."
+        }, 
+        "_html": "<aside></aside>", 
+        "class": "Aside", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "Badge": {
+        "_attributes": {
+            "description": "This is Bootstrap's Badge component. Use it to display numbers or small textual labels in other elements."
+        }, 
+        "_html": "<span class=\"badge\">42</span>", 
+        "class": "Badge", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "badge"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": true, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "Blockquote": {
+        "_attributes": {
+            "description": "This is the HTML <code>&lt;blockquote&gt;</code> element, extended with Bootstrap markup for showing attribution.", 
+            "possibleTypes": [
+                {
+                    "label": "Regular", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Reverse", 
+                    "value": "blockquote-reverse"
+                }
+            ]
+        }, 
+        "_html": "<blockquote>\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>\n            <footer>Someone famous</footer>\n        </blockquote>", 
+        "class": "Blockquote", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "showFooter": true, 
+            "type": ""
+        }
+    }, 
+    "BlockquoteFooter": {
+        "_attributes": {
+            "prettyName": "Blockquote Footer"
+        }, 
+        "class": "BlockquoteFooter", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": true, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "Bold": {
+        "_attributes": {
+            "description": "This is the standard <code>&lt;strong&gt;</code> element. You can optionally switch it to use a <code>&lt;b&gt;</code> tag instead.", 
+            "possibleTypes": [
+                {
+                    "label": "Strong", 
+                    "value": "strong"
+                }, 
+                {
+                    "label": "B", 
+                    "value": "b"
+                }
+            ]
+        }, 
+        "_html": "<strong>Bold</strong>", 
+        "class": "Bold", 
+        "cssClasses": {
+            "parent": "", 
+            "system": {}
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": true, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "contextual-background": "", 
+            "contextual-color": "", 
+            "tag": "strong", 
+            "text-transformation": ""
+        }
+    }, 
+    "Breadcrumbs": {
+        "_attributes": {
+            "description": "This is the Bootstrap Breadcrumbs component. Use it to organize a drill-down navigation with nested categories of links.", 
+            "suggestedComponents": [
+                "BreadcrumbsItem"
+            ]
+        }, 
+        "_html": "<ol class=\"breadcrumb\">\n            <li><a><span>Home</span></a></li>\n            <li><a><span>Library</span></a></li>\n            <li><a><span>Data</span></a></li>\n        </ol>", 
+        "class": "Breadcrumbs", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "breadcrumb"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "BreadcrumbsItem": {
+        "_attributes": {
+            "prettyName": "Breadcrumbs Item"
+        }, 
+        "class": "BreadcrumbsItem", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "active": false, 
+            "href": "#", 
+            "target": "", 
+            "url": ""
+        }
+    }, 
+    "Button": {
+        "_attributes": {
+            "buttonSizes": [
+                {
+                    "label": "Large", 
+                    "value": "btn-lg"
+                }, 
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Small", 
+                    "value": "btn-sm"
+                }, 
+                {
+                    "label": "Extra small", 
+                    "value": "btn-xs"
+                }
+            ], 
+            "buttonStyles": [
+                {
+                    "label": "Default", 
+                    "value": "btn-default"
+                }, 
+                {
+                    "label": "Primary", 
+                    "value": "btn-primary"
+                }, 
+                {
+                    "label": "Success", 
+                    "value": "btn-success"
+                }, 
+                {
+                    "label": "Info", 
+                    "value": "btn-info"
+                }, 
+                {
+                    "label": "Warning", 
+                    "value": "btn-warning"
+                }, 
+                {
+                    "label": "Danger", 
+                    "value": "btn-danger"
+                }, 
+                {
+                    "label": "Link", 
+                    "value": "btn-link"
+                }
+            ], 
+            "buttonTypes": [
+                {
+                    "label": "Button", 
+                    "value": "button"
+                }, 
+                {
+                    "label": "Submit", 
+                    "value": "submit"
+                }, 
+                {
+                    "label": "Reset", 
+                    "value": "reset"
+                }
+            ], 
+            "description": "This is the multi-functional Bootstrap Button component. You have a choice of possible themes, button types and sizes. Search for the related Dropdown and Split Button components if you need your button to trigger dropdown menus."
+        }, 
+        "_html": "<button class=\"btn btn-default\" type=\"button\">Button</button>", 
+        "class": "Button", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "btn btn-default"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": true, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "active": false, 
+            "block": false, 
+            "buttonType": "button", 
+            "disabled": false, 
+            "href": "#", 
+            "size": "", 
+            "style": "btn-default", 
+            "target": "", 
+            "type": "Button"
+        }
+    }, 
+    "ButtonGroup": {
+        "_attributes": {
+            "description": "A Button Group is a Bootstrap component for grouping together buttons. If you need more than one group, check out the Button Toolbar component.", 
+            "possibleSizes": [
+                {
+                    "label": "Large", 
+                    "value": "btn-group-lg"
+                }, 
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Small", 
+                    "value": "btn-group-sm"
+                }, 
+                {
+                    "label": "Extra Small", 
+                    "value": "btn-group-xs"
+                }
+            ], 
+            "possibleTypes": [
+                {
+                    "label": "Horizontal", 
+                    "value": "btn-group"
+                }, 
+                {
+                    "label": "Vertical", 
+                    "value": "btn-group-vertical"
+                }
+            ], 
+            "prettyName": "Button Group", 
+            "suggestedComponents": [
+                "Button"
+            ]
+        }, 
+        "_html": "<div class=\"btn-group\" role=\"group\">\n            <button class=\"btn btn-default\" type=\"button\">Button 1</button>\n            <button class=\"btn btn-default\" type=\"button\">Button 2</button>\n        </div>", 
+        "class": "ButtonGroup", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "btn-group"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "justified": false, 
+            "size": "", 
+            "type": "btn-group"
+        }
+    }, 
+    "ButtonToolbar": {
+        "_attributes": {
+            "description": "A Button Toolbar is a Bootstrap component for grouping together button groups. Use this to organize the main actions of your web app.", 
+            "prettyName": "Button Toolbar", 
+            "suggestedComponents": [
+                "Button", 
+                "ButtonGroup"
+            ]
+        }, 
+        "_html": "<div class=\"btn-toolbar\">\n            <div class=\"btn-group\" role=\"group\">\n                <button class=\"btn btn-default\" type=\"button\">Button 1</button>\n                <button class=\"btn btn-default\" type=\"button\">Button 2</button>\n            </div>\n            <div class=\"btn-group\" role=\"group\">\n                <button class=\"btn btn-default\" type=\"button\">Button 1</button>\n                <button class=\"btn btn-default\" type=\"button\">Button 2</button>\n            </div>\n        </div>", 
+        "class": "ButtonToolbar", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "btn-toolbar"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "Caption": {
+        "_attributes": {
+            "description": "This is the standard <code>&lt;p&gt;</code> HTML element. Use it for writing body text. It is enhanced by Bootstrap's rich styling classes, available in the Options panel."
+        }, 
+        "class": "Caption", 
+        "cssClasses": {
+            "parent": "", 
+            "system": {}
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": true, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "contextual-background": "", 
+            "contextual-color": "", 
+            "text-alignment": "", 
+            "text-lead": false, 
+            "text-nowrap": false, 
+            "text-transformation": ""
+        }
+    }, 
+    "Caret": {
+        "_attributes": {
+            "description": "The Caret is a Bootstrap component which displays a small downward pointing triangle. Can be used in dropdowns and other components."
+        }, 
+        "class": "Caret", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "caret"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "Carousel": {
+        "_attributes": {
+            "description": "This is Bootstrap's versatile Carousel component. It can display and animate text and photos. You have to enable the slides' captions in order to place non-image elements inside them."
+        }, 
+        "_html": "<div class=\"carousel slide\" data-ride=\"carousel\" id=\"carousel-1\">\n            <div class=\"carousel-inner\" role=\"listbox\">\n                <div class=\"item active\"><img src=\"http://placeholdit.imgix.net/~text?txtsize=42&amp;txt=Carousel+Image&amp;w=1400&amp;h=600\" alt=\"Slide Image\"></div>\n                <div class=\"item\"><img src=\"http://placeholdit.imgix.net/~text?txtsize=42&amp;txt=Carousel+Image&amp;w=1400&amp;h=600\" alt=\"Slide Image\"></div>\n                <div class=\"item\"><img src=\"http://placeholdit.imgix.net/~text?txtsize=42&amp;txt=Carousel+Image&amp;w=1400&amp;h=600\" alt=\"Slide Image\"></div>\n            </div>\n            <div><a class=\"left carousel-control\" href=\"#carousel-1\" role=\"button\" data-slide=\"prev\"><i class=\"glyphicon glyphicon-chevron-left\"></i><span class=\"sr-only\">Previous</span></a><a class=\"right carousel-control\" href=\"#carousel-1\" role=\"button\"\n                data-slide=\"next\"><i class=\"glyphicon glyphicon-chevron-right\"></i><span class=\"sr-only\">Next</span></a></div>\n            <ol class=\"carousel-indicators\">\n                <li data-target=\"#carousel-1\" data-slide-to=\"0\" class=\"active\"></li>\n                <li data-target=\"#carousel-1\" data-slide-to=\"1\"></li>\n                <li data-target=\"#carousel-1\" data-slide-to=\"2\"></li>\n            </ol>\n        </div>", 
+        "class": "Carousel", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "carousel slide"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {
+            "/": {
+                "id": "carousel-1"
+            }
+        }, 
+        "properties": {
+            "activeSlide": 0, 
+            "automatic": true, 
+            "interval": 500, 
+            "keyboard": true, 
+            "pause": true, 
+            "showIndicators": true, 
+            "wrap": true
+        }
+    }, 
+    "CarouselControlNext": {
+        "_attributes": {
+            "prettyName": "Next"
+        }, 
+        "class": "CarouselControlNext", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "right carousel-control"
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "Next", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "CarouselControlPrevious": {
+        "_attributes": {
+            "prettyName": "Previous"
+        }, 
+        "class": "CarouselControlPrevious", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "left carousel-control"
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "Previous", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "CarouselControls": {
+        "_attributes": {
+            "prettyName": "Controls"
+        }, 
+        "class": "CarouselControls", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "CarouselIndicators": {
+        "_attributes": {
+            "prettyName": "Indicators"
+        }, 
+        "class": "CarouselIndicators", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "carousel-indicators"
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "CarouselSlide": {
+        "_attributes": {
+            "prettyName": "Slide"
+        }, 
+        "class": "CarouselSlide", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "item active"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "showCaption": false, 
+            "showImage": true
+        }
+    }, 
+    "CarouselSlides": {
+        "_attributes": {
+            "prettyName": "Slides"
+        }, 
+        "class": "CarouselSlides", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "carousel-inner"
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "CheckboxHolder": {
+        "_attributes": {
+            "description": "This is a Bootstrap component composed of a Checkbox and a Label. You can enable/disable it or choose for it to be displayed inline. The Checkbox and Label are also available as individual components in the library.", 
+            "prettyName": "Checkbox With Label"
+        }, 
+        "_html": "<div class=\"checkbox\">\n            <label>\n                <input type=\"checkbox\">Label</label>\n        </div>", 
+        "class": "CheckboxHolder", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "checkbox"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "disabled": false, 
+            "inline": false, 
+            "validation": ""
+        }
+    }, 
+    "Clearfix": {
+        "_attributes": {
+            "description": "This is Bootstrap's Clearfix component. Place it inside a Row to break columns into separate lines. Use the \"Responsive Visibility\" classes in the Options panel to control when Clearfix is active."
+        }, 
+        "_html": "<div class=\"clearfix\"></div>", 
+        "class": "Clearfix", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "clearfix"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "Close": {
+        "_attributes": {
+            "description": "This is Bootstrap's Close component. When dropped inside an element, it is displayed as small cross."
+        }, 
+        "_html": "<button class=\"close\"><span aria-hidden=\"true\">\u00d7</span></button>", 
+        "class": "Close", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "close"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "Collapse": {
+        "_attributes": {
+            "description": "This is a Bootstrap component which consists of a Button and a Div. The Div is shown/hidden when the button is pressed."
+        }, 
+        "_html": "<div><a class=\"btn btn-default\" data-toggle=\"collapse\" aria-expanded=\"false\" aria-controls=\"collapse-1\" role=\"button\" href=\"#collapse-1\">Show Content</a>\n            <div class=\"collapse\" id=\"collapse-1\">\n                <p>Collapse content.</p>\n            </div>\n        </div>", 
+        "class": "Collapse", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "contentVisible": false
+        }
+    }, 
+    "CollapseButton": {
+        "_attributes": {
+            "buttonSizes": [
+                {
+                    "label": "Large", 
+                    "value": "btn-lg"
+                }, 
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Small", 
+                    "value": "btn-sm"
+                }, 
+                {
+                    "label": "Extra small", 
+                    "value": "btn-xs"
+                }
+            ], 
+            "buttonStyles": [
+                {
+                    "label": "Default", 
+                    "value": "btn-default"
+                }, 
+                {
+                    "label": "Primary", 
+                    "value": "btn-primary"
+                }, 
+                {
+                    "label": "Success", 
+                    "value": "btn-success"
+                }, 
+                {
+                    "label": "Info", 
+                    "value": "btn-info"
+                }, 
+                {
+                    "label": "Warning", 
+                    "value": "btn-warning"
+                }, 
+                {
+                    "label": "Danger", 
+                    "value": "btn-danger"
+                }, 
+                {
+                    "label": "Link", 
+                    "value": "btn-link"
+                }
+            ], 
+            "buttonTypes": [
+                {
+                    "label": "Button", 
+                    "value": "button"
+                }, 
+                {
+                    "label": "Submit", 
+                    "value": "submit"
+                }, 
+                {
+                    "label": "Reset", 
+                    "value": "reset"
+                }
+            ], 
+            "description": "This is the multi-functional Bootstrap Button component. You have a choice of possible themes, button types and sizes. Search for the related Dropdown and Split Button components if you need your button to trigger dropdown menus.", 
+            "prettyName": "Button"
+        }, 
+        "class": "CollapseButton", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "btn btn-default"
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": true, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "active": false, 
+            "block": false, 
+            "buttonType": "button", 
+            "disabled": false, 
+            "href": "#collapse-1", 
+            "size": "", 
+            "style": "btn-default", 
+            "type": "Link"
+        }
+    }, 
+    "CollapseContent": {
+        "_attributes": {
+            "description": "This is the standard <code>&lt;div&gt;</code> HTML element.", 
+            "prettyName": "Content"
+        }, 
+        "class": "CollapseContent", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "collapse"
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {
+            "/": {
+                "id": "collapse-1"
+            }
+        }, 
+        "properties": {}
+    }, 
+    "Column": {
+        "_attributes": {
+            "description": "This is the Bootstrap Column component. This is the fundamental building block of the responsive grid. Place columns inside Rows and control their width with the col-* responsive classes. There are lots of responsive options available in the Column's Option panel."
+        }, 
+        "_html": "<div class=\"col-md-12\"></div>", 
+        "class": "Column", 
+        "cssClasses": {
+            "parent": "", 
+            "system": " col-md-12"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "collg": -1, 
+            "collgOffset": -1, 
+            "collgPull": -1, 
+            "collgPush": -1, 
+            "colmd": 12, 
+            "colmdOffset": -1, 
+            "colmdPull": -1, 
+            "colmdPush": -1, 
+            "colsm": -1, 
+            "colsmOffset": -1, 
+            "colsmPull": -1, 
+            "colsmPush": -1, 
+            "colxs": -1, 
+            "colxsOffset": -1, 
+            "colxsPull": -1, 
+            "colxsPush": -1
+        }
+    }, 
+    "Container": {
+        "_attributes": {
+            "description": "Containers are Bootstrap components which limit the width of the page. Usually you would place a single Container as an element that wraps around all of your content. You can switch between fluid and fixed width containers from the Option panel.", 
+            "suggestedComponents": [
+                "Row"
+            ]
+        }, 
+        "_html": "<div class=\"container\"></div>", 
+        "class": "Container", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "container"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "fluid": false
+        }
+    }, 
+    "CustomCode": {
+        "_attributes": {
+            "description": "Custom Code is a powerful component which lets you write and edit unrestricted HTML. You can use it to quickly add HTML snippets to your designs and to do things not normally possible in the application. Custom Code is filtered inside the program, but your code is included exactly as is when previewing and exporting.", 
+            "prettyName": "Custom Code"
+        }, 
+        "_html": "<div>Custom Code</div>", 
+        "class": "CustomCode", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}, 
+        "value": "<div>Custom Code</div>"
+    }, 
+    "Div": {
+        "_attributes": {
+            "description": "This is the standard <code>&lt;div&gt;</code> HTML element."
+        }, 
+        "class": "Div", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {
+            "/": {
+                "class": "caption"
+            }
+        }, 
+        "properties": {}
+    }, 
+    "Dropdown": {
+        "_attributes": {
+            "description": "This is Bootstrap's Dropdown component. With it you can display a dropdown menu triggered by a button. You can add, remove and rearrange dropdown items, and change the design of the button."
+        }, 
+        "_html": "<div class=\"dropdown\">\n            <button class=\"btn btn-default dropdown-toggle\" data-toggle=\"dropdown\" aria-expanded=\"false\" type=\"button\">Dropdown <span class=\"caret\"></span></button>\n            <ul class=\"dropdown-menu\" role=\"menu\">\n                <li role=\"presentation\"><a href=\"#\">First Item</a></li>\n                <li role=\"presentation\"><a href=\"#\">Second Item</a></li>\n                <li role=\"presentation\"><a href=\"#\">Third Item</a></li>\n            </ul>\n        </div>", 
+        "class": "Dropdown", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "dropdown"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "alignment": "", 
+            "expanded": false, 
+            "type": "dropdown"
+        }
+    }, 
+    "DropdownMenu": {
+        "_attributes": {
+            "prettyName": "Menu"
+        }, 
+        "class": "DropdownMenu", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "dropdown-menu"
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "DropdownMenuItem": {
+        "_attributes": {
+            "prettyName": "Menu Item"
+        }, 
+        "class": "DropdownMenuItem", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "disabled": false
+        }
+    }, 
+    "FieldLabel": {
+        "_attributes": {
+            "description": "This is the standard <code>&lt;label&gt;</code> HTML element for displaying labels in forms. For better accessibility, make sure that the \"for\" attribute points to the id of the related field.", 
+            "prettyName": "Field Label"
+        }, 
+        "_html": "<label>Label</label>", 
+        "class": "FieldLabel", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": true, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "for": ""
+        }
+    }, 
+    "Fieldset": {
+        "_attributes": {
+            "description": "This is the standard <code>&lt;fieldset&gt;</code> HTML element. Use it to group form fields together."
+        }, 
+        "_html": "<fieldset>\n            <legend>Field Group</legend>\n        </fieldset>", 
+        "class": "Fieldset", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "disabled": false, 
+            "name": ""
+        }
+    }, 
+    "Figcaption": {
+        "_attributes": {
+            "description": "This is the <code>&lt;figcaption&gt;</code> HTML5 element. Use it inside <code>&lt;figure&gt;</code> to give images a caption."
+        }, 
+        "class": "Figcaption", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": true, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "Figure": {
+        "_attributes": {
+            "description": "This is the <code>&lt;figure&gt;</code> HTML5 element. Use it when embedding illustrations into articles. It groups images and <code>&lt;figcaption&gt;</code> elements together.", 
+            "suggestedComponents": [
+                "Image", 
+                "Figcaption"
+            ]
+        }, 
+        "_html": "<figure>\n            <figcaption>Caption</figcaption>\n        </figure>", 
+        "class": "Figure", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "Footer": {
+        "_attributes": {
+            "description": "This is the <code>&lt;footer&gt;</code> HTML5 element. Use it as the main element of your footers to give them semantic meaning."
+        }, 
+        "_html": "<footer></footer>", 
+        "class": "Footer", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "Form": {
+        "_attributes": {
+            "description": "This is Bootstrap's form component. It is like the regular HTML <code>&lt;form&gt;</code>, but extended with styling and layout classes. Usually forms in Bootstrap contain only Form Group children.", 
+            "possibleEnctypes": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "URL Encoded", 
+                    "value": "application/x-www-form-urlencoded"
+                }, 
+                {
+                    "label": "Multipart", 
+                    "value": "multipart/form-data"
+                }, 
+                {
+                    "label": "Plain", 
+                    "value": "text/plain"
+                }
+            ], 
+            "possibleMethods": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Get", 
+                    "value": "get"
+                }, 
+                {
+                    "label": "Post", 
+                    "value": "post"
+                }
+            ], 
+            "possibleTargets": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Self", 
+                    "value": "_self"
+                }, 
+                {
+                    "label": "Blank", 
+                    "value": "_blank"
+                }, 
+                {
+                    "label": "Parent", 
+                    "value": "_parent"
+                }, 
+                {
+                    "label": "Top", 
+                    "value": "_top"
+                }
+            ], 
+            "possibleTypes": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Inline", 
+                    "value": "form-inline"
+                }, 
+                {
+                    "label": "Horizontal", 
+                    "value": "form-horizontal"
+                }
+            ], 
+            "suggestedComponents": [
+                "FormGroup"
+            ]
+        }, 
+        "_html": "<form></form>", 
+        "class": "Form", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "action": "", 
+            "enctype": "", 
+            "method": "", 
+            "target": "", 
+            "type": ""
+        }
+    }, 
+    "FormControlFeedback": {
+        "_attributes": {
+            "description": "This is a Bootstrap component which is added to Form Groups and displays an icon next to inputs. Use it to show warning or success icons, or to mark fields that are required.", 
+            "prettyName": "Form Control Feedback"
+        }, 
+        "class": "FormControlFeedback", 
+        "cssClasses": {
+            "parent": "", 
+            "system": {
+                "feedback": "form-control-feedback", 
+                "icon": "glyphicon glyphicon-star"
+            }
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "icon": "glyphicon glyphicon-star"
+        }
+    }, 
+    "FormGroup": {
+        "_attributes": {
+            "description": "Form Group is a Bootstrap component which is added to forms. Use it to give elements proper spacing. Each Form Group should contain a single label and a form field.", 
+            "possibleValidationStates": [
+                {
+                    "label": "None", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Success", 
+                    "value": "success"
+                }, 
+                {
+                    "label": "Warning", 
+                    "value": "warning"
+                }, 
+                {
+                    "label": "Error", 
+                    "value": "error"
+                }
+            ], 
+            "prettyName": "Form Group"
+        }, 
+        "_html": "<div class=\"form-group has-feedback\"><i class=\"form-control-feedback glyphicon glyphicon-star\" aria-hidden=\"true\"></i></div>", 
+        "class": "FormGroup", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "form-group has-feedback"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "validation": ""
+        }
+    }, 
+    "Header": {
+        "_attributes": {
+            "description": "This is the <code>&lt;header&gt;</code> HTML5 element. It represents a group of introductory or navigational aids. It may contain some heading elements but also other elements like a logo, a search form and so on."
+        }, 
+        "_html": "<header></header>", 
+        "class": "Header", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "Heading": {
+        "_attributes": {
+            "description": "This is the HTML heading component. You can choose which HTML tag is used - from <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>.", 
+            "possibleTypes": [
+                {
+                    "label": "H1", 
+                    "value": "h1"
+                }, 
+                {
+                    "label": "H2", 
+                    "value": "h2"
+                }, 
+                {
+                    "label": "H3", 
+                    "value": "h3"
+                }, 
+                {
+                    "label": "H4", 
+                    "value": "h4"
+                }, 
+                {
+                    "label": "H5", 
+                    "value": "h5"
+                }, 
+                {
+                    "label": "H6", 
+                    "value": "h6"
+                }
+            ]
+        }, 
+        "_html": "<h1>Heading</h1>", 
+        "class": "Heading", 
+        "cssClasses": {
+            "parent": "", 
+            "system": {}
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": true, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "contextual-background": "", 
+            "contextual-color": "", 
+            "text-alignment": "", 
+            "text-nowrap": false, 
+            "text-transformation": "", 
+            "type": "h1"
+        }
+    }, 
+    "HelpTextBlock": {
+        "_attributes": {
+            "description": "This is a Bootstrap component for showing help text beneath forms inputs. Place it in a Form Group after the input field.", 
+            "prettyName": "Help Text Block"
+        }, 
+        "_html": "<p class=\"help-block\">Help text for a form field.</p>", 
+        "class": "HelpTextBlock", 
+        "cssClasses": {
+            "parent": "", 
+            "system": {
+                "main": "help-block"
+            }
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": true, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "contextual-background": "", 
+            "contextual-color": "", 
+            "text-alignment": "", 
+            "text-lead": false, 
+            "text-nowrap": false, 
+            "text-transformation": ""
+        }
+    }, 
+    "Hgroup": {
+        "_attributes": {
+            "description": "This is the <code>&lt;hgroup&gt;</code> HTML5 element. It is used to group together heading elements.", 
+            "suggestedComponents": [
+                "Heading"
+            ]
+        }, 
+        "_html": "<hgroup></hgroup>", 
+        "class": "Hgroup", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "Hr": {
+        "_attributes": {
+            "description": "This is the <code>&lt;hr&gt;</code> HTML element. It is displayed as a horizontal rule. If you wish to combine it with a heading, look for the Page Header component."
+        }, 
+        "_html": "<hr>", 
+        "class": "Hr", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "Icon": {
+        "_attributes": {
+            "description": "This is Bootstrap's icon component. You can choose from a number of available icon fonts. You can modify the icon's size and color by changing its CSS font-size and color properties."
+        }, 
+        "_html": "<i class=\"glyphicon glyphicon-star\"></i>", 
+        "class": "Icon", 
+        "cssClasses": {
+            "parent": "", 
+            "system": {
+                "icon": "glyphicon glyphicon-star"
+            }
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "icon": "glyphicon glyphicon-star"
+        }
+    }, 
+    "Image": {
+        "_attributes": {
+            "description": "This is the <code>&lt;image&gt;</code> HTML element. You can control its size, source, style and responsiveness from the Options panel.", 
+            "possibleStyles": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Rounded", 
+                    "value": "img-rounded"
+                }, 
+                {
+                    "label": "Circle", 
+                    "value": "img-circle"
+                }, 
+                {
+                    "label": "Thumbnail", 
+                    "value": "img-thumbnail"
+                }
+            ]
+        }, 
+        "_html": "<img>", 
+        "class": "Image", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "alt": "", 
+            "height": "", 
+            "responsive": false, 
+            "src": "", 
+            "style": "", 
+            "width": ""
+        }
+    }, 
+    "InlineCharacter": {
+        "_attributes": {}, 
+        "bold": false, 
+        "char": "H", 
+        "class": "InlineCharacter", 
+        "italic": false, 
+        "link": false, 
+        "strike": false, 
+        "underline": false
+    }, 
+    "InlineWrapper": {
+        "_attributes": {}, 
+        "class": "InlineWrapper"
+    }, 
+    "InputCheckbox": {
+        "_attributes": {
+            "description": "This is the <code>&lt;input type=&quot;checkbox&quot; /&gt;</code> HTML element. If you wish to use it in Bootstrap forms, look for the Checkbox With Label component.", 
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "On", 
+                    "value": "on"
+                }, 
+                {
+                    "label": "Off", 
+                    "value": "off"
+                }
+            ], 
+            "possibleInputModeValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Verbatim", 
+                    "value": "verbatim"
+                }, 
+                {
+                    "label": "Latin", 
+                    "value": "latin"
+                }, 
+                {
+                    "label": "Latin name", 
+                    "value": "latin-name"
+                }, 
+                {
+                    "label": "Latin prose", 
+                    "value": "latin-prose"
+                }, 
+                {
+                    "label": "Full width latin", 
+                    "value": "full-width-latin"
+                }, 
+                {
+                    "label": "Kana", 
+                    "value": "kana"
+                }, 
+                {
+                    "label": "Katakana", 
+                    "value": "katakana"
+                }, 
+                {
+                    "label": "Numeric", 
+                    "value": "numeric"
+                }, 
+                {
+                    "label": "Tel", 
+                    "value": "tel"
+                }, 
+                {
+                    "label": "Email", 
+                    "value": "email"
+                }, 
+                {
+                    "label": "Url", 
+                    "value": "url"
+                }
+            ], 
+            "possibleSizes": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Large", 
+                    "value": "lg"
+                }, 
+                {
+                    "label": "Small", 
+                    "value": "sm"
+                }
+            ], 
+            "prettyName": "Checkbox"
+        }, 
+        "_html": "<input type=\"checkbox\">", 
+        "class": "InputCheckbox", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "checked": false, 
+            "disabled": false, 
+            "name": "", 
+            "required": false, 
+            "value": ""
+        }
+    }, 
+    "InputColor": {
+        "_attributes": {
+            "description": "This is the <code>&lt;input type=&quot;color&quot; /&gt;</code> HTML5 element. In modern browsers it displays a color picker for selecting color values.", 
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "On", 
+                    "value": "on"
+                }, 
+                {
+                    "label": "Off", 
+                    "value": "off"
+                }
+            ], 
+            "possibleInputModeValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Verbatim", 
+                    "value": "verbatim"
+                }, 
+                {
+                    "label": "Latin", 
+                    "value": "latin"
+                }, 
+                {
+                    "label": "Latin name", 
+                    "value": "latin-name"
+                }, 
+                {
+                    "label": "Latin prose", 
+                    "value": "latin-prose"
+                }, 
+                {
+                    "label": "Full width latin", 
+                    "value": "full-width-latin"
+                }, 
+                {
+                    "label": "Kana", 
+                    "value": "kana"
+                }, 
+                {
+                    "label": "Katakana", 
+                    "value": "katakana"
+                }, 
+                {
+                    "label": "Numeric", 
+                    "value": "numeric"
+                }, 
+                {
+                    "label": "Tel", 
+                    "value": "tel"
+                }, 
+                {
+                    "label": "Email", 
+                    "value": "email"
+                }, 
+                {
+                    "label": "Url", 
+                    "value": "url"
+                }
+            ], 
+            "possibleSizes": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Large", 
+                    "value": "lg"
+                }, 
+                {
+                    "label": "Small", 
+                    "value": "sm"
+                }
+            ], 
+            "prettyName": "Color Input"
+        }, 
+        "_html": "<input type=\"color\">", 
+        "class": "InputColor", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "disabled": false, 
+            "name": "", 
+            "required": false, 
+            "value": ""
+        }
+    }, 
+    "InputDateAndTime": {
+        "_attributes": {
+            "description": "This component combines a number of date and time related HTML5 input elements into one. Choose the type you need from the Options panel.", 
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "On", 
+                    "value": "on"
+                }, 
+                {
+                    "label": "Off", 
+                    "value": "off"
+                }
+            ], 
+            "possibleInputModeValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Verbatim", 
+                    "value": "verbatim"
+                }, 
+                {
+                    "label": "Latin", 
+                    "value": "latin"
+                }, 
+                {
+                    "label": "Latin name", 
+                    "value": "latin-name"
+                }, 
+                {
+                    "label": "Latin prose", 
+                    "value": "latin-prose"
+                }, 
+                {
+                    "label": "Full width latin", 
+                    "value": "full-width-latin"
+                }, 
+                {
+                    "label": "Kana", 
+                    "value": "kana"
+                }, 
+                {
+                    "label": "Katakana", 
+                    "value": "katakana"
+                }, 
+                {
+                    "label": "Numeric", 
+                    "value": "numeric"
+                }, 
+                {
+                    "label": "Tel", 
+                    "value": "tel"
+                }, 
+                {
+                    "label": "Email", 
+                    "value": "email"
+                }, 
+                {
+                    "label": "Url", 
+                    "value": "url"
+                }
+            ], 
+            "possibleSizes": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Large", 
+                    "value": "lg"
+                }, 
+                {
+                    "label": "Small", 
+                    "value": "sm"
+                }
+            ], 
+            "possibleTypes": [
+                {
+                    "label": "Date", 
+                    "value": "date"
+                }, 
+                {
+                    "label": "Time", 
+                    "value": "time"
+                }, 
+                {
+                    "label": "Datetime Local", 
+                    "value": "datetime-local"
+                }, 
+                {
+                    "label": "Month", 
+                    "value": "month"
+                }, 
+                {
+                    "label": "Week", 
+                    "value": "week"
+                }
+            ], 
+            "prettyName": "Date And Time Input"
+        }, 
+        "_html": "<input type=\"date\">", 
+        "class": "InputDateAndTime", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "disabled": false, 
+            "max": "", 
+            "min": "", 
+            "name": "", 
+            "readonly": false, 
+            "required": false, 
+            "size": "", 
+            "step": "", 
+            "type": "date", 
+            "value": ""
+        }
+    }, 
+    "InputEmail": {
+        "_attributes": {
+            "description": "This is the <code>&lt;input type=&quot;email&quot; /&gt;</code> HTML5 element. Use it in forms to ask users for their email addresses.", 
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "On", 
+                    "value": "on"
+                }, 
+                {
+                    "label": "Off", 
+                    "value": "off"
+                }
+            ], 
+            "possibleInputModeValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Verbatim", 
+                    "value": "verbatim"
+                }, 
+                {
+                    "label": "Latin", 
+                    "value": "latin"
+                }, 
+                {
+                    "label": "Latin name", 
+                    "value": "latin-name"
+                }, 
+                {
+                    "label": "Latin prose", 
+                    "value": "latin-prose"
+                }, 
+                {
+                    "label": "Full width latin", 
+                    "value": "full-width-latin"
+                }, 
+                {
+                    "label": "Kana", 
+                    "value": "kana"
+                }, 
+                {
+                    "label": "Katakana", 
+                    "value": "katakana"
+                }, 
+                {
+                    "label": "Numeric", 
+                    "value": "numeric"
+                }, 
+                {
+                    "label": "Tel", 
+                    "value": "tel"
+                }, 
+                {
+                    "label": "Email", 
+                    "value": "email"
+                }, 
+                {
+                    "label": "Url", 
+                    "value": "url"
+                }
+            ], 
+            "possibleSizes": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Large", 
+                    "value": "lg"
+                }, 
+                {
+                    "label": "Small", 
+                    "value": "sm"
+                }
+            ], 
+            "prettyName": "Email Input"
+        }, 
+        "_html": "<input type=\"email\">", 
+        "class": "InputEmail", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "autocomplete": "", 
+            "autofocus": false, 
+            "disabled": false, 
+            "inputmode": "", 
+            "maxlength": "", 
+            "minlength": "", 
+            "multiple": false, 
+            "name": "", 
+            "pattern": "", 
+            "placeholder": "", 
+            "readonly": false, 
+            "required": false, 
+            "size": "", 
+            "value": ""
+        }
+    }, 
+    "InputFile": {
+        "_attributes": {
+            "description": "This is the <code>&lt;input type=&quot;file&quot; /&gt;</code> HTML element. Use it to add file upload functionality to your forms. Remember to set the form's Encoding to Multipart.", 
+            "possibleAcceptValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "audio/*", 
+                    "value": "audio/*"
+                }, 
+                {
+                    "label": "video/*", 
+                    "value": "video/*"
+                }, 
+                {
+                    "label": "image/*", 
+                    "value": "image/*"
+                }, 
+                {
+                    "label": "Custom..", 
+                    "value": "__custom"
+                }
+            ], 
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "On", 
+                    "value": "on"
+                }, 
+                {
+                    "label": "Off", 
+                    "value": "off"
+                }
+            ], 
+            "possibleInputModeValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Verbatim", 
+                    "value": "verbatim"
+                }, 
+                {
+                    "label": "Latin", 
+                    "value": "latin"
+                }, 
+                {
+                    "label": "Latin name", 
+                    "value": "latin-name"
+                }, 
+                {
+                    "label": "Latin prose", 
+                    "value": "latin-prose"
+                }, 
+                {
+                    "label": "Full width latin", 
+                    "value": "full-width-latin"
+                }, 
+                {
+                    "label": "Kana", 
+                    "value": "kana"
+                }, 
+                {
+                    "label": "Katakana", 
+                    "value": "katakana"
+                }, 
+                {
+                    "label": "Numeric", 
+                    "value": "numeric"
+                }, 
+                {
+                    "label": "Tel", 
+                    "value": "tel"
+                }, 
+                {
+                    "label": "Email", 
+                    "value": "email"
+                }, 
+                {
+                    "label": "Url", 
+                    "value": "url"
+                }
+            ], 
+            "possibleSizes": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Large", 
+                    "value": "lg"
+                }, 
+                {
+                    "label": "Small", 
+                    "value": "sm"
+                }
+            ], 
+            "prettyName": "File Input"
+        }, 
+        "_html": "<input type=\"file\">", 
+        "class": "InputFile", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "accept": "", 
+            "disabled": false, 
+            "multiple": false, 
+            "name": "", 
+            "required": false, 
+            "value": ""
+        }
+    }, 
+    "InputGroup": {
+        "_attributes": {
+            "description": "This is the Bootstrap Input Group component. Use it to combine a field with a label or button on the same line. You can toggle the left and right addons from the Options panel.", 
+            "possibleSizes": [
+                {
+                    "label": "Small", 
+                    "value": "input-group-sm"
+                }, 
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Large", 
+                    "value": "input-group-lg"
+                }
+            ], 
+            "prettyName": "Input Group"
+        }, 
+        "_html": "<div class=\"input-group\">\n            <div class=\"input-group-addon\"><span>Addon</span></div>\n            <input class=\"form-control\" type=\"text\">\n            <div class=\"input-group-btn\">\n                <button class=\"btn btn-default\" type=\"button\">Go!</button>\n            </div>\n        </div>", 
+        "class": "InputGroup", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "input-group"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "showInputGroupAddonLeft": true, 
+            "showInputGroupAddonRight": true, 
+            "size": ""
+        }
+    }, 
+    "InputGroupAddonLeft": {
+        "_attributes": {
+            "description": "This is the standard <code>&lt;div&gt;</code> HTML element.", 
+            "prettyName": "Left Addon", 
+            "suggestedComponents": [
+                "Span", 
+                "Button", 
+                "SplitButton", 
+                "Dropdown"
+            ]
+        }, 
+        "class": "InputGroupAddonLeft", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "input-group-addon"
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "InputGroupAddonRight": {
+        "_attributes": {
+            "description": "This is the standard <code>&lt;div&gt;</code> HTML element.", 
+            "prettyName": "Right Addon", 
+            "suggestedComponents": [
+                "Span", 
+                "Button", 
+                "SplitButton", 
+                "Dropdown"
+            ]
+        }, 
+        "class": "InputGroupAddonRight", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "input-group-btn"
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "InputHidden": {
+        "_attributes": {
+            "description": "This is the <code>&lt;input type=&quot;hidden&quot; /&gt;</code> HTML element. Use it to pass data to your form handling backend script.", 
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "On", 
+                    "value": "on"
+                }, 
+                {
+                    "label": "Off", 
+                    "value": "off"
+                }
+            ], 
+            "possibleInputModeValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Verbatim", 
+                    "value": "verbatim"
+                }, 
+                {
+                    "label": "Latin", 
+                    "value": "latin"
+                }, 
+                {
+                    "label": "Latin name", 
+                    "value": "latin-name"
+                }, 
+                {
+                    "label": "Latin prose", 
+                    "value": "latin-prose"
+                }, 
+                {
+                    "label": "Full width latin", 
+                    "value": "full-width-latin"
+                }, 
+                {
+                    "label": "Kana", 
+                    "value": "kana"
+                }, 
+                {
+                    "label": "Katakana", 
+                    "value": "katakana"
+                }, 
+                {
+                    "label": "Numeric", 
+                    "value": "numeric"
+                }, 
+                {
+                    "label": "Tel", 
+                    "value": "tel"
+                }, 
+                {
+                    "label": "Email", 
+                    "value": "email"
+                }, 
+                {
+                    "label": "Url", 
+                    "value": "url"
+                }
+            ], 
+            "possibleSizes": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Large", 
+                    "value": "lg"
+                }, 
+                {
+                    "label": "Small", 
+                    "value": "sm"
+                }
+            ], 
+            "prettyName": "Hidden Input"
+        }, 
+        "_html": "<input type=\"hidden\">", 
+        "class": "InputHidden", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "name": "", 
+            "value": ""
+        }
+    }, 
+    "InputNumber": {
+        "_attributes": {
+            "description": "This is the <code>&lt;input type=&quot;number&quot; /&gt;</code> HTML5 element. Use it to when you wish to limit the entered text only to numbers.", 
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "On", 
+                    "value": "on"
+                }, 
+                {
+                    "label": "Off", 
+                    "value": "off"
+                }
+            ], 
+            "possibleInputModeValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Verbatim", 
+                    "value": "verbatim"
+                }, 
+                {
+                    "label": "Latin", 
+                    "value": "latin"
+                }, 
+                {
+                    "label": "Latin name", 
+                    "value": "latin-name"
+                }, 
+                {
+                    "label": "Latin prose", 
+                    "value": "latin-prose"
+                }, 
+                {
+                    "label": "Full width latin", 
+                    "value": "full-width-latin"
+                }, 
+                {
+                    "label": "Kana", 
+                    "value": "kana"
+                }, 
+                {
+                    "label": "Katakana", 
+                    "value": "katakana"
+                }, 
+                {
+                    "label": "Numeric", 
+                    "value": "numeric"
+                }, 
+                {
+                    "label": "Tel", 
+                    "value": "tel"
+                }, 
+                {
+                    "label": "Email", 
+                    "value": "email"
+                }, 
+                {
+                    "label": "Url", 
+                    "value": "url"
+                }
+            ], 
+            "possibleSizes": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Large", 
+                    "value": "lg"
+                }, 
+                {
+                    "label": "Small", 
+                    "value": "sm"
+                }
+            ], 
+            "prettyName": "Number Input"
+        }, 
+        "_html": "<input type=\"number\">", 
+        "class": "InputNumber", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "disabled": false, 
+            "max": "", 
+            "min": "", 
+            "name": "", 
+            "placeholder": "", 
+            "readonly": false, 
+            "required": false, 
+            "size": "", 
+            "step": "", 
+            "value": ""
+        }
+    }, 
+    "InputPassword": {
+        "_attributes": {
+            "description": "This is the <code>&lt;input type=&quot;password&quot; /&gt;</code> HTML element. Use it when you need to collect passwords and other sensitive data.", 
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "On", 
+                    "value": "on"
+                }, 
+                {
+                    "label": "Off", 
+                    "value": "off"
+                }
+            ], 
+            "possibleInputModeValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Verbatim", 
+                    "value": "verbatim"
+                }, 
+                {
+                    "label": "Latin", 
+                    "value": "latin"
+                }, 
+                {
+                    "label": "Latin name", 
+                    "value": "latin-name"
+                }, 
+                {
+                    "label": "Latin prose", 
+                    "value": "latin-prose"
+                }, 
+                {
+                    "label": "Full width latin", 
+                    "value": "full-width-latin"
+                }, 
+                {
+                    "label": "Kana", 
+                    "value": "kana"
+                }, 
+                {
+                    "label": "Katakana", 
+                    "value": "katakana"
+                }, 
+                {
+                    "label": "Numeric", 
+                    "value": "numeric"
+                }, 
+                {
+                    "label": "Tel", 
+                    "value": "tel"
+                }, 
+                {
+                    "label": "Email", 
+                    "value": "email"
+                }, 
+                {
+                    "label": "Url", 
+                    "value": "url"
+                }
+            ], 
+            "possibleSizes": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Large", 
+                    "value": "lg"
+                }, 
+                {
+                    "label": "Small", 
+                    "value": "sm"
+                }
+            ], 
+            "prettyName": "Password Input"
+        }, 
+        "_html": "<input type=\"password\">", 
+        "class": "InputPassword", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "autocomplete": "", 
+            "autofocus": false, 
+            "disabled": false, 
+            "inputmode": "", 
+            "maxlength": "", 
+            "minlength": "", 
+            "name": "", 
+            "pattern": "", 
+            "placeholder": "", 
+            "readonly": false, 
+            "required": false, 
+            "size": "", 
+            "value": ""
+        }
+    }, 
+    "InputRadio": {
+        "_attributes": {
+            "description": "This is the <code>&lt;input type=&quot;radio&quot; /&gt;</code> HTML element. Place several components of this type with the same \"name\" attribute but different values to get a radio group. If you wish to show a label next to it, look for the Radio With Label component.", 
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "On", 
+                    "value": "on"
+                }, 
+                {
+                    "label": "Off", 
+                    "value": "off"
+                }
+            ], 
+            "possibleInputModeValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Verbatim", 
+                    "value": "verbatim"
+                }, 
+                {
+                    "label": "Latin", 
+                    "value": "latin"
+                }, 
+                {
+                    "label": "Latin name", 
+                    "value": "latin-name"
+                }, 
+                {
+                    "label": "Latin prose", 
+                    "value": "latin-prose"
+                }, 
+                {
+                    "label": "Full width latin", 
+                    "value": "full-width-latin"
+                }, 
+                {
+                    "label": "Kana", 
+                    "value": "kana"
+                }, 
+                {
+                    "label": "Katakana", 
+                    "value": "katakana"
+                }, 
+                {
+                    "label": "Numeric", 
+                    "value": "numeric"
+                }, 
+                {
+                    "label": "Tel", 
+                    "value": "tel"
+                }, 
+                {
+                    "label": "Email", 
+                    "value": "email"
+                }, 
+                {
+                    "label": "Url", 
+                    "value": "url"
+                }
+            ], 
+            "possibleSizes": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Large", 
+                    "value": "lg"
+                }, 
+                {
+                    "label": "Small", 
+                    "value": "sm"
+                }
+            ], 
+            "prettyName": "Radio"
+        }, 
+        "_html": "<input type=\"radio\">", 
+        "class": "InputRadio", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "checked": false, 
+            "disabled": false, 
+            "name": "", 
+            "required": false, 
+            "value": ""
+        }
+    }, 
+    "InputRange": {
+        "_attributes": {
+            "description": "This is the <code>&lt;input type=&quot;range&quot; /&gt;</code> HTML5 element. In modern browsers it is visualized as a slider with minimum and maximum values.", 
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "On", 
+                    "value": "on"
+                }, 
+                {
+                    "label": "Off", 
+                    "value": "off"
+                }
+            ], 
+            "possibleInputModeValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Verbatim", 
+                    "value": "verbatim"
+                }, 
+                {
+                    "label": "Latin", 
+                    "value": "latin"
+                }, 
+                {
+                    "label": "Latin name", 
+                    "value": "latin-name"
+                }, 
+                {
+                    "label": "Latin prose", 
+                    "value": "latin-prose"
+                }, 
+                {
+                    "label": "Full width latin", 
+                    "value": "full-width-latin"
+                }, 
+                {
+                    "label": "Kana", 
+                    "value": "kana"
+                }, 
+                {
+                    "label": "Katakana", 
+                    "value": "katakana"
+                }, 
+                {
+                    "label": "Numeric", 
+                    "value": "numeric"
+                }, 
+                {
+                    "label": "Tel", 
+                    "value": "tel"
+                }, 
+                {
+                    "label": "Email", 
+                    "value": "email"
+                }, 
+                {
+                    "label": "Url", 
+                    "value": "url"
+                }
+            ], 
+            "possibleSizes": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Large", 
+                    "value": "lg"
+                }, 
+                {
+                    "label": "Small", 
+                    "value": "sm"
+                }
+            ], 
+            "prettyName": "Range Input"
+        }, 
+        "_html": "<input type=\"range\">", 
+        "class": "InputRange", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "disabled": false, 
+            "max": "", 
+            "min": "", 
+            "name": "", 
+            "required": false, 
+            "step": "", 
+            "value": ""
+        }
+    }, 
+    "InputSearch": {
+        "_attributes": {
+            "description": "This is the <code>&lt;input type=&quot;search&quot; /&gt;</code> HTML5 element. It may be displayed differently depending on the browser and OS used.", 
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "On", 
+                    "value": "on"
+                }, 
+                {
+                    "label": "Off", 
+                    "value": "off"
+                }
+            ], 
+            "possibleInputModeValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Verbatim", 
+                    "value": "verbatim"
+                }, 
+                {
+                    "label": "Latin", 
+                    "value": "latin"
+                }, 
+                {
+                    "label": "Latin name", 
+                    "value": "latin-name"
+                }, 
+                {
+                    "label": "Latin prose", 
+                    "value": "latin-prose"
+                }, 
+                {
+                    "label": "Full width latin", 
+                    "value": "full-width-latin"
+                }, 
+                {
+                    "label": "Kana", 
+                    "value": "kana"
+                }, 
+                {
+                    "label": "Katakana", 
+                    "value": "katakana"
+                }, 
+                {
+                    "label": "Numeric", 
+                    "value": "numeric"
+                }, 
+                {
+                    "label": "Tel", 
+                    "value": "tel"
+                }, 
+                {
+                    "label": "Email", 
+                    "value": "email"
+                }, 
+                {
+                    "label": "Url", 
+                    "value": "url"
+                }
+            ], 
+            "possibleSizes": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Large", 
+                    "value": "lg"
+                }, 
+                {
+                    "label": "Small", 
+                    "value": "sm"
+                }
+            ], 
+            "prettyName": "Search Input"
+        }, 
+        "_html": "<input type=\"search\">", 
+        "class": "InputSearch", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "autocomplete": "", 
+            "autofocus": false, 
+            "disabled": false, 
+            "inputmode": "", 
+            "maxlength": "", 
+            "minlength": "", 
+            "name": "", 
+            "pattern": "", 
+            "placeholder": "", 
+            "readonly": false, 
+            "required": false, 
+            "size": "", 
+            "value": ""
+        }
+    }, 
+    "InputTel": {
+        "_attributes": {
+            "description": "This is the <code>&lt;input type=&quot;tel&quot; /&gt;</code> HTML5 element. It is used for entering phone numbers. Mobile devices show specialized keyboard that makes text entry easier.", 
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "On", 
+                    "value": "on"
+                }, 
+                {
+                    "label": "Off", 
+                    "value": "off"
+                }
+            ], 
+            "possibleInputModeValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Verbatim", 
+                    "value": "verbatim"
+                }, 
+                {
+                    "label": "Latin", 
+                    "value": "latin"
+                }, 
+                {
+                    "label": "Latin name", 
+                    "value": "latin-name"
+                }, 
+                {
+                    "label": "Latin prose", 
+                    "value": "latin-prose"
+                }, 
+                {
+                    "label": "Full width latin", 
+                    "value": "full-width-latin"
+                }, 
+                {
+                    "label": "Kana", 
+                    "value": "kana"
+                }, 
+                {
+                    "label": "Katakana", 
+                    "value": "katakana"
+                }, 
+                {
+                    "label": "Numeric", 
+                    "value": "numeric"
+                }, 
+                {
+                    "label": "Tel", 
+                    "value": "tel"
+                }, 
+                {
+                    "label": "Email", 
+                    "value": "email"
+                }, 
+                {
+                    "label": "Url", 
+                    "value": "url"
+                }
+            ], 
+            "possibleSizes": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Large", 
+                    "value": "lg"
+                }, 
+                {
+                    "label": "Small", 
+                    "value": "sm"
+                }
+            ], 
+            "prettyName": "Telephone Input"
+        }, 
+        "_html": "<input type=\"tel\">", 
+        "class": "InputTel", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "autocomplete": "", 
+            "autofocus": false, 
+            "disabled": false, 
+            "inputmode": "", 
+            "maxlength": "", 
+            "minlength": "", 
+            "name": "", 
+            "pattern": "", 
+            "placeholder": "", 
+            "readonly": false, 
+            "required": false, 
+            "size": "", 
+            "value": ""
+        }
+    }, 
+    "InputText": {
+        "_attributes": {
+            "description": "This is the standard <code>&lt;input type=&quot;text&quot; /&gt;</code> HTML element. Use it to collect textual data from users without a specific format.", 
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "On", 
+                    "value": "on"
+                }, 
+                {
+                    "label": "Off", 
+                    "value": "off"
+                }
+            ], 
+            "possibleInputModeValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Verbatim", 
+                    "value": "verbatim"
+                }, 
+                {
+                    "label": "Latin", 
+                    "value": "latin"
+                }, 
+                {
+                    "label": "Latin name", 
+                    "value": "latin-name"
+                }, 
+                {
+                    "label": "Latin prose", 
+                    "value": "latin-prose"
+                }, 
+                {
+                    "label": "Full width latin", 
+                    "value": "full-width-latin"
+                }, 
+                {
+                    "label": "Kana", 
+                    "value": "kana"
+                }, 
+                {
+                    "label": "Katakana", 
+                    "value": "katakana"
+                }, 
+                {
+                    "label": "Numeric", 
+                    "value": "numeric"
+                }, 
+                {
+                    "label": "Tel", 
+                    "value": "tel"
+                }, 
+                {
+                    "label": "Email", 
+                    "value": "email"
+                }, 
+                {
+                    "label": "Url", 
+                    "value": "url"
+                }
+            ], 
+            "possibleSizes": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Large", 
+                    "value": "lg"
+                }, 
+                {
+                    "label": "Small", 
+                    "value": "sm"
+                }
+            ], 
+            "prettyName": "Text Input"
+        }, 
+        "_html": "<input type=\"text\">", 
+        "class": "InputText", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "autocomplete": "", 
+            "autofocus": false, 
+            "disabled": false, 
+            "inputmode": "", 
+            "maxlength": "", 
+            "minlength": "", 
+            "name": "", 
+            "pattern": "", 
+            "placeholder": "", 
+            "readonly": false, 
+            "required": false, 
+            "size": "", 
+            "value": ""
+        }
+    }, 
+    "InputTextarea": {
+        "_attributes": {
+            "description": "This is the standard <code>&lt;textarea&gt;</code> HTML element. Use it to collect multi-line textual data.", 
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "On", 
+                    "value": "on"
+                }, 
+                {
+                    "label": "Off", 
+                    "value": "off"
+                }
+            ], 
+            "possibleInputModeValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Verbatim", 
+                    "value": "verbatim"
+                }, 
+                {
+                    "label": "Latin", 
+                    "value": "latin"
+                }, 
+                {
+                    "label": "Latin name", 
+                    "value": "latin-name"
+                }, 
+                {
+                    "label": "Latin prose", 
+                    "value": "latin-prose"
+                }, 
+                {
+                    "label": "Full width latin", 
+                    "value": "full-width-latin"
+                }, 
+                {
+                    "label": "Kana", 
+                    "value": "kana"
+                }, 
+                {
+                    "label": "Katakana", 
+                    "value": "katakana"
+                }, 
+                {
+                    "label": "Numeric", 
+                    "value": "numeric"
+                }, 
+                {
+                    "label": "Tel", 
+                    "value": "tel"
+                }, 
+                {
+                    "label": "Email", 
+                    "value": "email"
+                }, 
+                {
+                    "label": "Url", 
+                    "value": "url"
+                }
+            ], 
+            "possibleSizes": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Large", 
+                    "value": "lg"
+                }, 
+                {
+                    "label": "Small", 
+                    "value": "sm"
+                }
+            ], 
+            "possibleSpellcheckValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "True", 
+                    "value": "true"
+                }, 
+                {
+                    "label": "False", 
+                    "value": "false"
+                }
+            ], 
+            "prettyName": "Textarea"
+        }, 
+        "_html": "<textarea></textarea>", 
+        "class": "InputTextarea", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "autocomplete": "", 
+            "autofocus": false, 
+            "cols": "", 
+            "disabled": false, 
+            "inputmode": "", 
+            "maxlength": "", 
+            "minlength": "", 
+            "name": "", 
+            "placeholder": "", 
+            "readonly": false, 
+            "required": false, 
+            "rows": "", 
+            "size": "", 
+            "spellcheck": "", 
+            "textValue": "", 
+            "wrap": false
+        }
+    }, 
+    "InputURL": {
+        "_attributes": {
+            "description": "This is the <code>&lt;input type=&quot;url&quot; /&gt;</code> HTML5 element. It is used for entering and validating URL addresses.", 
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "On", 
+                    "value": "on"
+                }, 
+                {
+                    "label": "Off", 
+                    "value": "off"
+                }
+            ], 
+            "possibleInputModeValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Verbatim", 
+                    "value": "verbatim"
+                }, 
+                {
+                    "label": "Latin", 
+                    "value": "latin"
+                }, 
+                {
+                    "label": "Latin name", 
+                    "value": "latin-name"
+                }, 
+                {
+                    "label": "Latin prose", 
+                    "value": "latin-prose"
+                }, 
+                {
+                    "label": "Full width latin", 
+                    "value": "full-width-latin"
+                }, 
+                {
+                    "label": "Kana", 
+                    "value": "kana"
+                }, 
+                {
+                    "label": "Katakana", 
+                    "value": "katakana"
+                }, 
+                {
+                    "label": "Numeric", 
+                    "value": "numeric"
+                }, 
+                {
+                    "label": "Tel", 
+                    "value": "tel"
+                }, 
+                {
+                    "label": "Email", 
+                    "value": "email"
+                }, 
+                {
+                    "label": "Url", 
+                    "value": "url"
+                }
+            ], 
+            "possibleSizes": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Large", 
+                    "value": "lg"
+                }, 
+                {
+                    "label": "Small", 
+                    "value": "sm"
+                }
+            ], 
+            "prettyName": "URL Input"
+        }, 
+        "_html": "<input type=\"url\">", 
+        "class": "InputURL", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "autocomplete": "", 
+            "autofocus": false, 
+            "disabled": false, 
+            "inputmode": "", 
+            "maxlength": "", 
+            "minlength": "", 
+            "name": "", 
+            "pattern": "", 
+            "placeholder": "", 
+            "readonly": false, 
+            "required": false, 
+            "size": "", 
+            "value": ""
+        }
+    }, 
+    "Italic": {
+        "_attributes": {
+            "description": "This is the standard <code>&lt;em&gt;</code> element. You can optionally switch it to use a <code>&lt;i&gt;</code> tag instead.", 
+            "possibleTypes": [
+                {
+                    "label": "Em", 
+                    "value": "em"
+                }, 
+                {
+                    "label": "I", 
+                    "value": "i"
+                }
+            ]
+        }, 
+        "_html": "<em>Italic</em>", 
+        "class": "Italic", 
+        "cssClasses": {
+            "parent": "", 
+            "system": {}
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": true, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "contextual-background": "", 
+            "contextual-color": "", 
+            "tag": "em", 
+            "text-transformation": ""
+        }
+    }, 
+    "Jumbotron": {
+        "_attributes": {
+            "description": "This is Bootstrap's Jumbotron component. It is used to showcase key content on your page. Looks great with an image background, bold, contrasting text, and an action button."
+        }, 
+        "_html": "<div class=\"jumbotron\">\n            <h1>Heading text</h1>\n            <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>\n            <p><a class=\"btn btn-default\" role=\"button\" href=\"#\">Learn more</a></p>\n        </div>", 
+        "class": "Jumbotron", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "jumbotron"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "Label": {
+        "_attributes": {
+            "description": "This is Bootstrap's Label component. Use it to display textual labels as badges next to elements. You have a number of color themes to choose from.", 
+            "possibleStyles": [
+                {
+                    "label": "Default", 
+                    "value": "label-default"
+                }, 
+                {
+                    "label": "Primary", 
+                    "value": "label-primary"
+                }, 
+                {
+                    "label": "Success", 
+                    "value": "label-success"
+                }, 
+                {
+                    "label": "Info", 
+                    "value": "label-info"
+                }, 
+                {
+                    "label": "Warning", 
+                    "value": "label-warning"
+                }, 
+                {
+                    "label": "Danger", 
+                    "value": "label-danger"
+                }
+            ]
+        }, 
+        "_html": "<span class=\"label label-default\">Label</span>", 
+        "class": "Label", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "label label-default"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": true, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "style": "label-default"
+        }
+    }, 
+    "Legend": {
+        "_attributes": {
+            "description": "This is the standard <code>&lt;legend&gt;</code> HTML element. It is used as a caption for the content of fieldsets."
+        }, 
+        "class": "Legend", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": true, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "List": {
+        "_attributes": {
+            "description": "This is the standard HTML list element. From the options, you can switch it to use either <code>&lt;ol&gt;</code> or <code>&lt;ul&gt;</code> elements.", 
+            "possibleStyles": [
+                {
+                    "label": "Unordered (UL)", 
+                    "value": "ul"
+                }, 
+                {
+                    "label": "Ordered (OL)", 
+                    "value": "ol"
+                }, 
+                {
+                    "label": "Unstyled (UL)", 
+                    "value": "unstyled"
+                }, 
+                {
+                    "label": "Inline (UL)", 
+                    "value": "inline"
+                }
+            ], 
+            "possibleTypes": [
+                {
+                    "label": "Numbers (1,2,3..)", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Letters (a,b,c..)", 
+                    "value": "a"
+                }, 
+                {
+                    "label": "Letters (A,B,C..)", 
+                    "value": "A"
+                }, 
+                {
+                    "label": "Roman (i,ii,iii..)", 
+                    "value": "i"
+                }, 
+                {
+                    "label": "Roman (I,II,III..)", 
+                    "value": "I"
+                }
+            ], 
+            "suggestedComponents": [
+                "ListItem"
+            ]
+        }, 
+        "_html": "<ul>\n            <li>Item 1</li>\n            <li>Item 2</li>\n            <li>Item 3</li>\n            <li>Item 4</li>\n        </ul>", 
+        "class": "List", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "reversed": false, 
+            "start": "", 
+            "style": "ul", 
+            "type": ""
+        }
+    }, 
+    "ListGroup": {
+        "_attributes": {
+            "description": "This is Bootstrap's versatile List Group component. It is a good way to display groups of elements. It supports a number of color styles.", 
+            "possibleTypes": [
+                {
+                    "label": "Unordered List", 
+                    "value": "ul"
+                }, 
+                {
+                    "label": "Div With Links", 
+                    "value": "div-with-links"
+                }, 
+                {
+                    "label": "Div With Buttons", 
+                    "value": "div-with-buttons"
+                }
+            ], 
+            "prettyName": "List Group", 
+            "suggestedComponents": [
+                "ListGroupItem"
+            ]
+        }, 
+        "_html": "<ul class=\"list-group\">\n            <li class=\"list-group-item\"><span>List Group Item 1</span></li>\n            <li class=\"list-group-item\"><span>List Group Item 2</span></li>\n            <li class=\"list-group-item\"><span>List Group Item 3</span></li>\n        </ul>", 
+        "class": "ListGroup", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "list-group"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "type": "ul"
+        }
+    }, 
+    "ListGroupItem": {
+        "_attributes": {
+            "possibleStyles": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Success", 
+                    "value": "list-group-item-success"
+                }, 
+                {
+                    "label": "Info", 
+                    "value": "list-group-item-info"
+                }, 
+                {
+                    "label": "Warning", 
+                    "value": "list-group-item-warning"
+                }, 
+                {
+                    "label": "Danger", 
+                    "value": "list-group-item-danger"
+                }
+            ], 
+            "prettyName": "List Group Item"
+        }, 
+        "class": "ListGroupItem", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "list-group-item"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "active": false, 
+            "disabled": false, 
+            "style": "", 
+            "target": "", 
+            "url": ""
+        }
+    }, 
+    "ListItem": {
+        "_attributes": {
+            "prettyName": "List Item"
+        }, 
+        "class": "ListItem", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": true, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "Map": {
+        "_attributes": {
+            "description": "This is component for displaying Google Maps. You can choose one of the supported map types, change the address and the zoom level. Requires a free Google Maps API key.", 
+            "possibleModes": [
+                {
+                    "label": "Place", 
+                    "value": "place"
+                }, 
+                {
+                    "label": "Directions", 
+                    "value": "directions"
+                }, 
+                {
+                    "label": "Search", 
+                    "value": "search"
+                }, 
+                {
+                    "label": "View", 
+                    "value": "view"
+                }, 
+                {
+                    "label": "Streetview", 
+                    "value": "streetview"
+                }
+            ], 
+            "possibleTypes": [
+                {
+                    "label": "Roadmap", 
+                    "value": "roadmap"
+                }, 
+                {
+                    "label": "Satellite", 
+                    "value": "satellite"
+                }
+            ]
+        }, 
+        "_html": "<iframe allowfullscreen=\"\" frameborder=\"0\" width=\"100%\" height=\"400\" src=\"https://www.google.com/maps/embed/v1/place?q=Paris%2C+France&amp;zoom=11\"></iframe>", 
+        "class": "Map", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "address": "Paris, France", 
+            "destination": "Cannes, France", 
+            "height": "400", 
+            "key": "", 
+            "location": "-33.8569,151.2152", 
+            "mode": "place", 
+            "origin": "Marseille, France", 
+            "search": "Big Ben", 
+            "type": "roadmap", 
+            "width": "100%", 
+            "zoom": "11"
+        }
+    }, 
+    "Media": {
+        "_attributes": {
+            "description": "This is Bootstrap's Media component. It is used for building rich types of content like comments and tweets, which combine images and text."
+        }, 
+        "_html": "<div class=\"media\">\n            <div class=\"media-left\">\n                <a><img></a>\n            </div>\n            <div class=\"media-body\">\n                <h4>Media Heading</h4>\n                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus nisl ac diam feugiat, non vestibulum libero posuere. Vivamus pharetra leo non nulla egestas, nec malesuada orci finibus. </p>\n            </div>\n        </div>", 
+        "class": "Media", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "media"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "showMediaBody": true, 
+            "showMediaLeft": true, 
+            "showMediaRight": false
+        }
+    }, 
+    "MediaBody": {
+        "_attributes": {
+            "prettyName": "Media Body"
+        }, 
+        "class": "MediaBody", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "media-body"
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "MediaLeft": {
+        "_attributes": {
+            "possiblePositions": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Top", 
+                    "value": "media-top"
+                }, 
+                {
+                    "label": "Middle", 
+                    "value": "media-middle"
+                }, 
+                {
+                    "label": "Bottom", 
+                    "value": "media-bottom"
+                }
+            ], 
+            "prettyName": "Media Left"
+        }, 
+        "class": "MediaLeft", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "media-left"
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "link": true, 
+            "position": "", 
+            "target": "", 
+            "url": ""
+        }
+    }, 
+    "Modal": {
+        "_attributes": {
+            "description": "This is Bootstrap's powerful Modal component for building dialog windows. Place it in your design, select it from the Overview panel, and click the Show button to visualize it.", 
+            "modalSizes": [
+                {
+                    "label": "Large", 
+                    "value": "modal-lg"
+                }, 
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Small", 
+                    "value": "modal-sm"
+                }
+            ]
+        }, 
+        "_html": "<div class=\"modal fade\" role=\"dialog\" tabindex=\"-1\">\n            <div class=\"modal-dialog\" role=\"document\">\n                <div class=\"modal-content\">\n                    <div class=\"modal-header\">\n                        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">\u00d7</span></button>\n                        <h4 class=\"modal-title\">Modal Title</h4></div>\n                    <div class=\"modal-body\">\n                        <p>The content of your modal.</p>\n                    </div>\n                    <div class=\"modal-footer\">\n                        <button class=\"btn btn-default\" type=\"button\" data-dismiss=\"modal\">Close</button>\n                        <button class=\"btn btn-primary\" type=\"button\">Save</button>\n                    </div>\n                </div>\n            </div>\n        </div>", 
+        "class": "Modal", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "modal fade"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "fade": true, 
+            "showModalFooter": true, 
+            "showModalHeader": true, 
+            "size": ""
+        }
+    }, 
+    "ModalBody": {
+        "_attributes": {
+            "description": "This is the standard <code>&lt;div&gt;</code> HTML element.", 
+            "prettyName": "Modal Body"
+        }, 
+        "class": "ModalBody", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "modal-body"
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "ModalFooter": {
+        "_attributes": {
+            "description": "This is the standard <code>&lt;div&gt;</code> HTML element.", 
+            "prettyName": "Modal Footer"
+        }, 
+        "class": "ModalFooter", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "modal-footer"
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "ModalHeader": {
+        "_attributes": {
+            "description": "This is the standard <code>&lt;div&gt;</code> HTML element.", 
+            "prettyName": "Modal Header"
+        }, 
+        "class": "ModalHeader", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "modal-header"
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "Nav": {
+        "_attributes": {
+            "description": "This is Bootstrap's flexible Nav component. It can be used for building navigations, tabs and more. If you need a full website header, look for the Nav Bar component. If you need tabs, look for the Tabs component.", 
+            "possibleTypes": [
+                {
+                    "label": "Tabs", 
+                    "value": "nav-tabs"
+                }, 
+                {
+                    "label": "Pills", 
+                    "value": "nav-pills"
+                }
+            ], 
+            "suggestedComponents": [
+                "NavItem", 
+                "Dropdown"
+            ]
+        }, 
+        "class": "Nav", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "nav navbar-nav"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "justified": false, 
+            "stacked": false, 
+            "type": "nav-tabs"
+        }
+    }, 
+    "NavBar": {
+        "_attributes": {
+            "description": "The Nav Bar is a fully featured Bootstrap component for building website navigation menus. It is fully responsive and supports a large number of options. Can be fixed to the top/bottom of the page or fluid.", 
+            "possiblePositions": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Fixed to top", 
+                    "value": "navbar-fixed-top"
+                }, 
+                {
+                    "label": "Fixed to bottom", 
+                    "value": "navbar-fixed-bottom"
+                }, 
+                {
+                    "label": "Static top", 
+                    "value": "navbar-static-top"
+                }
+            ], 
+            "possibleStyles": [
+                {
+                    "label": "Default", 
+                    "value": "navbar-default"
+                }, 
+                {
+                    "label": "Inverted colors", 
+                    "value": "navbar-inverse"
+                }
+            ], 
+            "prettyName": "Navbar", 
+            "suggestedComponents": [
+                "Nav", 
+                "NavItem", 
+                "Dropdown", 
+                "Paragraph", 
+                "Anchor", 
+                "Button"
+            ]
+        }, 
+        "_html": "<nav class=\"navbar navbar-default\">\n            <div class=\"container-fluid\">\n                <div class=\"navbar-header\"><a class=\"navbar-brand navbar-link\" href=\"#\">Brand</a>\n                    <button class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navcol-1\"><span class=\"sr-only\">Toggle navigation</span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span></button>\n                </div>\n                <div class=\"collapse navbar-collapse\" id=\"navcol-1\">\n                    <ul class=\"nav navbar-nav\">\n                        <li class=\"active\" role=\"presentation\"><a href=\"#\">First Item</a></li>\n                        <li role=\"presentation\"><a href=\"#\">Second Item</a></li>\n                        <li role=\"presentation\"><a href=\"#\">Third Item</a></li>\n                    </ul>\n                </div>\n            </div>\n        </nav>", 
+        "class": "NavBar", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "navbar navbar-default"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {
+            "/0/1": {
+                "id": "navcol-1"
+            }
+        }, 
+        "properties": {
+            "fluid": true, 
+            "position": "", 
+            "showBrand": true, 
+            "style": "navbar-default"
+        }
+    }, 
+    "NavBarBrand": {
+        "_attributes": {
+            "description": "This is the regular <code>&lt;a&gt;</code> element. Use it to link to other pages or websites.", 
+            "possibleTargets": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Blank", 
+                    "value": "_blank"
+                }, 
+                {
+                    "label": "Parent", 
+                    "value": "_parent"
+                }, 
+                {
+                    "label": "Top", 
+                    "value": "_top"
+                }
+            ], 
+            "prettyName": "Navbar Brand"
+        }, 
+        "class": "NavBarBrand", 
+        "cssClasses": {
+            "parent": "", 
+            "system": {
+                "main": "navbar-brand"
+            }
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": true, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "contextual-background": "", 
+            "contextual-color": "", 
+            "target": "", 
+            "text-transformation": "", 
+            "url": "#"
+        }
+    }, 
+    "NavBarToggle": {
+        "_attributes": {
+            "prettyName": "Navbar Toggle"
+        }, 
+        "class": "NavBarToggle", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "navbar-toggle collapsed"
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "NavItem": {
+        "_attributes": {
+            "description": "The Nav Item is a Bootstrap component which is placed inside Nav. Can be set as disabled or active. Use it to create entries in menus.", 
+            "prettyName": "Nav Item"
+        }, 
+        "class": "NavItem", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "active"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "active": true, 
+            "disabled": false
+        }
+    }, 
+    "PageHeader": {
+        "_attributes": {
+            "description": "This is a Bootstrap component which displays a heading element with generous spacing for dividing your page into sections.", 
+            "prettyName": "Page Header"
+        }, 
+        "_html": "<div class=\"page-header\">\n            <h1>Page header <small>Subtext for header</small></h1></div>", 
+        "class": "PageHeader", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "page-header"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "Pager": {
+        "_attributes": {
+            "description": "This is a Bootstrap component which displays Previous and Next buttons for pagination."
+        }, 
+        "_html": "<nav>\n            <ul class=\"pager\">\n                <li class=\"previous\"><a href=\"#\">Older</a></li>\n                <li class=\"next\"><a href=\"#\">Newer</a></li>\n            </ul>\n        </nav>", 
+        "class": "Pager", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "distributed": true, 
+            "showPagerItemLeft": true, 
+            "showPagerItemRight": true
+        }
+    }, 
+    "PagerItemLeft": {
+        "_attributes": {
+            "prettyName": "Pager Item Left"
+        }, 
+        "class": "PagerItemLeft", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "previous"
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "disabled": false
+        }
+    }, 
+    "PagerItemRight": {
+        "_attributes": {
+            "prettyName": "Pager Item Right"
+        }, 
+        "class": "PagerItemRight", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "next"
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "disabled": false
+        }
+    }, 
+    "Pagination": {
+        "_attributes": {
+            "description": "This is a Bootstrap component which displays a list of page numbers for pagination purposes.", 
+            "possibleSizes": [
+                {
+                    "label": "Small", 
+                    "value": "pagination-sm"
+                }, 
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Large", 
+                    "value": "pagination-lg"
+                }
+            ]
+        }, 
+        "_html": "<nav>\n            <ul class=\"pagination\">\n                <li><a aria-label=\"Previous\"><span aria-hidden=\"true\">\u00ab</span></a></li>\n                <li><a>1</a></li>\n                <li><a>2</a></li>\n                <li><a>3</a></li>\n                <li><a>4</a></li>\n                <li><a>5</a></li>\n                <li><a aria-label=\"Next\"><span aria-hidden=\"true\">\u00bb</span></a></li>\n            </ul>\n        </nav>", 
+        "class": "Pagination", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "size": ""
+        }
+    }, 
+    "PaginationItem": {
+        "_attributes": {
+            "possibleTypes": [
+                {
+                    "label": "Default", 
+                    "value": "default"
+                }, 
+                {
+                    "label": "Previous", 
+                    "value": "previous"
+                }, 
+                {
+                    "label": "Next", 
+                    "value": "next"
+                }
+            ], 
+            "prettyName": "Pagination Item"
+        }, 
+        "class": "PaginationItem", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "active": false, 
+            "disabled": false, 
+            "target": "", 
+            "type": "previous", 
+            "url": "", 
+            "value": ""
+        }
+    }, 
+    "Panel": {
+        "_attributes": {
+            "description": "This is Bootstrap's Panel component. It displays your content inside a customizable container with a heading, body and footer. The body and footer can be hidden from the options.", 
+            "possibleStyles": [
+                {
+                    "label": "Default", 
+                    "value": "panel-default"
+                }, 
+                {
+                    "label": "Primary", 
+                    "value": "panel-primary"
+                }, 
+                {
+                    "label": "Success", 
+                    "value": "panel-success"
+                }, 
+                {
+                    "label": "Info", 
+                    "value": "panel-info"
+                }, 
+                {
+                    "label": "Warning", 
+                    "value": "panel-warning"
+                }, 
+                {
+                    "label": "Danger", 
+                    "value": "panel-danger"
+                }
+            ], 
+            "suggestedComponents": [
+                "Table", 
+                "ListGroup"
+            ]
+        }, 
+        "_html": "<div class=\"panel panel-default\">\n            <div class=\"panel-heading\">\n                <h3 class=\"panel-title\">Panel Heading</h3></div>\n            <div class=\"panel-body\"><span>Panel Body</span></div>\n        </div>", 
+        "class": "Panel", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "panel panel-default"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "showPanelBody": true, 
+            "showPanelFooter": false, 
+            "showPanelHeading": true, 
+            "style": "panel-default"
+        }
+    }, 
+    "PanelBody": {
+        "_attributes": {
+            "description": "This is the standard <code>&lt;div&gt;</code> HTML element.", 
+            "prettyName": "Panel Body"
+        }, 
+        "class": "PanelBody", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "panel-body"
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "PanelHeading": {
+        "_attributes": {
+            "description": "This is the standard <code>&lt;div&gt;</code> HTML element.", 
+            "prettyName": "Panel Heading"
+        }, 
+        "class": "PanelHeading", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "panel-heading"
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "Paragraph": {
+        "_attributes": {
+            "description": "This is the standard <code>&lt;p&gt;</code> HTML element. Use it for writing body text. It is enhanced by Bootstrap's rich styling classes, available in the Options panel."
+        }, 
+        "_html": "<p>Paragraph</p>", 
+        "class": "Paragraph", 
+        "cssClasses": {
+            "parent": "", 
+            "system": {}
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": true, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "contextual-background": "", 
+            "contextual-color": "", 
+            "text-alignment": "", 
+            "text-lead": false, 
+            "text-nowrap": false, 
+            "text-transformation": ""
+        }
+    }, 
+    "ProgressBar": {
+        "_attributes": {
+            "description": "This is the Bootstrap's Progress Bar control. You can control the percentage, change the styling and more from the Options panel.", 
+            "possibleStyles": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Success", 
+                    "value": "progress-bar-success"
+                }, 
+                {
+                    "label": "Info", 
+                    "value": "progress-bar-info"
+                }, 
+                {
+                    "label": "Warning", 
+                    "value": "progress-bar-warning"
+                }, 
+                {
+                    "label": "Danger", 
+                    "value": "progress-bar-danger"
+                }
+            ], 
+            "prettyName": "Progress Bar"
+        }, 
+        "_html": "<div class=\"progress\">\n            <div class=\"progress-bar\" aria-valuenow=\"0\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width: 0%;\">0%</div>\n        </div>", 
+        "class": "ProgressBar", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "progress"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "animated": false, 
+            "percentage": "", 
+            "showLabel": true, 
+            "striped": false, 
+            "style": ""
+        }
+    }, 
+    "RadioHolder": {
+        "_attributes": {
+            "description": "This is a Bootstrap component composed of a Radio input and a Label. You can enable/disable it or choose for it to be displayed inline. The Radio and Label are also available as individual components in the library.", 
+            "prettyName": "Radio With Label"
+        }, 
+        "_html": "<div class=\"radio\">\n            <label>\n                <input type=\"radio\">Label</label>\n        </div>", 
+        "class": "RadioHolder", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "radio"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "disabled": false, 
+            "inline": false, 
+            "validation": ""
+        }
+    }, 
+    "ResponsiveEmbed": {
+        "_attributes": {
+            "description": "This is a Bootstrap component for embedding external content. It maintains its aspect ratio regardless of screen size, which makes it a good fit for responsive video embedding.", 
+            "possibleRatios": [
+                {
+                    "label": "16 by 9", 
+                    "value": "16by9"
+                }, 
+                {
+                    "label": "4 by 3", 
+                    "value": "4by3"
+                }
+            ], 
+            "prettyName": "Responsive Embed"
+        }, 
+        "_html": "<div class=\"embed-responsive embed-responsive-16by9\">\n            <iframe class=\"embed-responsive-item\"></iframe>\n        </div>", 
+        "class": "ResponsiveEmbed", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "embed-responsive embed-responsive-16by9"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "allowfullscreen": false, 
+            "aspect-ratio": "16by9", 
+            "src": ""
+        }
+    }, 
+    "Row": {
+        "_attributes": {
+            "description": "This is the Bootstrap Row component. This is a fundamental building block of the responsive grid. Place Rows inside Containers, and drop Columns inside them to build a responsive page.", 
+            "suggestedComponents": [
+                "Column", 
+                "Clearfix"
+            ]
+        }, 
+        "_html": "<div class=\"row\"></div>", 
+        "class": "Row", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "row"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "Section": {
+        "_attributes": {
+            "description": "This is the <code>&lt;section&gt;</code> HTML5 element. It represents a generic section of content inside your document."
+        }, 
+        "_html": "<section></section>", 
+        "class": "Section", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "Select": {
+        "_attributes": {
+            "description": "This is the <code>&lt;select&gt;</code> HTML element. It is a standard control, visualized as a dropdown list in browsers. You can control the items and groups from the Options panel.", 
+            "possibleAutocompleteValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "On", 
+                    "value": "on"
+                }, 
+                {
+                    "label": "Off", 
+                    "value": "off"
+                }
+            ], 
+            "possibleInputModeValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Verbatim", 
+                    "value": "verbatim"
+                }, 
+                {
+                    "label": "Latin", 
+                    "value": "latin"
+                }, 
+                {
+                    "label": "Latin name", 
+                    "value": "latin-name"
+                }, 
+                {
+                    "label": "Latin prose", 
+                    "value": "latin-prose"
+                }, 
+                {
+                    "label": "Full width latin", 
+                    "value": "full-width-latin"
+                }, 
+                {
+                    "label": "Kana", 
+                    "value": "kana"
+                }, 
+                {
+                    "label": "Katakana", 
+                    "value": "katakana"
+                }, 
+                {
+                    "label": "Numeric", 
+                    "value": "numeric"
+                }, 
+                {
+                    "label": "Tel", 
+                    "value": "tel"
+                }, 
+                {
+                    "label": "Email", 
+                    "value": "email"
+                }, 
+                {
+                    "label": "Url", 
+                    "value": "url"
+                }
+            ], 
+            "possibleSizes": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Large", 
+                    "value": "lg"
+                }, 
+                {
+                    "label": "Small", 
+                    "value": "sm"
+                }
+            ]
+        }, 
+        "_html": "<select>\n            <optgroup label=\"This is a group\">\n                <option value=\"12\" selected=\"\">This is item 1</option>\n                <option value=\"13\">This is item 2</option>\n                <option value=\"14\">This is item 3</option>\n            </optgroup>\n        </select>", 
+        "class": "Select", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "items": [
+            {
+                "label": "This is a group", 
+                "type": "OptionGroup"
+            }, 
+            {
+                "label": "This is item 1", 
+                "selected": true, 
+                "type": "OptionItem", 
+                "value": "12"
+            }, 
+            {
+                "label": "This is item 2", 
+                "type": "OptionItem", 
+                "value": "13"
+            }, 
+            {
+                "label": "This is item 3", 
+                "type": "OptionItem", 
+                "value": "14"
+            }
+        ], 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "autofocus": false, 
+            "disabled": false, 
+            "multiple": false, 
+            "name": "", 
+            "readonly": false, 
+            "required": false, 
+            "size": "", 
+            "value": ""
+        }
+    }, 
+    "Small": {
+        "_attributes": {
+            "description": "This is the <code>&lt;small&gt;</code> HTML element. It is generally used to represent side-comments and small print. It is displayed with a smaller font-size and lighter color than main content."
+        }, 
+        "_html": "<small>Text</small>", 
+        "class": "Small", 
+        "cssClasses": {
+            "parent": "", 
+            "system": {}
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": true, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "contextual-background": "", 
+            "contextual-color": "", 
+            "text-transformation": ""
+        }
+    }, 
+    "Span": {
+        "_attributes": {
+            "description": "This is the standard <code>&lt;span&gt;</code> HTML element."
+        }, 
+        "class": "Span", 
+        "cssClasses": {
+            "parent": "", 
+            "system": {}
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": true, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "contextual-background": "", 
+            "contextual-color": "", 
+            "text-transformation": ""
+        }
+    }, 
+    "SplitButton": {
+        "_attributes": {
+            "description": "This is the Bootstrap Split Button component. It consists of two buttons, the second of which triggers a dropdown menu. Look for the Dropdown component if you need only a single button.", 
+            "prettyName": "Split Button"
+        }, 
+        "_html": "<div class=\"btn-group\">\n            <button class=\"btn btn-default\" type=\"button\">Button </button>\n            <button class=\"btn btn-default dropdown-toggle\" data-toggle=\"dropdown\" aria-expanded=\"false\" type=\"button\"><span class=\"caret\"></span></button>\n            <ul class=\"dropdown-menu\" role=\"menu\">\n                <li role=\"presentation\"><a href=\"#\">First Item</a></li>\n                <li role=\"presentation\"><a href=\"#\">Second Item</a></li>\n                <li role=\"presentation\"><a href=\"#\">Third Item</a></li>\n            </ul>\n        </div>", 
+        "class": "SplitButton", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "btn-group"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "alignment": "", 
+            "expanded": false, 
+            "type": "dropdown"
+        }
+    }, 
+    "StaticControl": {
+        "_attributes": {
+            "description": "This is a Bootstrap component for showing static text inside forms, in place of form inputs.", 
+            "prettyName": "Static Control"
+        }, 
+        "_html": "<p class=\"form-control-static\">Static Value</p>", 
+        "class": "StaticControl", 
+        "cssClasses": {
+            "parent": "", 
+            "system": {
+                "main": "form-control-static"
+            }
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": true, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "contextual-background": "", 
+            "contextual-color": "", 
+            "text-alignment": "", 
+            "text-lead": false, 
+            "text-nowrap": false, 
+            "text-transformation": ""
+        }
+    }, 
+    "Tab": {
+        "_attributes": {}, 
+        "class": "Tab", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "active"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "active": true, 
+            "disabled": false
+        }
+    }, 
+    "TabContent": {
+        "_attributes": {
+            "prettyName": "Tab Content"
+        }, 
+        "class": "TabContent", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "tab-content"
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "TabItems": {
+        "_attributes": {
+            "prettyName": "Tab Items", 
+            "suggestedComponents": [
+                "Tab", 
+                "Dropdown"
+            ]
+        }, 
+        "class": "TabItems", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "nav nav-tabs"
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "justified": false
+        }
+    }, 
+    "TabPane": {
+        "_attributes": {
+            "prettyName": "Tab Pane"
+        }, 
+        "class": "TabPane", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "tab-pane active"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {
+            "/": {
+                "id": "tab-1"
+            }
+        }, 
+        "properties": {}
+    }, 
+    "Table": {
+        "_attributes": {
+            "description": "This is the standard <code>&lt;table&gt;</code> HTML element. It is enhanced with Bootstrap styling classes, available from the Options panel."
+        }, 
+        "_html": "<div>\n            <table class=\"table\">\n                <thead>\n                    <tr>\n                        <th>Column 1</th>\n                        <th>Column 2</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <td>Cell 1</td>\n                        <td>Cell 2</td>\n                    </tr>\n                    <tr>\n                        <td>Cell 3</td>\n                        <td>Cell 4</td>\n                    </tr>\n                </tbody>\n                <tfoot>\n                    <tr>\n                        <td>Summary 1</td>\n                        <td>Summary 2</td>\n                    </tr>\n                </tfoot>\n                <caption>Table Caption</caption>\n            </table>\n        </div>", 
+        "class": "Table", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "bordered": false, 
+            "condensed": false, 
+            "hover": false, 
+            "responsive": false, 
+            "showCaption": false, 
+            "showTableFooter": false, 
+            "showTableHeader": false, 
+            "striped": false
+        }
+    }, 
+    "TableBody": {
+        "_attributes": {
+            "prettyName": "Table Body"
+        }, 
+        "class": "TableBody", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "TableCell": {
+        "_attributes": {
+            "description": "This is the standard <code>&lt;td&gt;</code> HTML element. Drop it inside table rows to create columns.", 
+            "possibleStyles": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Active", 
+                    "value": "active"
+                }, 
+                {
+                    "label": "Success", 
+                    "value": "success"
+                }, 
+                {
+                    "label": "Info", 
+                    "value": "info"
+                }, 
+                {
+                    "label": "Warning", 
+                    "value": "warning"
+                }, 
+                {
+                    "label": "Danger", 
+                    "value": "danger"
+                }
+            ], 
+            "prettyName": "Table Cell"
+        }, 
+        "class": "TableCell", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": true, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "colspan": "", 
+            "rowspan": "", 
+            "style": ""
+        }
+    }, 
+    "TableFooter": {
+        "_attributes": {
+            "prettyName": "Table Footer"
+        }, 
+        "class": "TableFooter", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "TableHeader": {
+        "_attributes": {
+            "prettyName": "Table Header"
+        }, 
+        "class": "TableHeader", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "TableRow": {
+        "_attributes": {
+            "description": "This is the standard <code>&lt;tr&gt;</code> HTML element. Drop it inside tables to create rows.", 
+            "prettyName": "Table Row"
+        }, 
+        "class": "TableRow", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": false, 
+            "canBeDeleted": false, 
+            "canBeDuplicated": false, 
+            "canBeEdited": false, 
+            "canBeMoved": false, 
+            "canBePackaged": false
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "style": ""
+        }
+    }, 
+    "Tabs": {
+        "_attributes": {
+            "description": "This is Bootstrap's Tabs component. Each tab has an associated Tab Pane which is displayed when the tab is active."
+        }, 
+        "_html": "<div>\n            <ul class=\"nav nav-tabs\">\n                <li class=\"active\"><a href=\"#tab-1\" role=\"tab\" data-toggle=\"tab\">First Tab</a></li>\n                <li><a href=\"#tab-2\" role=\"tab\" data-toggle=\"tab\">Second Tab</a></li>\n                <li><a href=\"#tab-3\" role=\"tab\" data-toggle=\"tab\">Third Tab</a></li>\n            </ul>\n            <div class=\"tab-content\">\n                <div class=\"tab-pane active\" role=\"tabpanel\" id=\"tab-1\">\n                    <p>First tab content.</p>\n                </div>\n                <div class=\"tab-pane\" role=\"tabpanel\" id=\"tab-2\">\n                    <p>Second tab content.</p>\n                </div>\n                <div class=\"tab-pane\" role=\"tabpanel\" id=\"tab-3\">\n                    <p>Third tab content.</p>\n                </div>\n            </div>\n        </div>", 
+        "class": "Tabs", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "activeTab": 0, 
+            "fade": false
+        }
+    }, 
+    "Thumbnail": {
+        "_attributes": {
+            "description": "This is Bootstrap's Thumbnail component. It is used to show grids of images, videos, text and more, with minimal required markup."
+        }, 
+        "_html": "<div class=\"thumbnail\"><img>\n            <div class=\"caption\">\n                <h3>Thumbnail label</h3>\n                <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>\n            </div>\n        </div>", 
+        "class": "Thumbnail", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "thumbnail"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {}
+    }, 
+    "Video": {
+        "_attributes": {
+            "description": "This is a component for displaying videos. It can show YouTube or Vimeo media, but also self-hosted videos by using the <code>&lt;video&gt;</code> HTML5 element.", 
+            "possiblePreloadValues": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "None", 
+                    "value": "none"
+                }, 
+                {
+                    "label": "Metadata", 
+                    "value": "metadata"
+                }, 
+                {
+                    "label": "Auto", 
+                    "value": "auto"
+                }
+            ], 
+            "possibleTrackTypes": [
+                {
+                    "label": "Subtitles", 
+                    "value": "subtitles"
+                }, 
+                {
+                    "label": "Captions", 
+                    "value": "captions"
+                }, 
+                {
+                    "label": "Descriptions", 
+                    "value": "descriptions"
+                }, 
+                {
+                    "label": "Chapters", 
+                    "value": "chapters"
+                }, 
+                {
+                    "label": "Metadata", 
+                    "value": "metadata"
+                }
+            ], 
+            "possibleTypes": [
+                {
+                    "label": "YouTube", 
+                    "value": "youtube"
+                }, 
+                {
+                    "label": "Vimeo", 
+                    "value": "vimeo"
+                }, 
+                {
+                    "label": "HTML5", 
+                    "value": "html5"
+                }
+            ], 
+            "supportedMimeTypes": [
+                {
+                    "label": "video/webm", 
+                    "value": "video/webm"
+                }, 
+                {
+                    "label": "video/mp4", 
+                    "value": "video/mp4"
+                }, 
+                {
+                    "label": "video/ogg", 
+                    "value": "video/ogg"
+                }, 
+                {
+                    "label": "audio/mp4", 
+                    "value": "audio/mp4"
+                }, 
+                {
+                    "label": "audio/mpeg", 
+                    "value": "audio/mpeg"
+                }, 
+                {
+                    "label": "audio/wav", 
+                    "value": "audio/wav"
+                }, 
+                {
+                    "label": "audio/ogg", 
+                    "value": "audio/ogg"
+                }
+            ]
+        }, 
+        "_html": "<iframe width=\"560\" height=\"315\" allowfullscreen=\"\" frameborder=\"0\"></iframe>", 
+        "class": "Video", 
+        "cssClasses": {
+            "parent": "", 
+            "system": ""
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "autoplay": false, 
+            "controls": true, 
+            "height": "315", 
+            "loop": false, 
+            "muted": false, 
+            "poster": "", 
+            "preload": "", 
+            "type": "youtube", 
+            "url": "", 
+            "vm-byline": true, 
+            "vm-portrait": true, 
+            "vm-title": true, 
+            "width": "560", 
+            "yt-controls": true, 
+            "yt-privacy": false, 
+            "yt-suggested": true, 
+            "yt-title": true
+        }, 
+        "sources": [], 
+        "tracks": []
+    }, 
+    "Well": {
+        "_attributes": {
+            "description": "This is simple Bootstrap component for giving content an inset effect.", 
+            "possibleSizes": [
+                {
+                    "label": "Default", 
+                    "value": ""
+                }, 
+                {
+                    "label": "Small", 
+                    "value": "well-sm"
+                }, 
+                {
+                    "label": "Large", 
+                    "value": "well-lg"
+                }
+            ]
+        }, 
+        "_html": "<div class=\"well\"><span>Text of the well</span></div>", 
+        "class": "Well", 
+        "cssClasses": {
+            "parent": "", 
+            "system": "well"
+        }, 
+        "flags": {
+            "canBeCopied": true, 
+            "canBeDeleted": true, 
+            "canBeDuplicated": true, 
+            "canBeEdited": false, 
+            "canBeMoved": true, 
+            "canBePackaged": true
+        }, 
+        "label": "", 
+        "overrides": {}, 
+        "properties": {
+            "size": ""
+        }
+    }
+}
